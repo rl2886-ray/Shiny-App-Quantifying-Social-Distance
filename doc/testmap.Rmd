@@ -1,0 +1,50 @@
+---
+title: "Untitled2"
+author: "pp"
+date: "10/11/2020"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This R Markdown document is made interactive using Shiny. Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately. 
+
+To learn more, see [Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
+
+## Inputs and Outputs
+
+```{r map, echo=FALSE, message=FALSE, warning=FALSE}
+library(readr)
+library(ggmap)
+library(tidyverse)
+
+register_google(key = "AIzaSyC24PcDuxFsTlP0t1lrLPRrvD7uRq98bqk")
+
+imapp = read_csv("../output/imap.csv")
+
+inputPanel(
+  selectInput("district", label = "Select district among New York City",
+              choices = c("Brooklyn",
+                          "Manhattan",
+                          "Queens",
+                          "Staten Island",
+                          "Bronx"), selected = "Manhattan"),
+  
+  sliderInput("zoom", label = "Select map zoom level",
+              min = 5, max = 18, value = 12, step = 1)
+)
+
+renderPlot({
+  ggmap(get_map(input$district, source = "google",
+                maptype = "hybrid",
+                zoom = input$zoom, color = "color"))+
+    geom_point(data = imapp %>% filter(district == input$district),
+               aes(x=lon, y=lat), color = "red")
+})
+
+
+```
+
