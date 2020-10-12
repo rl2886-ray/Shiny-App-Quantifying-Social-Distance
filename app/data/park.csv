@@ -1,0 +1,1426 @@
+date,park_borough,action_taken,n,prop_brrough.date,prop_date
+2020-03-25,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-25,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-25,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-25,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-25,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-25,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-25,Manhattan,Approached the crowd; they complied with instructions,3,0.5,0.10344827586206896
+2020-03-25,Manhattan,Approached the crowd; they ignored the employee,2,0.3333333333333333,0.06896551724137931
+2020-03-25,Manhattan,Did not approach the crowd; the crowd remains,1,0.16666666666666666,0.034482758620689655
+2020-03-25,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-03-25,Queens,Approached the crowd; they ignored the employee,4,0.4,0.13793103448275862
+2020-03-25,Queens,Did not approach the crowd; the crowd remains,6,0.6,0.20689655172413793
+2020-03-25,Staten Island,Approached the crowd; they complied with instructions,2,0.15384615384615385,0.06896551724137931
+2020-03-25,Staten Island,Approached the crowd; they ignored the employee,5,0.38461538461538464,0.1724137931034483
+2020-03-25,Staten Island,Did not approach the crowd; the crowd remains,6,0.46153846153846156,0.20689655172413793
+2020-03-26,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-03-26,Bronx,Approached the crowd; they ignored the employee,9,1,0.05113636363636364
+2020-03-26,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-03-26,Brooklyn,Approached the crowd; they complied with instructions,2,0.09090909090909091,0.011363636363636364
+2020-03-26,Brooklyn,Approached the crowd; they ignored the employee,12,0.5454545454545454,0.06818181818181818
+2020-03-26,Brooklyn,Did not approach the crowd; the crowd remains,8,0.36363636363636365,0.045454545454545456
+2020-03-26,Manhattan,Approached the crowd; they complied with instructions,4,0.1111111111111111,0.022727272727272728
+2020-03-26,Manhattan,Approached the crowd; they ignored the employee,22,0.6111111111111112,0.125
+2020-03-26,Manhattan,Did not approach the crowd; the crowd remains,10,0.2777777777777778,0.056818181818181816
+2020-03-26,Queens,Approached the crowd; they complied with instructions,1,0.012195121951219513,0.005681818181818182
+2020-03-26,Queens,Approached the crowd; they ignored the employee,26,0.3170731707317073,0.14772727272727273
+2020-03-26,Queens,Did not approach the crowd; the crowd remains,55,0.6707317073170732,0.3125
+2020-03-26,Staten Island,Approached the crowd; they complied with instructions,2,0.07407407407407407,0.011363636363636364
+2020-03-26,Staten Island,Approached the crowd; they ignored the employee,4,0.14814814814814814,0.022727272727272728
+2020-03-26,Staten Island,Did not approach the crowd; the crowd remains,21,0.7777777777777778,0.11931818181818182
+2020-03-27,Bronx,Approached the crowd; they complied with instructions,6,0.1875,0.045454545454545456
+2020-03-27,Bronx,Approached the crowd; they ignored the employee,17,0.53125,0.12878787878787878
+2020-03-27,Bronx,Did not approach the crowd; the crowd remains,9,0.28125,0.06818181818181818
+2020-03-27,Brooklyn,Approached the crowd; they complied with instructions,2,0.05714285714285714,0.015151515151515152
+2020-03-27,Brooklyn,Approached the crowd; they ignored the employee,25,0.7142857142857143,0.1893939393939394
+2020-03-27,Brooklyn,Did not approach the crowd; the crowd remains,8,0.22857142857142856,0.06060606060606061
+2020-03-27,Manhattan,Approached the crowd; they complied with instructions,2,0.2857142857142857,0.015151515151515152
+2020-03-27,Manhattan,Approached the crowd; they ignored the employee,3,0.42857142857142855,0.022727272727272728
+2020-03-27,Manhattan,Did not approach the crowd; the crowd remains,2,0.2857142857142857,0.015151515151515152
+2020-03-27,Queens,Approached the crowd; they complied with instructions,2,0.044444444444444446,0.015151515151515152
+2020-03-27,Queens,Approached the crowd; they ignored the employee,16,0.35555555555555557,0.12121212121212122
+2020-03-27,Queens,Did not approach the crowd; the crowd remains,27,0.6,0.20454545454545456
+2020-03-27,Staten Island,Approached the crowd; they complied with instructions,1,0.07692307692307693,0.007575757575757576
+2020-03-27,Staten Island,Approached the crowd; they ignored the employee,2,0.15384615384615385,0.015151515151515152
+2020-03-27,Staten Island,Did not approach the crowd; the crowd remains,10,0.7692307692307693,0.07575757575757576
+2020-03-28,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-28,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-28,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-28,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-28,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-28,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-28,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.125
+2020-03-28,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.125
+2020-03-28,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-03-28,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-03-28,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-03-28,Queens,Did not approach the crowd; the crowd remains,3,1,0.375
+2020-03-28,Staten Island,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.125
+2020-03-28,Staten Island,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.125
+2020-03-28,Staten Island,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.125
+2020-03-29,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-03-29,Bronx,Approached the crowd; they ignored the employee,2,0.6666666666666666,0.25
+2020-03-29,Bronx,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.125
+2020-03-29,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-29,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-29,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-29,Manhattan,Approached the crowd; they complied with instructions,3,1,0.375
+2020-03-29,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-03-29,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-03-29,Queens,Approached the crowd; they complied with instructions,1,0.5,0.125
+2020-03-29,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-03-29,Queens,Did not approach the crowd; the crowd remains,1,0.5,0.125
+2020-03-29,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-29,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-29,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-30,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-03-30,Bronx,Approached the crowd; they ignored the employee,3,1,0.15
+2020-03-30,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-03-30,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-30,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-30,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-30,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-03-30,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.05
+2020-03-30,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.05
+2020-03-30,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-03-30,Queens,Approached the crowd; they ignored the employee,4,0.4,0.2
+2020-03-30,Queens,Did not approach the crowd; the crowd remains,6,0.6,0.3
+2020-03-30,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-03-30,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-03-30,Staten Island,Did not approach the crowd; the crowd remains,5,1,0.25
+2020-03-31,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-03-31,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-03-31,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-03-31,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-03-31,Brooklyn,Approached the crowd; they ignored the employee,3,0.6,0.13043478260869565
+2020-03-31,Brooklyn,Did not approach the crowd; the crowd remains,2,0.4,0.08695652173913043
+2020-03-31,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-03-31,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-03-31,Manhattan,Did not approach the crowd; the crowd remains,2,1,0.08695652173913043
+2020-03-31,Queens,Approached the crowd; they complied with instructions,1,0.09090909090909091,0.043478260869565216
+2020-03-31,Queens,Approached the crowd; they ignored the employee,7,0.6363636363636364,0.30434782608695654
+2020-03-31,Queens,Did not approach the crowd; the crowd remains,3,0.2727272727272727,0.13043478260869565
+2020-03-31,Staten Island,Approached the crowd; they complied with instructions,1,0.2,0.043478260869565216
+2020-03-31,Staten Island,Approached the crowd; they ignored the employee,2,0.4,0.08695652173913043
+2020-03-31,Staten Island,Did not approach the crowd; the crowd remains,2,0.4,0.08695652173913043
+2020-04-01,Bronx,Approached the crowd; they complied with instructions,2,0.25,0.031746031746031744
+2020-04-01,Bronx,Approached the crowd; they ignored the employee,4,0.5,0.06349206349206349
+2020-04-01,Bronx,Did not approach the crowd; the crowd remains,2,0.25,0.031746031746031744
+2020-04-01,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-01,Brooklyn,Approached the crowd; they ignored the employee,3,0.2727272727272727,0.047619047619047616
+2020-04-01,Brooklyn,Did not approach the crowd; the crowd remains,8,0.7272727272727273,0.12698412698412698
+2020-04-01,Manhattan,Approached the crowd; they complied with instructions,5,0.3333333333333333,0.07936507936507936
+2020-04-01,Manhattan,Approached the crowd; they ignored the employee,9,0.6,0.14285714285714285
+2020-04-01,Manhattan,Did not approach the crowd; the crowd remains,1,0.06666666666666667,0.015873015873015872
+2020-04-01,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-01,Queens,Approached the crowd; they ignored the employee,9,0.75,0.14285714285714285
+2020-04-01,Queens,Did not approach the crowd; the crowd remains,3,0.25,0.047619047619047616
+2020-04-01,Staten Island,Approached the crowd; they complied with instructions,7,0.4117647058823529,0.1111111111111111
+2020-04-01,Staten Island,Approached the crowd; they ignored the employee,7,0.4117647058823529,0.1111111111111111
+2020-04-01,Staten Island,Did not approach the crowd; the crowd remains,3,0.17647058823529413,0.047619047619047616
+2020-04-02,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-02,Bronx,Approached the crowd; they ignored the employee,4,1,0.10256410256410256
+2020-04-02,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-02,Brooklyn,Approached the crowd; they complied with instructions,4,0.4444444444444444,0.10256410256410256
+2020-04-02,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-02,Brooklyn,Did not approach the crowd; the crowd remains,5,0.5555555555555556,0.1282051282051282
+2020-04-02,Manhattan,Approached the crowd; they complied with instructions,2,0.14285714285714285,0.05128205128205128
+2020-04-02,Manhattan,Approached the crowd; they ignored the employee,11,0.7857142857142857,0.28205128205128205
+2020-04-02,Manhattan,Did not approach the crowd; the crowd remains,1,0.07142857142857142,0.02564102564102564
+2020-04-02,Queens,Approached the crowd; they complied with instructions,2,0.4,0.05128205128205128
+2020-04-02,Queens,Approached the crowd; they ignored the employee,1,0.2,0.02564102564102564
+2020-04-02,Queens,Did not approach the crowd; the crowd remains,2,0.4,0.05128205128205128
+2020-04-02,Staten Island,Approached the crowd; they complied with instructions,4,0.5714285714285714,0.10256410256410256
+2020-04-02,Staten Island,Approached the crowd; they ignored the employee,1,0.14285714285714285,0.02564102564102564
+2020-04-02,Staten Island,Did not approach the crowd; the crowd remains,2,0.2857142857142857,0.05128205128205128
+2020-04-03,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-03,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-03,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-03,Brooklyn,Approached the crowd; they complied with instructions,1,1,0.25
+2020-04-03,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-03,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-03,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-03,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-03,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-03,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-03,Queens,Approached the crowd; they ignored the employee,1,1,0.25
+2020-04-03,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-03,Staten Island,Approached the crowd; they complied with instructions,2,1,0.5
+2020-04-03,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-03,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-04,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-04,Bronx,Approached the crowd; they ignored the employee,3,0.6,0.07894736842105263
+2020-04-04,Bronx,Did not approach the crowd; the crowd remains,2,0.4,0.05263157894736842
+2020-04-04,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-04,Brooklyn,Approached the crowd; they ignored the employee,5,0.5,0.13157894736842105
+2020-04-04,Brooklyn,Did not approach the crowd; the crowd remains,5,0.5,0.13157894736842105
+2020-04-04,Manhattan,Approached the crowd; they complied with instructions,3,0.3333333333333333,0.07894736842105263
+2020-04-04,Manhattan,Approached the crowd; they ignored the employee,3,0.3333333333333333,0.07894736842105263
+2020-04-04,Manhattan,Did not approach the crowd; the crowd remains,3,0.3333333333333333,0.07894736842105263
+2020-04-04,Queens,Approached the crowd; they complied with instructions,1,0.07142857142857142,0.02631578947368421
+2020-04-04,Queens,Approached the crowd; they ignored the employee,4,0.2857142857142857,0.10526315789473684
+2020-04-04,Queens,Did not approach the crowd; the crowd remains,9,0.6428571428571429,0.23684210526315788
+2020-04-04,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-04,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-04,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-05,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-05,Bronx,Approached the crowd; they ignored the employee,3,0.6,0.125
+2020-04-05,Bronx,Did not approach the crowd; the crowd remains,2,0.4,0.08333333333333333
+2020-04-05,Brooklyn,Approached the crowd; they complied with instructions,1,0.2,0.041666666666666664
+2020-04-05,Brooklyn,Approached the crowd; they ignored the employee,3,0.6,0.125
+2020-04-05,Brooklyn,Did not approach the crowd; the crowd remains,1,0.2,0.041666666666666664
+2020-04-05,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-04-05,Manhattan,Approached the crowd; they ignored the employee,2,1,0.08333333333333333
+2020-04-05,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-05,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-05,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-05,Queens,Did not approach the crowd; the crowd remains,1,1,0.041666666666666664
+2020-04-05,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-05,Staten Island,Approached the crowd; they ignored the employee,4,0.36363636363636365,0.16666666666666666
+2020-04-05,Staten Island,Did not approach the crowd; the crowd remains,7,0.6363636363636364,0.2916666666666667
+2020-04-06,Bronx,Approached the crowd; they complied with instructions,1,0.2,0.058823529411764705
+2020-04-06,Bronx,Approached the crowd; they ignored the employee,1,0.2,0.058823529411764705
+2020-04-06,Bronx,Did not approach the crowd; the crowd remains,3,0.6,0.17647058823529413
+2020-04-06,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-06,Brooklyn,Approached the crowd; they ignored the employee,2,0.4,0.11764705882352941
+2020-04-06,Brooklyn,Did not approach the crowd; the crowd remains,3,0.6,0.17647058823529413
+2020-04-06,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.058823529411764705
+2020-04-06,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.058823529411764705
+2020-04-06,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-06,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-06,Queens,Approached the crowd; they ignored the employee,1,1,0.058823529411764705
+2020-04-06,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-06,Staten Island,Approached the crowd; they complied with instructions,1,0.25,0.058823529411764705
+2020-04-06,Staten Island,Approached the crowd; they ignored the employee,2,0.5,0.11764705882352941
+2020-04-06,Staten Island,Did not approach the crowd; the crowd remains,1,0.25,0.058823529411764705
+2020-04-07,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-07,Bronx,Approached the crowd; they ignored the employee,1,0.5,0.043478260869565216
+2020-04-07,Bronx,Did not approach the crowd; the crowd remains,1,0.5,0.043478260869565216
+2020-04-07,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-07,Brooklyn,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.043478260869565216
+2020-04-07,Brooklyn,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.08695652173913043
+2020-04-07,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-04-07,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.043478260869565216
+2020-04-07,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.043478260869565216
+2020-04-07,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-07,Queens,Approached the crowd; they ignored the employee,5,0.7142857142857143,0.21739130434782608
+2020-04-07,Queens,Did not approach the crowd; the crowd remains,2,0.2857142857142857,0.08695652173913043
+2020-04-07,Staten Island,Approached the crowd; they complied with instructions,3,0.3333333333333333,0.13043478260869565
+2020-04-07,Staten Island,Approached the crowd; they ignored the employee,4,0.4444444444444444,0.17391304347826086
+2020-04-07,Staten Island,Did not approach the crowd; the crowd remains,2,0.2222222222222222,0.08695652173913043
+2020-04-08,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-08,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-08,Bronx,Did not approach the crowd; the crowd remains,1,1,0.047619047619047616
+2020-04-08,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-08,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-08,Brooklyn,Did not approach the crowd; the crowd remains,2,1,0.09523809523809523
+2020-04-08,Manhattan,Approached the crowd; they complied with instructions,1,0.09090909090909091,0.047619047619047616
+2020-04-08,Manhattan,Approached the crowd; they ignored the employee,6,0.5454545454545454,0.2857142857142857
+2020-04-08,Manhattan,Did not approach the crowd; the crowd remains,4,0.36363636363636365,0.19047619047619047
+2020-04-08,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-08,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-08,Queens,Did not approach the crowd; the crowd remains,4,1,0.19047619047619047
+2020-04-08,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-08,Staten Island,Approached the crowd; they ignored the employee,2,0.6666666666666666,0.09523809523809523
+2020-04-08,Staten Island,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.047619047619047616
+2020-04-09,Bronx,Approached the crowd; they complied with instructions,1,1,0.3333333333333333
+2020-04-09,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-09,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-09,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-09,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-09,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.3333333333333333
+2020-04-09,Manhattan,Approached the crowd; they complied with instructions,1,1,0.3333333333333333
+2020-04-09,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-09,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-09,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-09,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-09,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-09,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-09,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-09,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-10,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-10,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-10,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-10,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-10,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-10,Brooklyn,Did not approach the crowd; the crowd remains,1,1,1
+2020-04-10,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-10,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-10,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-10,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-10,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-10,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-10,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-10,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-10,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-11,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-11,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-11,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-11,Brooklyn,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.05555555555555555
+2020-04-11,Brooklyn,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.05555555555555555
+2020-04-11,Brooklyn,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.05555555555555555
+2020-04-11,Manhattan,Approached the crowd; they complied with instructions,1,0.16666666666666666,0.05555555555555555
+2020-04-11,Manhattan,Approached the crowd; they ignored the employee,4,0.6666666666666666,0.2222222222222222
+2020-04-11,Manhattan,Did not approach the crowd; the crowd remains,1,0.16666666666666666,0.05555555555555555
+2020-04-11,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-11,Queens,Approached the crowd; they ignored the employee,4,0.4444444444444444,0.2222222222222222
+2020-04-11,Queens,Did not approach the crowd; the crowd remains,5,0.5555555555555556,0.2777777777777778
+2020-04-11,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-11,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-11,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-12,Bronx,Approached the crowd; they complied with instructions,1,0.5,0.058823529411764705
+2020-04-12,Bronx,Approached the crowd; they ignored the employee,1,0.5,0.058823529411764705
+2020-04-12,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-12,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-12,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-12,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.058823529411764705
+2020-04-12,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-04-12,Manhattan,Approached the crowd; they ignored the employee,2,0.5,0.11764705882352941
+2020-04-12,Manhattan,Did not approach the crowd; the crowd remains,2,0.5,0.11764705882352941
+2020-04-12,Queens,Approached the crowd; they complied with instructions,1,0.16666666666666666,0.058823529411764705
+2020-04-12,Queens,Approached the crowd; they ignored the employee,3,0.5,0.17647058823529413
+2020-04-12,Queens,Did not approach the crowd; the crowd remains,2,0.3333333333333333,0.11764705882352941
+2020-04-12,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-12,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-12,Staten Island,Did not approach the crowd; the crowd remains,4,1,0.23529411764705882
+2020-04-14,Bronx,Approached the crowd; they complied with instructions,2,0.5,0.10526315789473684
+2020-04-14,Bronx,Approached the crowd; they ignored the employee,1,0.25,0.05263157894736842
+2020-04-14,Bronx,Did not approach the crowd; the crowd remains,1,0.25,0.05263157894736842
+2020-04-14,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-14,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.05263157894736842
+2020-04-14,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-14,Manhattan,Approached the crowd; they complied with instructions,1,0.1,0.05263157894736842
+2020-04-14,Manhattan,Approached the crowd; they ignored the employee,7,0.7,0.3684210526315789
+2020-04-14,Manhattan,Did not approach the crowd; the crowd remains,2,0.2,0.10526315789473684
+2020-04-14,Queens,Approached the crowd; they complied with instructions,1,0.25,0.05263157894736842
+2020-04-14,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-14,Queens,Did not approach the crowd; the crowd remains,3,0.75,0.15789473684210525
+2020-04-14,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-14,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-14,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-15,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-15,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-15,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-15,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-15,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.08333333333333333
+2020-04-15,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-15,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-04-15,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.08333333333333333
+2020-04-15,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.08333333333333333
+2020-04-15,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-15,Queens,Approached the crowd; they ignored the employee,4,0.5,0.3333333333333333
+2020-04-15,Queens,Did not approach the crowd; the crowd remains,4,0.5,0.3333333333333333
+2020-04-15,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-15,Staten Island,Approached the crowd; they ignored the employee,1,1,0.08333333333333333
+2020-04-15,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-16,Bronx,Approached the crowd; they complied with instructions,2,0.5,0.125
+2020-04-16,Bronx,Approached the crowd; they ignored the employee,2,0.5,0.125
+2020-04-16,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-16,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-16,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.0625
+2020-04-16,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-16,Manhattan,Approached the crowd; they complied with instructions,2,1,0.125
+2020-04-16,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-16,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-16,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-16,Queens,Approached the crowd; they ignored the employee,2,0.6666666666666666,0.125
+2020-04-16,Queens,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.0625
+2020-04-16,Staten Island,Approached the crowd; they complied with instructions,4,0.6666666666666666,0.25
+2020-04-16,Staten Island,Approached the crowd; they ignored the employee,1,0.16666666666666666,0.0625
+2020-04-16,Staten Island,Did not approach the crowd; the crowd remains,1,0.16666666666666666,0.0625
+2020-04-17,Bronx,Approached the crowd; they complied with instructions,2,1,0.04878048780487805
+2020-04-17,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-17,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-17,Brooklyn,Approached the crowd; they complied with instructions,4,0.5,0.0975609756097561
+2020-04-17,Brooklyn,Approached the crowd; they ignored the employee,4,0.5,0.0975609756097561
+2020-04-17,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-17,Manhattan,Approached the crowd; they complied with instructions,11,1,0.2682926829268293
+2020-04-17,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-17,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-17,Queens,Approached the crowd; they complied with instructions,3,0.25,0.07317073170731707
+2020-04-17,Queens,Approached the crowd; they ignored the employee,2,0.16666666666666666,0.04878048780487805
+2020-04-17,Queens,Did not approach the crowd; the crowd remains,7,0.5833333333333334,0.17073170731707318
+2020-04-17,Staten Island,Approached the crowd; they complied with instructions,8,1,0.1951219512195122
+2020-04-17,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-17,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-18,Bronx,Approached the crowd; they complied with instructions,2,1,0.06451612903225806
+2020-04-18,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-18,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-18,Brooklyn,Approached the crowd; they complied with instructions,5,0.7142857142857143,0.16129032258064516
+2020-04-18,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-18,Brooklyn,Did not approach the crowd; the crowd remains,2,0.2857142857142857,0.06451612903225806
+2020-04-18,Manhattan,Approached the crowd; they complied with instructions,14,0.875,0.45161290322580644
+2020-04-18,Manhattan,Approached the crowd; they ignored the employee,2,0.125,0.06451612903225806
+2020-04-18,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-18,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-18,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-18,Queens,Did not approach the crowd; the crowd remains,1,1,0.03225806451612903
+2020-04-18,Staten Island,Approached the crowd; they complied with instructions,3,0.6,0.0967741935483871
+2020-04-18,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-18,Staten Island,Did not approach the crowd; the crowd remains,2,0.4,0.06451612903225806
+2020-04-19,Bronx,Approached the crowd; they complied with instructions,3,0.75,0.04838709677419355
+2020-04-19,Bronx,Approached the crowd; they ignored the employee,1,0.25,0.016129032258064516
+2020-04-19,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-19,Brooklyn,Approached the crowd; they complied with instructions,4,0.3333333333333333,0.06451612903225806
+2020-04-19,Brooklyn,Approached the crowd; they ignored the employee,2,0.16666666666666666,0.03225806451612903
+2020-04-19,Brooklyn,Did not approach the crowd; the crowd remains,6,0.5,0.0967741935483871
+2020-04-19,Manhattan,Approached the crowd; they complied with instructions,6,0.35294117647058826,0.0967741935483871
+2020-04-19,Manhattan,Approached the crowd; they ignored the employee,7,0.4117647058823529,0.11290322580645161
+2020-04-19,Manhattan,Did not approach the crowd; the crowd remains,4,0.23529411764705882,0.06451612903225806
+2020-04-19,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-19,Queens,Approached the crowd; they ignored the employee,1,0.1111111111111111,0.016129032258064516
+2020-04-19,Queens,Did not approach the crowd; the crowd remains,8,0.8888888888888888,0.12903225806451613
+2020-04-19,Staten Island,Approached the crowd; they complied with instructions,8,0.4,0.12903225806451613
+2020-04-19,Staten Island,Approached the crowd; they ignored the employee,1,0.05,0.016129032258064516
+2020-04-19,Staten Island,Did not approach the crowd; the crowd remains,11,0.55,0.1774193548387097
+2020-04-20,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-20,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-20,Bronx,Did not approach the crowd; the crowd remains,1,1,0.08333333333333333
+2020-04-20,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-20,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-20,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.08333333333333333
+2020-04-20,Manhattan,Approached the crowd; they complied with instructions,2,0.5,0.16666666666666666
+2020-04-20,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-20,Manhattan,Did not approach the crowd; the crowd remains,2,0.5,0.16666666666666666
+2020-04-20,Queens,Approached the crowd; they complied with instructions,2,0.3333333333333333,0.16666666666666666
+2020-04-20,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-20,Queens,Did not approach the crowd; the crowd remains,4,0.6666666666666666,0.3333333333333333
+2020-04-20,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-20,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-20,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-21,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-21,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-21,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-21,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-21,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.09090909090909091
+2020-04-21,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-21,Manhattan,Approached the crowd; they complied with instructions,5,0.625,0.45454545454545453
+2020-04-21,Manhattan,Approached the crowd; they ignored the employee,2,0.25,0.18181818181818182
+2020-04-21,Manhattan,Did not approach the crowd; the crowd remains,1,0.125,0.09090909090909091
+2020-04-21,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-21,Queens,Approached the crowd; they ignored the employee,2,1,0.18181818181818182
+2020-04-21,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-21,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-21,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-21,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-22,Bronx,Approached the crowd; they complied with instructions,1,1,0.038461538461538464
+2020-04-22,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-22,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-22,Brooklyn,Approached the crowd; they complied with instructions,10,1,0.38461538461538464
+2020-04-22,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-22,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-22,Manhattan,Approached the crowd; they complied with instructions,2,0.4,0.07692307692307693
+2020-04-22,Manhattan,Approached the crowd; they ignored the employee,1,0.2,0.038461538461538464
+2020-04-22,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.07692307692307693
+2020-04-22,Queens,Approached the crowd; they complied with instructions,1,0.125,0.038461538461538464
+2020-04-22,Queens,Approached the crowd; they ignored the employee,3,0.375,0.11538461538461539
+2020-04-22,Queens,Did not approach the crowd; the crowd remains,4,0.5,0.15384615384615385
+2020-04-22,Staten Island,Approached the crowd; they complied with instructions,1,0.5,0.038461538461538464
+2020-04-22,Staten Island,Approached the crowd; they ignored the employee,1,0.5,0.038461538461538464
+2020-04-22,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-23,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-23,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-23,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-23,Brooklyn,Approached the crowd; they complied with instructions,11,1,0.6470588235294118
+2020-04-23,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-23,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-23,Manhattan,Approached the crowd; they complied with instructions,2,0.4,0.11764705882352941
+2020-04-23,Manhattan,Approached the crowd; they ignored the employee,1,0.2,0.058823529411764705
+2020-04-23,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.11764705882352941
+2020-04-23,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-23,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-04-23,Queens,Did not approach the crowd; the crowd remains,1,1,0.058823529411764705
+2020-04-23,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-23,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-23,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-24,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-24,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-24,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-24,Brooklyn,Approached the crowd; they complied with instructions,7,1,0.5833333333333334
+2020-04-24,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-24,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-24,Manhattan,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.08333333333333333
+2020-04-24,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-24,Manhattan,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.16666666666666666
+2020-04-24,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-24,Queens,Approached the crowd; they ignored the employee,1,1,0.08333333333333333
+2020-04-24,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-24,Staten Island,Approached the crowd; they complied with instructions,1,1,0.08333333333333333
+2020-04-24,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-24,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-25,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-04-25,Bronx,Approached the crowd; they ignored the employee,3,0.75,0.06
+2020-04-25,Bronx,Did not approach the crowd; the crowd remains,1,0.25,0.02
+2020-04-25,Brooklyn,Approached the crowd; they complied with instructions,9,0.6923076923076923,0.18
+2020-04-25,Brooklyn,Approached the crowd; they ignored the employee,3,0.23076923076923078,0.06
+2020-04-25,Brooklyn,Did not approach the crowd; the crowd remains,1,0.07692307692307693,0.02
+2020-04-25,Manhattan,Approached the crowd; they complied with instructions,5,0.3333333333333333,0.1
+2020-04-25,Manhattan,Approached the crowd; they ignored the employee,8,0.5333333333333333,0.16
+2020-04-25,Manhattan,Did not approach the crowd; the crowd remains,2,0.13333333333333333,0.04
+2020-04-25,Queens,Approached the crowd; they complied with instructions,1,0.06666666666666667,0.02
+2020-04-25,Queens,Approached the crowd; they ignored the employee,5,0.3333333333333333,0.1
+2020-04-25,Queens,Did not approach the crowd; the crowd remains,9,0.6,0.18
+2020-04-25,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-25,Staten Island,Approached the crowd; they ignored the employee,3,1,0.06
+2020-04-25,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-26,Bronx,Approached the crowd; they complied with instructions,6,1,0.75
+2020-04-26,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-26,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-26,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-26,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-26,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-26,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.125
+2020-04-26,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-26,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.125
+2020-04-26,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-26,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-26,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-26,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-26,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-26,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-27,Bronx,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.1111111111111111
+2020-04-27,Bronx,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.1111111111111111
+2020-04-27,Bronx,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.1111111111111111
+2020-04-27,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-27,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-27,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.1111111111111111
+2020-04-27,Manhattan,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.1111111111111111
+2020-04-27,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-27,Manhattan,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.2222222222222222
+2020-04-27,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-27,Queens,Approached the crowd; they ignored the employee,1,1,0.1111111111111111
+2020-04-27,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-27,Staten Island,Approached the crowd; they complied with instructions,1,1,0.1111111111111111
+2020-04-27,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-27,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-28,Bronx,Approached the crowd; they complied with instructions,1,1,0.047619047619047616
+2020-04-28,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-04-28,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-28,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-28,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-04-28,Brooklyn,Did not approach the crowd; the crowd remains,9,1,0.42857142857142855
+2020-04-28,Manhattan,Approached the crowd; they complied with instructions,4,0.5,0.19047619047619047
+2020-04-28,Manhattan,Approached the crowd; they ignored the employee,1,0.125,0.047619047619047616
+2020-04-28,Manhattan,Did not approach the crowd; the crowd remains,3,0.375,0.14285714285714285
+2020-04-28,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-28,Queens,Approached the crowd; they ignored the employee,2,1,0.09523809523809523
+2020-04-28,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-28,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-04-28,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-04-28,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.047619047619047616
+2020-04-29,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-29,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-29,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-29,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-04-29,Brooklyn,Approached the crowd; they ignored the employee,1,0.25,0.1
+2020-04-29,Brooklyn,Did not approach the crowd; the crowd remains,3,0.75,0.3
+2020-04-29,Manhattan,Approached the crowd; they complied with instructions,3,0.75,0.3
+2020-04-29,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-29,Manhattan,Did not approach the crowd; the crowd remains,1,0.25,0.1
+2020-04-29,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-04-29,Queens,Approached the crowd; they ignored the employee,2,1,0.2
+2020-04-29,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-29,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-29,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-29,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-30,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-30,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-30,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-30,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-30,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-30,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-30,Manhattan,Approached the crowd; they complied with instructions,3,1,1
+2020-04-30,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-04-30,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-04-30,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-30,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-30,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-04-30,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-04-30,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-04-30,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-01,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-01,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-01,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-01,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-01,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-01,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-01,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-01,Manhattan,Approached the crowd; they ignored the employee,3,0.75,0.5
+2020-05-01,Manhattan,Did not approach the crowd; the crowd remains,1,0.25,0.16666666666666666
+2020-05-01,Queens,Approached the crowd; they complied with instructions,1,0.5,0.16666666666666666
+2020-05-01,Queens,Approached the crowd; they ignored the employee,1,0.5,0.16666666666666666
+2020-05-01,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-01,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-01,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-01,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-02,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-02,Bronx,Approached the crowd; they ignored the employee,4,0.8,0.2857142857142857
+2020-05-02,Bronx,Did not approach the crowd; the crowd remains,1,0.2,0.07142857142857142
+2020-05-02,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-02,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-02,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-02,Manhattan,Approached the crowd; they complied with instructions,2,0.5,0.14285714285714285
+2020-05-02,Manhattan,Approached the crowd; they ignored the employee,2,0.5,0.14285714285714285
+2020-05-02,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-02,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-02,Queens,Approached the crowd; they ignored the employee,1,0.2,0.07142857142857142
+2020-05-02,Queens,Did not approach the crowd; the crowd remains,4,0.8,0.2857142857142857
+2020-05-02,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-02,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-02,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-03,Bronx,Approached the crowd; they complied with instructions,2,0.4,0.13333333333333333
+2020-05-03,Bronx,Approached the crowd; they ignored the employee,2,0.4,0.13333333333333333
+2020-05-03,Bronx,Did not approach the crowd; the crowd remains,1,0.2,0.06666666666666667
+2020-05-03,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-03,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-05-03,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.06666666666666667
+2020-05-03,Manhattan,Approached the crowd; they complied with instructions,1,0.2,0.06666666666666667
+2020-05-03,Manhattan,Approached the crowd; they ignored the employee,4,0.8,0.26666666666666666
+2020-05-03,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-03,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-03,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-03,Queens,Did not approach the crowd; the crowd remains,2,1,0.13333333333333333
+2020-05-03,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-03,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-03,Staten Island,Did not approach the crowd; the crowd remains,2,1,0.13333333333333333
+2020-05-04,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-04,Bronx,Approached the crowd; they ignored the employee,1,1,0.2
+2020-05-04,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-04,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-04,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-04,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-04,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-04,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-04,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-04,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-04,Queens,Approached the crowd; they ignored the employee,1,0.25,0.2
+2020-05-04,Queens,Did not approach the crowd; the crowd remains,3,0.75,0.6
+2020-05-04,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-04,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-04,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-05,Bronx,Approached the crowd; they complied with instructions,1,1,0.07142857142857142
+2020-05-05,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-05,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-05,Brooklyn,Approached the crowd; they complied with instructions,1,0.5,0.07142857142857142
+2020-05-05,Brooklyn,Approached the crowd; they ignored the employee,1,0.5,0.07142857142857142
+2020-05-05,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-05,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-05,Manhattan,Approached the crowd; they ignored the employee,3,0.6,0.21428571428571427
+2020-05-05,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.14285714285714285
+2020-05-05,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-05,Queens,Approached the crowd; they ignored the employee,2,0.3333333333333333,0.14285714285714285
+2020-05-05,Queens,Did not approach the crowd; the crowd remains,4,0.6666666666666666,0.2857142857142857
+2020-05-05,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-05,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-05,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-06,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-06,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-06,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-06,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-06,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.16666666666666666
+2020-05-06,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-06,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-06,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.16666666666666666
+2020-05-06,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.16666666666666666
+2020-05-06,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-06,Queens,Approached the crowd; they ignored the employee,1,0.5,0.16666666666666666
+2020-05-06,Queens,Did not approach the crowd; the crowd remains,1,0.5,0.16666666666666666
+2020-05-06,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-06,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-06,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-05-07,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-07,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-07,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-07,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-07,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-07,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-07,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.058823529411764705
+2020-05-07,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-07,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.058823529411764705
+2020-05-07,Queens,Approached the crowd; they complied with instructions,4,0.2857142857142857,0.23529411764705882
+2020-05-07,Queens,Approached the crowd; they ignored the employee,6,0.42857142857142855,0.35294117647058826
+2020-05-07,Queens,Did not approach the crowd; the crowd remains,4,0.2857142857142857,0.23529411764705882
+2020-05-07,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-07,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-07,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.058823529411764705
+2020-05-09,Bronx,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.125
+2020-05-09,Bronx,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.125
+2020-05-09,Bronx,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.125
+2020-05-09,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-09,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-09,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-09,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-09,Manhattan,Approached the crowd; they ignored the employee,3,0.75,0.375
+2020-05-09,Manhattan,Did not approach the crowd; the crowd remains,1,0.25,0.125
+2020-05-09,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-09,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-09,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-09,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-09,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-09,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.125
+2020-05-10,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-10,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-10,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-10,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-10,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-10,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-10,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-10,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-10,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-10,Queens,Approached the crowd; they complied with instructions,3,0.75,0.75
+2020-05-10,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-10,Queens,Did not approach the crowd; the crowd remains,1,0.25,0.25
+2020-05-10,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-10,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-10,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-12,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-12,Bronx,Approached the crowd; they ignored the employee,3,0.75,0.3
+2020-05-12,Bronx,Did not approach the crowd; the crowd remains,1,0.25,0.1
+2020-05-12,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-12,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.1
+2020-05-12,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-12,Manhattan,Approached the crowd; they complied with instructions,1,1,0.1
+2020-05-12,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-12,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-12,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-12,Queens,Approached the crowd; they ignored the employee,2,0.5,0.2
+2020-05-12,Queens,Did not approach the crowd; the crowd remains,2,0.5,0.2
+2020-05-12,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-12,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-12,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-13,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-13,Bronx,Approached the crowd; they ignored the employee,1,1,0.125
+2020-05-13,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-13,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-13,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.125
+2020-05-13,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-13,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-13,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-13,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-13,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-13,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-13,Queens,Did not approach the crowd; the crowd remains,3,1,0.375
+2020-05-13,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-13,Staten Island,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.125
+2020-05-13,Staten Island,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.25
+2020-05-14,Bronx,Approached the crowd; they complied with instructions,3,0.6,0.21428571428571427
+2020-05-14,Bronx,Approached the crowd; they ignored the employee,1,0.2,0.07142857142857142
+2020-05-14,Bronx,Did not approach the crowd; the crowd remains,1,0.2,0.07142857142857142
+2020-05-14,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-14,Brooklyn,Approached the crowd; they ignored the employee,1,0.5,0.07142857142857142
+2020-05-14,Brooklyn,Did not approach the crowd; the crowd remains,1,0.5,0.07142857142857142
+2020-05-14,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-14,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.07142857142857142
+2020-05-14,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.07142857142857142
+2020-05-14,Queens,Approached the crowd; they complied with instructions,1,0.25,0.07142857142857142
+2020-05-14,Queens,Approached the crowd; they ignored the employee,1,0.25,0.07142857142857142
+2020-05-14,Queens,Did not approach the crowd; the crowd remains,2,0.5,0.14285714285714285
+2020-05-14,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-14,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-14,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.07142857142857142
+2020-05-15,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-15,Bronx,Approached the crowd; they ignored the employee,2,1,0.2857142857142857
+2020-05-15,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-15,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-15,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-15,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-15,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-15,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-15,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-15,Queens,Approached the crowd; they complied with instructions,1,0.5,0.14285714285714285
+2020-05-15,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-15,Queens,Did not approach the crowd; the crowd remains,1,0.5,0.14285714285714285
+2020-05-15,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-15,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-15,Staten Island,Did not approach the crowd; the crowd remains,3,1,0.42857142857142855
+2020-05-16,Bronx,Approached the crowd; they complied with instructions,2,0.4,0.18181818181818182
+2020-05-16,Bronx,Approached the crowd; they ignored the employee,3,0.6,0.2727272727272727
+2020-05-16,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-16,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-16,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-16,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-16,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-16,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-16,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-16,Queens,Approached the crowd; they complied with instructions,2,0.4,0.18181818181818182
+2020-05-16,Queens,Approached the crowd; they ignored the employee,2,0.4,0.18181818181818182
+2020-05-16,Queens,Did not approach the crowd; the crowd remains,1,0.2,0.09090909090909091
+2020-05-16,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-16,Staten Island,Approached the crowd; they ignored the employee,1,1,0.09090909090909091
+2020-05-16,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-17,Bronx,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.06666666666666667
+2020-05-17,Bronx,Approached the crowd; they ignored the employee,2,0.6666666666666666,0.13333333333333333
+2020-05-17,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-17,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-17,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-17,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-17,Manhattan,Approached the crowd; they complied with instructions,1,0.25,0.06666666666666667
+2020-05-17,Manhattan,Approached the crowd; they ignored the employee,3,0.75,0.2
+2020-05-17,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-17,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-17,Queens,Approached the crowd; they ignored the employee,3,0.375,0.2
+2020-05-17,Queens,Did not approach the crowd; the crowd remains,5,0.625,0.3333333333333333
+2020-05-17,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-17,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-17,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-18,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-18,Bronx,Approached the crowd; they ignored the employee,2,0.4,0.1111111111111111
+2020-05-18,Bronx,Did not approach the crowd; the crowd remains,3,0.6,0.16666666666666666
+2020-05-18,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-18,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-18,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-18,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-18,Manhattan,Approached the crowd; they ignored the employee,3,0.75,0.16666666666666666
+2020-05-18,Manhattan,Did not approach the crowd; the crowd remains,1,0.25,0.05555555555555555
+2020-05-18,Queens,Approached the crowd; they complied with instructions,1,0.1111111111111111,0.05555555555555555
+2020-05-18,Queens,Approached the crowd; they ignored the employee,2,0.2222222222222222,0.1111111111111111
+2020-05-18,Queens,Did not approach the crowd; the crowd remains,6,0.6666666666666666,0.3333333333333333
+2020-05-18,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-18,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-18,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-19,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-19,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-19,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-19,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-19,Brooklyn,Approached the crowd; they ignored the employee,1,0.5,0.1
+2020-05-19,Brooklyn,Did not approach the crowd; the crowd remains,1,0.5,0.1
+2020-05-19,Manhattan,Approached the crowd; they complied with instructions,1,0.25,0.1
+2020-05-19,Manhattan,Approached the crowd; they ignored the employee,1,0.25,0.1
+2020-05-19,Manhattan,Did not approach the crowd; the crowd remains,2,0.5,0.2
+2020-05-19,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-19,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-19,Queens,Did not approach the crowd; the crowd remains,3,1,0.3
+2020-05-19,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-19,Staten Island,Approached the crowd; they ignored the employee,1,1,0.1
+2020-05-19,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-20,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-20,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-20,Bronx,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-05-20,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-20,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-20,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-20,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.16666666666666666
+2020-05-20,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-20,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.16666666666666666
+2020-05-20,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-20,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-20,Queens,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-05-20,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-20,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-20,Staten Island,Did not approach the crowd; the crowd remains,2,1,0.3333333333333333
+2020-05-21,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-21,Bronx,Approached the crowd; they ignored the employee,1,1,0.09090909090909091
+2020-05-21,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-21,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-21,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-21,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-21,Manhattan,Approached the crowd; they complied with instructions,2,0.4,0.18181818181818182
+2020-05-21,Manhattan,Approached the crowd; they ignored the employee,1,0.2,0.09090909090909091
+2020-05-21,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.18181818181818182
+2020-05-21,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-21,Queens,Approached the crowd; they ignored the employee,2,0.5,0.18181818181818182
+2020-05-21,Queens,Did not approach the crowd; the crowd remains,2,0.5,0.18181818181818182
+2020-05-21,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-21,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-21,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.09090909090909091
+2020-05-22,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-22,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-22,Bronx,Did not approach the crowd; the crowd remains,2,1,0.18181818181818182
+2020-05-22,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-22,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.09090909090909091
+2020-05-22,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-22,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-22,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-22,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-22,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-22,Queens,Approached the crowd; they ignored the employee,4,0.5,0.36363636363636365
+2020-05-22,Queens,Did not approach the crowd; the crowd remains,4,0.5,0.36363636363636365
+2020-05-22,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-22,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-22,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-23,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-23,Bronx,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.16666666666666666
+2020-05-23,Bronx,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.3333333333333333
+2020-05-23,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-23,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-23,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-23,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-23,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-23,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-23,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-23,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-23,Queens,Did not approach the crowd; the crowd remains,3,1,0.5
+2020-05-23,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-23,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-23,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-24,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-24,Bronx,Approached the crowd; they ignored the employee,3,1,0.21428571428571427
+2020-05-24,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-24,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-24,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-24,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-24,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.07142857142857142
+2020-05-24,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-24,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.07142857142857142
+2020-05-24,Queens,Approached the crowd; they complied with instructions,1,0.1111111111111111,0.07142857142857142
+2020-05-24,Queens,Approached the crowd; they ignored the employee,4,0.4444444444444444,0.2857142857142857
+2020-05-24,Queens,Did not approach the crowd; the crowd remains,4,0.4444444444444444,0.2857142857142857
+2020-05-24,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-24,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-24,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-25,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-25,Bronx,Approached the crowd; they ignored the employee,4,1,0.18181818181818182
+2020-05-25,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-25,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-25,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-05-25,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.045454545454545456
+2020-05-25,Manhattan,Approached the crowd; they complied with instructions,2,0.2857142857142857,0.09090909090909091
+2020-05-25,Manhattan,Approached the crowd; they ignored the employee,1,0.14285714285714285,0.045454545454545456
+2020-05-25,Manhattan,Did not approach the crowd; the crowd remains,4,0.5714285714285714,0.18181818181818182
+2020-05-25,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-25,Queens,Approached the crowd; they ignored the employee,2,0.2222222222222222,0.09090909090909091
+2020-05-25,Queens,Did not approach the crowd; the crowd remains,7,0.7777777777777778,0.3181818181818182
+2020-05-25,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-05-25,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-05-25,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.045454545454545456
+2020-05-26,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-26,Bronx,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.14285714285714285
+2020-05-26,Bronx,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.2857142857142857
+2020-05-26,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-26,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.14285714285714285
+2020-05-26,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-26,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-26,Manhattan,Approached the crowd; they ignored the employee,1,1,0.14285714285714285
+2020-05-26,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-05-26,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-26,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-26,Queens,Did not approach the crowd; the crowd remains,2,1,0.2857142857142857
+2020-05-26,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-26,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-26,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-27,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-27,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-27,Bronx,Did not approach the crowd; the crowd remains,2,1,0.2
+2020-05-27,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-05-27,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-05-27,Brooklyn,Did not approach the crowd; the crowd remains,2,1,0.2
+2020-05-27,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-27,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-27,Manhattan,Did not approach the crowd; the crowd remains,2,1,0.2
+2020-05-27,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-27,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-05-27,Queens,Did not approach the crowd; the crowd remains,4,1,0.4
+2020-05-27,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-27,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-27,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-28,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-28,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-28,Bronx,Did not approach the crowd; the crowd remains,1,1,0.25
+2020-05-28,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-28,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-28,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-28,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-28,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-28,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.25
+2020-05-28,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-28,Queens,Approached the crowd; they ignored the employee,1,0.5,0.25
+2020-05-28,Queens,Did not approach the crowd; the crowd remains,1,0.5,0.25
+2020-05-28,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-28,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-28,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-29,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-29,Bronx,Approached the crowd; they ignored the employee,1,0.5,0.125
+2020-05-29,Bronx,Did not approach the crowd; the crowd remains,1,0.5,0.125
+2020-05-29,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-29,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-29,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-29,Manhattan,Approached the crowd; they complied with instructions,1,0.5,0.125
+2020-05-29,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-05-29,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.125
+2020-05-29,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-05-29,Queens,Approached the crowd; they ignored the employee,1,0.25,0.125
+2020-05-29,Queens,Did not approach the crowd; the crowd remains,3,0.75,0.375
+2020-05-29,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-29,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-29,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-30,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-05-30,Bronx,Approached the crowd; they ignored the employee,4,0.8,0.2222222222222222
+2020-05-30,Bronx,Did not approach the crowd; the crowd remains,1,0.2,0.05555555555555555
+2020-05-30,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-30,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-30,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-30,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-05-30,Manhattan,Approached the crowd; they ignored the employee,3,0.75,0.16666666666666666
+2020-05-30,Manhattan,Did not approach the crowd; the crowd remains,1,0.25,0.05555555555555555
+2020-05-30,Queens,Approached the crowd; they complied with instructions,4,0.4444444444444444,0.2222222222222222
+2020-05-30,Queens,Approached the crowd; they ignored the employee,3,0.3333333333333333,0.16666666666666666
+2020-05-30,Queens,Did not approach the crowd; the crowd remains,2,0.2222222222222222,0.1111111111111111
+2020-05-30,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-30,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-30,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-31,Bronx,Approached the crowd; they complied with instructions,1,0.5,0.14285714285714285
+2020-05-31,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-05-31,Bronx,Did not approach the crowd; the crowd remains,1,0.5,0.14285714285714285
+2020-05-31,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-31,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-31,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-31,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-31,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-31,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-05-31,Queens,Approached the crowd; they complied with instructions,1,0.2,0.14285714285714285
+2020-05-31,Queens,Approached the crowd; they ignored the employee,1,0.2,0.14285714285714285
+2020-05-31,Queens,Did not approach the crowd; the crowd remains,3,0.6,0.42857142857142855
+2020-05-31,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-05-31,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-05-31,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-01,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-01,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-01,Bronx,Did not approach the crowd; the crowd remains,1,1,0.3333333333333333
+2020-06-01,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-01,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-01,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-01,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-01,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-01,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-01,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-01,Queens,Approached the crowd; they ignored the employee,1,0.5,0.3333333333333333
+2020-06-01,Queens,Did not approach the crowd; the crowd remains,1,0.5,0.3333333333333333
+2020-06-01,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-01,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-01,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-02,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-02,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-02,Bronx,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-06-02,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-02,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.16666666666666666
+2020-06-02,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-02,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-02,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-02,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-02,Queens,Approached the crowd; they complied with instructions,2,0.5,0.3333333333333333
+2020-06-02,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-02,Queens,Did not approach the crowd; the crowd remains,2,0.5,0.3333333333333333
+2020-06-02,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-02,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-02,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-03,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-03,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-03,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-03,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-03,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-03,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-03,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-03,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-03,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-03,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-03,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-03,Queens,Did not approach the crowd; the crowd remains,1,1,1
+2020-06-03,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-03,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-03,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-04,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-04,Bronx,Approached the crowd; they ignored the employee,1,1,0.2
+2020-06-04,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-04,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-04,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-04,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-04,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-04,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-04,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-04,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-04,Queens,Approached the crowd; they ignored the employee,1,0.25,0.2
+2020-06-04,Queens,Did not approach the crowd; the crowd remains,3,0.75,0.6
+2020-06-04,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-04,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-04,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-05,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-05,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-05,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-05,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-05,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-05,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-05,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-05,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-05,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-05,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-05,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-05,Queens,Did not approach the crowd; the crowd remains,4,1,1
+2020-06-05,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-05,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-05,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-06,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-06,Bronx,Approached the crowd; they ignored the employee,1,0.5,0.08333333333333333
+2020-06-06,Bronx,Did not approach the crowd; the crowd remains,1,0.5,0.08333333333333333
+2020-06-06,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-06,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-06,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-06,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-06,Manhattan,Approached the crowd; they ignored the employee,2,0.5,0.16666666666666666
+2020-06-06,Manhattan,Did not approach the crowd; the crowd remains,2,0.5,0.16666666666666666
+2020-06-06,Queens,Approached the crowd; they complied with instructions,2,0.4,0.16666666666666666
+2020-06-06,Queens,Approached the crowd; they ignored the employee,1,0.2,0.08333333333333333
+2020-06-06,Queens,Did not approach the crowd; the crowd remains,2,0.4,0.16666666666666666
+2020-06-06,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-06-06,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-06-06,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.08333333333333333
+2020-06-07,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-07,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-07,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-07,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-07,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-07,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-07,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-07,Manhattan,Approached the crowd; they ignored the employee,3,1,0.5
+2020-06-07,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-07,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-07,Queens,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.16666666666666666
+2020-06-07,Queens,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.3333333333333333
+2020-06-07,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-07,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-07,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-08,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-08,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-08,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-08,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-08,Brooklyn,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.1
+2020-06-08,Brooklyn,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.2
+2020-06-08,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-08,Manhattan,Approached the crowd; they ignored the employee,1,0.25,0.1
+2020-06-08,Manhattan,Did not approach the crowd; the crowd remains,3,0.75,0.3
+2020-06-08,Queens,Approached the crowd; they complied with instructions,1,0.3333333333333333,0.1
+2020-06-08,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-08,Queens,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.2
+2020-06-08,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-08,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-08,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-09,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-09,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-09,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-09,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-09,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-09,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-09,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-09,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-09,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.09090909090909091
+2020-06-09,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-09,Queens,Approached the crowd; they ignored the employee,2,0.2222222222222222,0.18181818181818182
+2020-06-09,Queens,Did not approach the crowd; the crowd remains,7,0.7777777777777778,0.6363636363636364
+2020-06-09,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-06-09,Staten Island,Approached the crowd; they ignored the employee,0,0,0
+2020-06-09,Staten Island,Did not approach the crowd; the crowd remains,1,1,0.09090909090909091
+2020-06-10,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-10,Bronx,Approached the crowd; they ignored the employee,1,0.5,0.04
+2020-06-10,Bronx,Did not approach the crowd; the crowd remains,1,0.5,0.04
+2020-06-10,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-10,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-06-10,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.04
+2020-06-10,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-10,Manhattan,Approached the crowd; they ignored the employee,5,0.7142857142857143,0.2
+2020-06-10,Manhattan,Did not approach the crowd; the crowd remains,2,0.2857142857142857,0.08
+2020-06-10,Queens,Approached the crowd; they complied with instructions,1,0.06666666666666667,0.04
+2020-06-10,Queens,Approached the crowd; they ignored the employee,6,0.4,0.24
+2020-06-10,Queens,Did not approach the crowd; the crowd remains,8,0.5333333333333333,0.32
+2020-06-10,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-10,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-10,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-11,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-11,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-11,Bronx,Did not approach the crowd; the crowd remains,2,1,0.6666666666666666
+2020-06-11,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-11,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-11,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-11,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-11,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-11,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-11,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-11,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-11,Queens,Did not approach the crowd; the crowd remains,1,1,0.3333333333333333
+2020-06-11,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-11,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-11,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-12,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-12,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-12,Bronx,Did not approach the crowd; the crowd remains,1,1,0.07692307692307693
+2020-06-12,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-12,Brooklyn,Approached the crowd; they ignored the employee,1,0.5,0.07692307692307693
+2020-06-12,Brooklyn,Did not approach the crowd; the crowd remains,1,0.5,0.07692307692307693
+2020-06-12,Manhattan,Approached the crowd; they complied with instructions,1,0.25,0.07692307692307693
+2020-06-12,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-12,Manhattan,Did not approach the crowd; the crowd remains,3,0.75,0.23076923076923078
+2020-06-12,Queens,Approached the crowd; they complied with instructions,1,0.16666666666666666,0.07692307692307693
+2020-06-12,Queens,Approached the crowd; they ignored the employee,2,0.3333333333333333,0.15384615384615385
+2020-06-12,Queens,Did not approach the crowd; the crowd remains,3,0.5,0.23076923076923078
+2020-06-12,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-12,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-12,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-13,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-13,Bronx,Approached the crowd; they ignored the employee,2,1,0.13333333333333333
+2020-06-13,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-13,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-13,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-06-13,Brooklyn,Did not approach the crowd; the crowd remains,2,1,0.13333333333333333
+2020-06-13,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-13,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-13,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.06666666666666667
+2020-06-13,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-13,Queens,Approached the crowd; they ignored the employee,3,0.3,0.2
+2020-06-13,Queens,Did not approach the crowd; the crowd remains,7,0.7,0.4666666666666667
+2020-06-13,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-13,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-13,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-14,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-14,Bronx,Approached the crowd; they ignored the employee,2,1,0.06896551724137931
+2020-06-14,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-14,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-14,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-14,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-14,Manhattan,Approached the crowd; they complied with instructions,2,0.3333333333333333,0.06896551724137931
+2020-06-14,Manhattan,Approached the crowd; they ignored the employee,4,0.6666666666666666,0.13793103448275862
+2020-06-14,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-14,Queens,Approached the crowd; they complied with instructions,1,0.047619047619047616,0.034482758620689655
+2020-06-14,Queens,Approached the crowd; they ignored the employee,7,0.3333333333333333,0.2413793103448276
+2020-06-14,Queens,Did not approach the crowd; the crowd remains,13,0.6190476190476191,0.4482758620689655
+2020-06-14,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-14,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-14,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-15,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-15,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-15,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-15,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-15,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-06-15,Brooklyn,Did not approach the crowd; the crowd remains,1,1,0.1111111111111111
+2020-06-15,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-15,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-15,Manhattan,Did not approach the crowd; the crowd remains,2,1,0.2222222222222222
+2020-06-15,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-15,Queens,Approached the crowd; they ignored the employee,3,0.5,0.3333333333333333
+2020-06-15,Queens,Did not approach the crowd; the crowd remains,3,0.5,0.3333333333333333
+2020-06-15,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-15,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-15,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-16,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-16,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-16,Bronx,Did not approach the crowd; the crowd remains,3,1,0.3333333333333333
+2020-06-16,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-16,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-16,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-16,Manhattan,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-16,Manhattan,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-16,Manhattan,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-16,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-16,Queens,Approached the crowd; they ignored the employee,2,0.3333333333333333,0.2222222222222222
+2020-06-16,Queens,Did not approach the crowd; the crowd remains,4,0.6666666666666666,0.4444444444444444
+2020-06-16,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-16,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-16,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-17,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-17,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-17,Bronx,Did not approach the crowd; the crowd remains,1,1,0.05263157894736842
+2020-06-17,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-17,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-06-17,Brooklyn,Did not approach the crowd; the crowd remains,3,1,0.15789473684210525
+2020-06-17,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-17,Manhattan,Approached the crowd; they ignored the employee,2,0.5,0.10526315789473684
+2020-06-17,Manhattan,Did not approach the crowd; the crowd remains,2,0.5,0.10526315789473684
+2020-06-17,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-17,Queens,Approached the crowd; they ignored the employee,2,0.18181818181818182,0.10526315789473684
+2020-06-17,Queens,Did not approach the crowd; the crowd remains,9,0.8181818181818182,0.47368421052631576
+2020-06-17,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-17,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-17,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-18,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-18,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-18,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-18,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-18,Brooklyn,Approached the crowd; they ignored the employee,0,0,0
+2020-06-18,Brooklyn,Did not approach the crowd; the crowd remains,3,1,0.42857142857142855
+2020-06-18,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-18,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-18,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.14285714285714285
+2020-06-18,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-18,Queens,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.14285714285714285
+2020-06-18,Queens,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.2857142857142857
+2020-06-18,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-18,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-18,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-19,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-19,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-19,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-19,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-19,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.25
+2020-06-19,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-19,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-19,Manhattan,Approached the crowd; they ignored the employee,1,0.3333333333333333,0.25
+2020-06-19,Manhattan,Did not approach the crowd; the crowd remains,2,0.6666666666666666,0.5
+2020-06-19,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-19,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-19,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-19,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-19,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-19,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-20,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-20,Bronx,Approached the crowd; they ignored the employee,3,0.75,0.25
+2020-06-20,Bronx,Did not approach the crowd; the crowd remains,1,0.25,0.08333333333333333
+2020-06-20,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-20,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-20,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-20,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-20,Manhattan,Approached the crowd; they ignored the employee,3,1,0.25
+2020-06-20,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-20,Queens,Approached the crowd; they complied with instructions,1,0.2,0.08333333333333333
+2020-06-20,Queens,Approached the crowd; they ignored the employee,1,0.2,0.08333333333333333
+2020-06-20,Queens,Did not approach the crowd; the crowd remains,3,0.6,0.25
+2020-06-20,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-20,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-20,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-21,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-21,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-21,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-21,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-21,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-21,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-21,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-21,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.2
+2020-06-21,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.2
+2020-06-21,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-21,Queens,Approached the crowd; they ignored the employee,2,0.6666666666666666,0.4
+2020-06-21,Queens,Did not approach the crowd; the crowd remains,1,0.3333333333333333,0.2
+2020-06-21,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-21,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-21,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-22,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-22,Bronx,Approached the crowd; they ignored the employee,3,1,0.6
+2020-06-22,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-22,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-22,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-22,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-22,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-22,Manhattan,Approached the crowd; they ignored the employee,1,0.5,0.2
+2020-06-22,Manhattan,Did not approach the crowd; the crowd remains,1,0.5,0.2
+2020-06-22,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-22,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-22,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-22,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-22,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-22,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-23,Bronx,Approached the crowd; they complied with instructions,1,1,0.14285714285714285
+2020-06-23,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-23,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-23,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-23,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-23,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-23,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-23,Manhattan,Approached the crowd; they ignored the employee,1,0.2,0.14285714285714285
+2020-06-23,Manhattan,Did not approach the crowd; the crowd remains,4,0.8,0.5714285714285714
+2020-06-23,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-23,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-23,Queens,Did not approach the crowd; the crowd remains,1,1,0.14285714285714285
+2020-06-23,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-23,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-23,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-24,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-24,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-24,Bronx,Did not approach the crowd; the crowd remains,7,1,0.7
+2020-06-24,Brooklyn,Approached the crowd; they complied with instructions,0,0,0
+2020-06-24,Brooklyn,Approached the crowd; they ignored the employee,1,1,0.1
+2020-06-24,Brooklyn,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-24,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-24,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-24,Manhattan,Did not approach the crowd; the crowd remains,2,1,0.2
+2020-06-24,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-24,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-24,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-24,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-24,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-24,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-25,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-25,Bronx,Approached the crowd; they ignored the employee,0,0,0
+2020-06-25,Bronx,Did not approach the crowd; the crowd remains,4,1,0.6666666666666666
+2020-06-25,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-25,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-25,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-25,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-25,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-25,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-06-25,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-25,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-25,Queens,Did not approach the crowd; the crowd remains,1,1,0.16666666666666666
+2020-06-25,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-25,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-25,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-26,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-26,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-26,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-26,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-26,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-26,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-26,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-26,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-26,Manhattan,Did not approach the crowd; the crowd remains,1,1,0.5
+2020-06-26,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-26,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-26,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-26,Staten Island,Approached the crowd; they complied with instructions,0,0,0
+2020-06-26,Staten Island,Approached the crowd; they ignored the employee,1,1,0.5
+2020-06-26,Staten Island,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-27,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-27,Bronx,Approached the crowd; they ignored the employee,1,1,0.14285714285714285
+2020-06-27,Bronx,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-27,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-27,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-27,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-27,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-27,Manhattan,Approached the crowd; they ignored the employee,3,0.6,0.42857142857142855
+2020-06-27,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.2857142857142857
+2020-06-27,Queens,Approached the crowd; they complied with instructions,0,0,0
+2020-06-27,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-27,Queens,Did not approach the crowd; the crowd remains,1,1,0.14285714285714285
+2020-06-27,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-27,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-27,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-28,Bronx,Approached the crowd; they complied with instructions,0,0,0
+2020-06-28,Bronx,Approached the crowd; they ignored the employee,1,0.25,0.1111111111111111
+2020-06-28,Bronx,Did not approach the crowd; the crowd remains,3,0.75,0.3333333333333333
+2020-06-28,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-28,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-28,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-28,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-28,Manhattan,Approached the crowd; they ignored the employee,3,0.6,0.3333333333333333
+2020-06-28,Manhattan,Did not approach the crowd; the crowd remains,2,0.4,0.2222222222222222
+2020-06-28,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-28,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-28,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-28,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-28,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-28,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-29,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-29,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-29,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-29,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-29,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-29,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-29,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-29,Manhattan,Approached the crowd; they ignored the employee,1,1,0.5
+2020-06-29,Manhattan,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-29,Queens,Approached the crowd; they complied with instructions,1,1,0.5
+2020-06-29,Queens,Approached the crowd; they ignored the employee,0,0,0
+2020-06-29,Queens,Did not approach the crowd; the crowd remains,0,0,0
+2020-06-29,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-29,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-29,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-30,Bronx,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-30,Bronx,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-30,Bronx,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-30,Brooklyn,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-30,Brooklyn,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-30,Brooklyn,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-30,Manhattan,Approached the crowd; they complied with instructions,0,0,0
+2020-06-30,Manhattan,Approached the crowd; they ignored the employee,0,0,0
+2020-06-30,Manhattan,Did not approach the crowd; the crowd remains,1,1,1
+2020-06-30,Queens,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-30,Queens,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-30,Queens,Did not approach the crowd; the crowd remains,0,NA,0
+2020-06-30,Staten Island,Approached the crowd; they complied with instructions,0,NA,0
+2020-06-30,Staten Island,Approached the crowd; they ignored the employee,0,NA,0
+2020-06-30,Staten Island,Did not approach the crowd; the crowd remains,0,NA,0
