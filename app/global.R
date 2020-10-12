@@ -75,13 +75,13 @@ park_data<-read.csv(output_shapefile_filepath)
 #####################import data for dashboard#######################
 
 # read ZIP_CODE_040114.shp
-path_zip = "./data/"
+path_zip = "./data/ZIP_CODE_040114/"
 file_zip = "ZIP_CODE_040114.shp"
 zipcode_geo <- sf::st_read(paste0(path_zip, file_zip)) %>%
   sf::st_transform('+proj=longlat +datum=WGS84')
 
 # read park data
-park_join = read_csv(getURL("./output/park_join_4map.csv"),
+park_join = read_csv("./output/park_join_4map.csv",
                          col_types = cols())
 
 park_join.action_taken = c("Approached the crowd; they ignored the employee",
@@ -89,4 +89,4 @@ park_join.action_taken = c("Approached the crowd; they ignored the employee",
                            "Did not approach the crowd; the crowd remains")
 
 # read covid cases data
-case_df = read_csv(getURL("./output/daily_cases_by_boro.csv"))
+case_df = read_csv("./output/daily_cases_by_boro.csv")
