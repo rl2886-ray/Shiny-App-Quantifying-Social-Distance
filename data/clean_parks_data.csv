@@ -1,0 +1,1487 @@
+encounter_timestamp,park_area_id,park_district,park_borough,patroncount,in_playground,action_taken,amenity
+2020-03-25 08:07:40,M108T01,M-15,Manhattan,17,True,Approached the crowd; they complied with instructions,
+2020-03-25 10:44:20,R030-099,R-02,Staten Island,18,False,Approached the crowd; they ignored the employee,
+2020-03-25 10:49:03,R045-01,R-02,Staten Island,8,True,Approached the crowd; they ignored the employee,
+2020-03-25 10:49:53,R005,R-01,Staten Island,6,False,Did not approach the crowd; the crowd remains,
+2020-03-25 10:54:28,R005-ZN01,R-01,Staten Island,10,False,Did not approach the crowd; the crowd remains,
+2020-03-25 10:58:02,R005-01,R-01,Staten Island,10,True,Did not approach the crowd; the crowd remains,
+2020-03-25 11:31:08,R005-ZN01,R-01,Staten Island,7,False,Approached the crowd; they complied with instructions,
+2020-03-25 13:41:12,R005-15,R-01,Staten Island,22,True,Approached the crowd; they ignored the employee,
+2020-03-25 14:09:55,R064,R-02,Staten Island,4,True,Approached the crowd; they ignored the employee,
+2020-03-25 14:12:29,Q015-02,Q-16,Queens,3,True,Did not approach the crowd; the crowd remains,
+2020-03-25 14:15:50,R067,R-02,Staten Island,4,True,Approached the crowd; they ignored the employee,
+2020-03-25 14:16:04,M029-02,M-12,Manhattan,8,True,Approached the crowd; they ignored the employee,
+2020-03-25 14:45:48,M105-02,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,
+2020-03-25 14:53:30,M017,M-03,Manhattan,10,False,Approached the crowd; they complied with instructions,
+2020-03-25 14:57:40,M105-08,M-03,Manhattan,7,False,Approached the crowd; they complied with instructions,
+2020-03-25 15:35:22,M229,M-07,Manhattan,8,True,Did not approach the crowd; the crowd remains,
+2020-03-25 16:11:28,Q001-ZN04,Q-07A,Queens,14,True,Approached the crowd; they ignored the employee,
+2020-03-25 16:48:57,Q211,Q-07,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-03-25 16:58:29,Q024,Q-07,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-03-25 17:05:47,Q024,Q-07,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-03-25 17:20:17,Q099-ZN06,Q-15,Queens,6,False,Approached the crowd; they ignored the employee,
+2020-03-25 17:44:23,Q015,Q-16,Queens,7,False,Approached the crowd; they ignored the employee,
+2020-03-25 17:44:54,Q015-02,Q-16,Queens,4,False,Did not approach the crowd; the crowd remains,
+2020-03-25 17:52:08,Q099-20,Q-15,Queens,3,True,Did not approach the crowd; the crowd remains,
+2020-03-25 17:53:38,Q099-ZN09,Q-15,Queens,3,False,Approached the crowd; they ignored the employee,
+2020-03-26 05:52:07,M037-04,M-12A,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 05:53:01,M037-ZN04,M-12A,Manhattan,5,False,Approached the crowd; they ignored the employee,
+2020-03-26 05:54:08,M042-ZN01,M-12,Manhattan,7,False,Approached the crowd; they ignored the employee,
+2020-03-26 05:54:43,M037-08,M-12A,Manhattan,5,True,Approached the crowd; they complied with instructions,
+2020-03-26 05:55:47,M037-ZN03,M-12A,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 05:56:31,M029-02,M-12,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 05:57:05,M009,M-12,Manhattan,10,True,Approached the crowd; they complied with instructions,
+2020-03-26 05:57:53,M029-01,M-12,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-03-26 07:21:35,Q102-ZN01,Q-05,Queens,20,False,Approached the crowd; they ignored the employee,
+2020-03-26 08:04:11,X042,X-06,Bronx,6,False,Approached the crowd; they ignored the employee,
+2020-03-26 08:06:42,R030-099,R-02,Staten Island,7,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:12:47,M200,M-07,Manhattan,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:13:23,M229,M-07,Manhattan,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:13:48,M244,M-07,Manhattan,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:37:13,Q300-ZN02,Q-07,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:46:45,R111,R-01,Staten Island,4,True,Did not approach the crowd; the crowd remains,
+2020-03-26 08:48:11,RZ125,R-01,Staten Island,4,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:48:50,R024,R-01,Staten Island,9,False,Did not approach the crowd; the crowd remains,
+2020-03-26 08:49:51,R170,R-01,Staten Island,11,False,Did not approach the crowd; the crowd remains,
+2020-03-26 09:01:39,Q021,Q-08,Queens,4,False,Approached the crowd; they ignored the employee,
+2020-03-26 09:04:01,M200A,M-07,Manhattan,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 09:15:22,Q002,Q-05,Queens,25,False,Approached the crowd; they complied with instructions,
+2020-03-26 09:17:08,M186,M-10,Manhattan,4,True,Did not approach the crowd; the crowd remains,
+2020-03-26 09:17:47,Q004-ZN01,Q-01,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-03-26 09:27:07,Q098,Q-04,Queens,6,True,Approached the crowd; they ignored the employee,
+2020-03-26 09:53:48,X255,X-02,Bronx,10,False,Approached the crowd; they ignored the employee,
+2020-03-26 10:09:33,R045,R-02,Staten Island,10,False,Did not approach the crowd; the crowd remains,
+2020-03-26 10:21:00,Q401,Q-06,Queens,5,True,Approached the crowd; they ignored the employee,
+2020-03-26 10:38:26,M105-08,M-03,Manhattan,5,True,Approached the crowd; they complied with instructions,
+2020-03-26 10:39:16,M144,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,
+2020-03-26 10:39:37,R028,R-01,Staten Island,16,False,Did not approach the crowd; the crowd remains,
+2020-03-26 10:39:40,Q340,Q-02,Queens,15,True,Did not approach the crowd; the crowd remains,
+2020-03-26 10:40:12,R035,R-01,Staten Island,4,True,Did not approach the crowd; the crowd remains,
+2020-03-26 10:41:25,R042,R-01,Staten Island,4,True,Did not approach the crowd; the crowd remains,
+2020-03-26 10:42:31,R117,R-01,Staten Island,4,False,Did not approach the crowd; the crowd remains,
+2020-03-26 10:42:32,R045,R-02,Staten Island,23,True,Approached the crowd; they ignored the employee,
+2020-03-26 10:58:50,Q126,Q-07,Queens,5,False,Approached the crowd; they ignored the employee,
+2020-03-26 10:59:06,R046-ZN01,R-02B,Staten Island,5,False,Approached the crowd; they ignored the employee,
+2020-03-26 10:59:30,M144-01,M-03,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-03-26 11:23:19,B022,B-01,Brooklyn,50,True,Did not approach the crowd; the crowd remains,
+2020-03-26 11:25:59,B169A,B-13,Brooklyn,10,False,Approached the crowd; they ignored the employee,
+2020-03-26 11:37:23,Q020-ZN04,Q-05A,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-26 11:37:46,Q015-ZN04,Q-16,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-26 11:42:36,Q086,Q-07,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-03-26 11:42:44,Q031,Q-02,Queens,15,True,Did not approach the crowd; the crowd remains,
+2020-03-26 11:47:15,Q006,Q-07,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-03-26 11:50:46,Q044,Q-02,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 11:52:42,B130,B-07,Brooklyn,6,True,Approached the crowd; they ignored the employee,
+2020-03-26 11:58:58,Q006-01,Q-07,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:05:41,Q300-03,Q-07,Queens,6,True,Did not approach the crowd; the crowd remains,
+2020-03-26 12:08:30,Q385,Q-01,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 12:08:36,Q004-ZN01,Q-01,Queens,50,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:13:29,Q332,Q-01,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 12:13:43,M105,M-03,Manhattan,7,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:14:40,M105,M-03,Manhattan,5,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:16:08,Q024,Q-07,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:17:10,Q395,Q-01,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 12:20:16,M105,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,
+2020-03-26 12:22:12,Q004A,Q-01,Queens,22,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:23:49,Q471-01,Q-02,Queens,5,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:24:47,Q004-ZN01,Q-01,Queens,30,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:25:05,Q471-ZN02,Q-02,Queens,25,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:25:08,Q004-01,Q-01,Queens,6,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:25:29,Q004-ZN02,Q-01,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:31:13,Q021,Q-08,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:45:49,R065-01,R-02,Staten Island,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 12:46:10,Q141,Q-02,Queens,17,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:47:09,R065-ZN08,R-02,Staten Island,30,False,Did not approach the crowd; the crowd remains,
+2020-03-26 12:58:13,Q106,Q-12,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-03-26 12:58:22,B324,B-18,Brooklyn,5,False,Approached the crowd; they complied with instructions,
+2020-03-26 12:59:04,Q067A,Q-02,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-26 13:09:28,M029,M-12,Manhattan,8,True,Approached the crowd; they ignored the employee,
+2020-03-26 13:16:05,M029-01,M-12,Manhattan,10,True,Approached the crowd; they ignored the employee,
+2020-03-26 13:22:19,Q436,Q-01,Queens,11,True,Approached the crowd; they ignored the employee,
+2020-03-26 13:24:35,Q026,Q-04,Queens,5,True,Did not approach the crowd; the crowd remains,
+2020-03-26 13:44:13,R075A,R-02,Staten Island,15,False,Approached the crowd; they ignored the employee,
+2020-03-26 13:49:32,Q085,Q-03,Queens,4,True,Approached the crowd; they ignored the employee,
+2020-03-26 13:51:19,M105-02,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 13:52:19,Q207,Q-06,Queens,25,False,Did not approach the crowd; the crowd remains,
+2020-03-26 13:55:37,M037-ZN01,M-12A,Manhattan,8,False,Approached the crowd; they complied with instructions,
+2020-03-26 13:56:03,M037-ZN04,M-12A,Manhattan,6,True,Did not approach the crowd; the crowd remains,
+2020-03-26 13:58:00,Q391,Q-08,Queens,6,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:10:21,R028,R-01,Staten Island,16,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:10:58,R035,R-01,Staten Island,4,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:12:36,R005-ZN03,R-01,Staten Island,6,False,Approached the crowd; they complied with instructions,
+2020-03-26 14:12:57,R059,R-01,Staten Island,7,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:13:39,R144,R-01,Staten Island,3,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:18:20,Q377,Q-06,Queens,6,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:19:27,B100,B-11,Brooklyn,30,True,Approached the crowd; they ignored the employee,
+2020-03-26 14:19:54,Q348,Q-06,Queens,8,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:20:11,B109,B-15,Brooklyn,30,False,Approached the crowd; they ignored the employee,
+2020-03-26 14:20:12,X041,X-01,Bronx,11,True,Approached the crowd; they ignored the employee,
+2020-03-26 14:20:54,B209,B-15,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 14:22:13,Q099-ZN15,Q-15,Queens,11,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:25:42,B197,B-15,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-03-26 14:26:15,B007,B-11,Brooklyn,50,False,Approached the crowd; they ignored the employee,
+2020-03-26 14:27:53,Q099-ZN10,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:28:26,M029-01,M-12,Manhattan,15,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:32:43,Q099-ZN06,Q-15,Queens,25,False,Approached the crowd; they ignored the employee,
+2020-03-26 14:34:36,Q362,Q-03,Queens,9,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:36:27,Q102-ZN02,Q-05,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:36:46,Q102,Q-05,Queens,8,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:37:04,Q102,Q-05,Queens,12,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:39:22,Q102-ZN03,Q-05,Queens,9,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:43:27,Q102-02,Q-05,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:43:51,B049,B-04,Brooklyn,25,False,Approached the crowd; they complied with instructions,
+2020-03-26 14:45:29,Q410,Q-03,Queens,35,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:45:31,R046-05,R-02B,Staten Island,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:46:04,Q425,Q-06,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 14:47:52,Q476,Q-07,Queens,12,False,Did not approach the crowd; the crowd remains,
+2020-03-26 14:56:28,X045-03,X-01,Bronx,18,False,Approached the crowd; they ignored the employee,
+2020-03-26 14:56:45,R066,R-01,Staten Island,14,False,Did not approach the crowd; the crowd remains,
+2020-03-26 15:01:56,Q359,Q-12,Queens,23,True,Approached the crowd; they ignored the employee,
+2020-03-26 15:02:31,R015,R-01,Staten Island,15,True,Did not approach the crowd; the crowd remains,
+2020-03-26 15:03:31,Q021,Q-08,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-03-26 15:09:42,X045-03,X-01,Bronx,20,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:10:50,X045-01,X-01,Bronx,11,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:11:53,X146,X-01,Bronx,13,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:16:10,R031,R-03,Staten Island,20,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:34:09,Q099-20,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 15:38:23,X045-01,X-01,Bronx,13,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:39:48,X146,X-01,Bronx,11,False,Approached the crowd; they ignored the employee,
+2020-03-26 15:40:24,R005-ZN03,R-01,Staten Island,8,False,Approached the crowd; they complied with instructions,
+2020-03-26 15:45:08,Q340,Q-02,Queens,10,True,Approached the crowd; they ignored the employee,
+2020-03-26 15:55:43,Q099-20,Q-15,Queens,8,True,Did not approach the crowd; the crowd remains,
+2020-03-26 15:56:22,Q099-01,Q-06,Queens,13,True,Did not approach the crowd; the crowd remains,
+2020-03-26 15:59:10,B100,B-11,Brooklyn,25,False,Approached the crowd; they ignored the employee,
+2020-03-26 16:00:09,B087-01,B-07,Brooklyn,6,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:00:44,B209,B-15,Brooklyn,12,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:01:29,B109,B-15,Brooklyn,30,True,Approached the crowd; they ignored the employee,
+2020-03-26 16:02:40,B007,B-11,Brooklyn,40,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:03:39,B164,B-11,Brooklyn,15,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:10:36,B244,B-15,Brooklyn,10,False,Approached the crowd; they ignored the employee,
+2020-03-26 16:10:54,Q099-15,Q-15,Queens,33,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:12:39,Q051,Q-12,Queens,15,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:13:28,Q005-05,Q-12,Queens,20,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:21:34,Q099-ZN06,Q-15,Queens,40,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:30:45,Q163-20,Q-14,Queens,4,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:31:39,M029-01,M-12,Manhattan,8,True,Did not approach the crowd; the crowd remains,
+2020-03-26 16:45:15,B251,B-15,Brooklyn,50,True,Approached the crowd; they ignored the employee,
+2020-03-26 16:46:28,B393,B-15,Brooklyn,40,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:50:50,Q099-ZN06,Q-15,Queens,40,False,Approached the crowd; they ignored the employee,
+2020-03-26 16:52:09,Q099-ZN07,Q-15,Queens,4,False,Did not approach the crowd; the crowd remains,
+2020-03-26 16:53:07,Q021,Q-08,Queens,25,False,Approached the crowd; they ignored the employee,
+2020-03-26 16:56:49,Q099-17,Q-15,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-03-26 17:00:40,Q099-ZN09,Q-15,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:01:40,Q099-ZN20,Q-15,Queens,28,False,Did not approach the crowd; the crowd remains,
+2020-03-26 17:03:56,Q099-ZN13,Q-15,Queens,25,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:04:48,Q099-15,Q-15,Queens,16,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:07:30,Q099-ZN16,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:09:03,Q205A,Q-02,Queens,12,True,Approached the crowd; they ignored the employee,
+2020-03-26 17:21:45,Q099-ZN15,Q-15,Queens,25,True,Approached the crowd; they ignored the employee,
+2020-03-26 17:22:37,Q066B,Q-01,Queens,11,True,Approached the crowd; they ignored the employee,
+2020-03-26 17:23:04,B099,B-11,Brooklyn,30,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:44:50,B251-ZN03,B-15,Brooklyn,15,False,Approached the crowd; they ignored the employee,
+2020-03-26 17:47:57,Q024-03,Q-07,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 17:54:28,Q015-02,Q-16,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-03-26 18:34:19,Q015-02,Q-16,Queens,7,True,Approached the crowd; they ignored the employee,
+2020-03-26 18:35:06,Q015,Q-16,Queens,8,False,Approached the crowd; they ignored the employee,
+2020-03-26 18:36:14,Q015,Q-16,Queens,4,False,Approached the crowd; they ignored the employee,
+2020-03-26 18:54:18,Q106,Q-12,Queens,20,True,Did not approach the crowd; the crowd remains,
+2020-03-26 21:06:21,B057,B-18,Brooklyn,10,True,Did not approach the crowd; the crowd remains,
+2020-03-26 22:55:56,M099,M-12,Manhattan,10,True,Approached the crowd; they ignored the employee,
+2020-03-26 22:56:53,M037-ZN04,M-12A,Manhattan,5,True,Approached the crowd; they ignored the employee,
+2020-03-26 22:57:18,M037-01,M-12A,Manhattan,17,True,Approached the crowd; they ignored the employee,
+2020-03-26 22:57:41,M037-04,M-12A,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 22:58:20,M042-ZN04,M-12,Manhattan,6,False,Approached the crowd; they ignored the employee,
+2020-03-26 23:00:08,M037-ZN03,M-12A,Manhattan,25,True,Approached the crowd; they ignored the employee,
+2020-03-26 23:00:45,M042-ZN01,M-12,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-03-26 23:01:32,M029-02,M-12,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 23:02:15,M029-01,M-12,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-03-26 23:02:53,M037-ZN05,M-12A,Manhattan,8,False,Approached the crowd; they ignored the employee,
+2020-03-27 08:18:56,X029,X-02,Bronx,20,True,Approached the crowd; they ignored the employee,
+2020-03-27 08:19:40,X190,X-02,Bronx,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 08:21:21,Q320,Q-08,Queens,3,True,Approached the crowd; they ignored the employee,
+2020-03-27 08:42:00,Q300-ZN01,Q-07,Queens,15,False,Did not approach the crowd; the crowd remains,
+2020-03-27 09:10:42,R030-099,R-02,Staten Island,20,False,Did not approach the crowd; the crowd remains,
+2020-03-27 09:16:16,Q329,Q-08,Queens,3,True,Approached the crowd; they ignored the employee,
+2020-03-27 09:45:23,Q341F,Q-02,Queens,9,True,Approached the crowd; they ignored the employee,
+2020-03-27 10:03:11,X010A,X-06,Bronx,7,False,Approached the crowd; they ignored the employee,
+2020-03-27 10:10:43,Q067A,Q-02,Queens,22,True,Approached the crowd; they ignored the employee,
+2020-03-27 10:29:30,X011-ZN01,X-06,Bronx,4,False,Approached the crowd; they ignored the employee,
+2020-03-27 10:43:05,R046-ZN01,R-02B,Staten Island,6,False,Did not approach the crowd; the crowd remains,
+2020-03-27 10:53:23,M285,M-11,Manhattan,24,True,Did not approach the crowd; the crowd remains,
+2020-03-27 10:56:44,Q422,Q-14,Queens,6,True,Did not approach the crowd; the crowd remains,
+2020-03-27 11:08:03,B210A,B-07,Brooklyn,4,False,Approached the crowd; they complied with instructions,
+2020-03-27 11:11:05,Q099-ZN12,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,
+2020-03-27 11:18:40,Q099-20,Q-15,Queens,8,True,Did not approach the crowd; the crowd remains,
+2020-03-27 11:28:25,B061,B-02,Brooklyn,15,True,Did not approach the crowd; the crowd remains,
+2020-03-27 11:43:52,Q172,Q-04,Queens,4,False,Approached the crowd; they ignored the employee,
+2020-03-27 11:50:57,M140-01,M-14,Manhattan,4,True,Approached the crowd; they complied with instructions,
+2020-03-27 12:05:50,X068,X-06,Bronx,4,False,Did not approach the crowd; the crowd remains,
+2020-03-27 12:15:54,X174,X-06,Bronx,4,True,Did not approach the crowd; the crowd remains,
+2020-03-27 12:33:50,X058,X-04,Bronx,12,False,Did not approach the crowd; the crowd remains,
+2020-03-27 12:47:13,Q162E,Q-14,Queens,4,True,Approached the crowd; they ignored the employee,
+2020-03-27 12:48:03,R046-ZN01,R-02B,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-03-27 12:48:36,M077-04,M-09,Manhattan,3,False,Approached the crowd; they complied with instructions,
+2020-03-27 12:53:35,Q099-15,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-27 13:07:11,Q099-20,Q-15,Queens,26,True,Did not approach the crowd; the crowd remains,
+2020-03-27 13:09:50,X002-ZN03,X-14,Bronx,10,False,Approached the crowd; they ignored the employee,
+2020-03-27 13:12:29,M220,M-07,Manhattan,5,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:12:38,M029-01,M-12,Manhattan,25,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:13:18,X166,X-03,Bronx,6,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:14:22,R046-ZN01,R-02B,Staten Island,5,False,Approached the crowd; they ignored the employee,
+2020-03-27 13:17:06,Q099-ZN06,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-27 13:23:41,R129-01,R-02,Staten Island,12,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:34:21,Q004-ZN01,Q-01,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:42:41,Q099-ZN12,Q-15,Queens,11,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:43:10,Q099-ZN13,Q-15,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:44:17,R065-ZN09,R-02,Staten Island,27,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:45:27,X156,X-11,Bronx,5,False,Approached the crowd; they complied with instructions,
+2020-03-27 13:49:12,R075A,R-02,Staten Island,9,False,Did not approach the crowd; the crowd remains,
+2020-03-27 13:49:41,Q220G,Q-08,Queens,4,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:52:33,Q407,Q-14,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:56:30,Q162J,Q-14,Queens,30,True,Approached the crowd; they ignored the employee,
+2020-03-27 13:58:19,X202,X-08,Bronx,10,False,Approached the crowd; they ignored the employee,
+2020-03-27 13:59:03,X092-ZN06,X-13,Bronx,8,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:06:33,X232,X-11,Bronx,20,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:09:18,M015,M-01,Manhattan,20,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:09:50,Q162E,Q-14,Queens,5,True,Approached the crowd; they complied with instructions,
+2020-03-27 14:10:23,X039-ZN11,X-15A,Bronx,30,False,Did not approach the crowd; the crowd remains,
+2020-03-27 14:10:43,R045,R-02,Staten Island,5,False,Did not approach the crowd; the crowd remains,
+2020-03-27 14:10:44,Q379,Q-08,Queens,5,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:12:54,B007,B-11,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:13:17,B063,B-11,Brooklyn,20,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:13:36,B099,B-11,Brooklyn,12,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:13:56,B100,B-11,Brooklyn,50,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:14:15,B158,B-11,Brooklyn,12,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:14:37,B164,B-11,Brooklyn,30,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:15:25,B277,B-11,Brooklyn,12,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:15:47,B349,B-11,Brooklyn,10,True,Approached the crowd; they complied with instructions,
+2020-03-27 14:16:10,B051,B-15,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:16:42,B109,B-15,Brooklyn,20,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:17:06,B109,B-15,Brooklyn,20,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:18:15,B157,B-15,Brooklyn,12,True,Did not approach the crowd; the crowd remains,
+2020-03-27 14:18:40,B197,B-15,Brooklyn,20,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:19:07,B208,B-15,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:19:52,X001A-01,X-05,Bronx,20,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:19:52,B209,B-15,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:20:12,X196-02,X-12,Bronx,6,False,Approached the crowd; they complied with instructions,
+2020-03-27 14:20:22,B235,B-15,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:20:56,B239,B-15,Brooklyn,13,True,Did not approach the crowd; the crowd remains,
+2020-03-27 14:34:47,X193,X-12,Bronx,3,False,Approached the crowd; they complied with instructions,
+2020-03-27 14:40:15,X010A-01,X-06,Bronx,50,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:42:54,Q051,Q-12,Queens,4,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:43:20,B236,B-18,Brooklyn,12,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:43:55,B234,B-17,Brooklyn,5,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:49:23,R059,R-01,Staten Island,20,True,Did not approach the crowd; the crowd remains,
+2020-03-27 14:50:07,Q051-01,Q-12,Queens,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 14:53:08,B028-ZN01,B-10,Brooklyn,13,False,Approached the crowd; they ignored the employee,
+2020-03-27 14:58:13,Q007,Q-14,Queens,12,False,Approached the crowd; they complied with instructions,
+2020-03-27 15:01:51,Q099-55,Q-15,Queens,4,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:07:44,Q099-01,Q-06,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-03-27 15:14:20,Q303,Q-03,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-03-27 15:15:45,R042,R-01,Staten Island,25,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:22:40,X255,X-02,Bronx,35,True,Approached the crowd; they ignored the employee,
+2020-03-27 15:23:02,Q066B,Q-01,Queens,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 15:23:17,X179,X-02,Bronx,30,True,Approached the crowd; they complied with instructions,
+2020-03-27 15:27:06,X039-ZN11,X-15A,Bronx,45,False,Approached the crowd; they ignored the employee,
+2020-03-27 15:30:34,R106-ZN01,R-03,Staten Island,25,True,Approached the crowd; they complied with instructions,
+2020-03-27 15:34:36,Q099-ZN17,Q-15,Queens,17,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:39:01,Q099-ZN15,Q-15,Queens,38,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:39:52,Q099-ZN09,Q-15,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:42:13,Q099-ZN06,Q-15,Queens,25,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:47:37,Q099-ZN18,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-27 15:56:07,M056-01,M-09,Manhattan,10,False,Did not approach the crowd; the crowd remains,
+2020-03-27 16:01:46,X045-01,X-01,Bronx,31,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:02:08,X045-03,X-01,Bronx,21,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:02:28,X146,X-01,Bronx,16,False,Approached the crowd; they ignored the employee,
+2020-03-27 16:04:35,X113,X-02,Bronx,20,True,Did not approach the crowd; the crowd remains,
+2020-03-27 16:13:09,Q126,Q-07,Queens,25,False,Did not approach the crowd; the crowd remains,
+2020-03-27 16:14:54,B244,B-15,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:15:26,B251,B-15,Brooklyn,50,False,Approached the crowd; they ignored the employee,
+2020-03-27 16:15:52,B251-04,B-15,Brooklyn,20,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:16:36,B306,B-15,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:17:54,B205,B-15,Brooklyn,10,False,Approached the crowd; they ignored the employee,
+2020-03-27 16:18:16,B094,B-15,Brooklyn,10,False,Approached the crowd; they ignored the employee,
+2020-03-27 16:18:46,B289,B-15,Brooklyn,10,False,Did not approach the crowd; the crowd remains,
+2020-03-27 16:19:37,Q015-08,Q-16,Queens,16,False,Did not approach the crowd; the crowd remains,
+2020-03-27 16:23:56,B337,B-13,Brooklyn,18,True,Did not approach the crowd; the crowd remains,
+2020-03-27 16:26:04,B080,B-13,Brooklyn,25,False,Did not approach the crowd; the crowd remains,
+2020-03-27 16:26:27,B001,B-01,Brooklyn,35,True,Did not approach the crowd; the crowd remains,
+2020-03-27 16:27:47,X045-ZN01,X-01,Bronx,17,False,Approached the crowd; they ignored the employee,
+2020-03-27 16:28:12,X154,X-01,Bronx,12,True,Approached the crowd; they ignored the employee,
+2020-03-27 16:33:42,B268,B-13,Brooklyn,19,True,Did not approach the crowd; the crowd remains,
+2020-03-27 16:59:27,Q099-ZN12,Q-15,Queens,50,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:01:21,X028,X-04,Bronx,16,False,Did not approach the crowd; the crowd remains,
+2020-03-27 17:06:16,Q099-ZN14,Q-15,Queens,17,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:10:01,Q102-02,Q-05,Queens,40,False,Approached the crowd; they ignored the employee,
+2020-03-27 17:10:49,Q099-ZN09,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:11:24,Q099-ZN16,Q-15,Queens,10,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:18:37,Q099-ZN06,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:28:00,Q099-15,Q-15,Queens,20,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:32:19,Q099-16,Q-15,Queens,20,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:36:04,R052,R-01,Staten Island,8,False,Did not approach the crowd; the crowd remains,
+2020-03-27 17:45:28,B293,B-02,Brooklyn,25,True,Approached the crowd; they ignored the employee,
+2020-03-27 17:45:44,Q099-20,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,
+2020-03-27 17:48:01,X113,X-02,Bronx,25,True,Did not approach the crowd; the crowd remains,
+2020-03-27 18:35:10,B008-03,B-16,Brooklyn,40,True,Approached the crowd; they ignored the employee,
+2020-03-27 18:45:02,Q099-ZN19,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,
+2020-03-28 09:00:09,R030-099,R-02,Staten Island,14,False,Approached the crowd; they ignored the employee,
+2020-03-28 09:31:05,M105-01,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,
+2020-03-28 10:00:46,Q021-ZN02,Q-08,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-03-28 11:11:41,R022-04,R-01,Staten Island,4,True,Approached the crowd; they complied with instructions,
+2020-03-28 11:28:30,Q099-ZN20,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-29 08:42:56,Q102-ZN01,Q-05,Queens,20,False,Did not approach the crowd; the crowd remains,
+2020-03-29 10:02:50,Q106,Q-12,Queens,7,False,Approached the crowd; they complied with instructions,
+2020-03-29 11:15:35,M220,M-07,Manhattan,9,True,Approached the crowd; they complied with instructions,
+2020-03-29 11:53:23,X002-ZN03,X-14,Bronx,6,True,Approached the crowd; they ignored the employee,
+2020-03-29 13:54:43,M015,M-01,Manhattan,25,False,Approached the crowd; they complied with instructions,
+2020-03-29 15:16:05,M015,M-01,Manhattan,28,False,Approached the crowd; they complied with instructions,
+2020-03-29 15:22:15,X002-ZN03,X-14,Bronx,10,False,Did not approach the crowd; the crowd remains,
+2020-03-29 15:23:17,X002-ZN03,X-14,Bronx,10,False,Approached the crowd; they ignored the employee,
+2020-03-30 08:20:07,Q024-02,Q-07,Queens,6,True,Did not approach the crowd; the crowd remains,
+2020-03-30 08:57:22,Q020-ZN05,Q-05A,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-03-30 11:30:06,X045,X-01,Bronx,4,False,Approached the crowd; they ignored the employee,
+2020-03-30 11:53:12,X044,X-07,Bronx,8,False,Approached the crowd; they ignored the employee,
+2020-03-30 12:10:46,R073,R-02,Staten Island,10,True,Did not approach the crowd; the crowd remains,
+2020-03-30 12:11:16,R063,R-02,Staten Island,5,True,Did not approach the crowd; the crowd remains,
+2020-03-30 12:18:48,Q471,Q-02,Queens,11,False,Did not approach the crowd; the crowd remains,
+2020-03-30 12:24:40,Q471-ZN01,Q-02,Queens,7,False,Did not approach the crowd; the crowd remains,
+2020-03-30 12:25:50,Q471,Q-02,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-03-30 13:42:29,M144,M-03,Manhattan,16,False,Did not approach the crowd; the crowd remains,
+2020-03-30 13:44:43,M144-ZN06,M-03,Manhattan,8,False,Approached the crowd; they ignored the employee,
+2020-03-30 13:57:52,Q471,Q-02,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-03-30 14:03:55,Q410,Q-03,Queens,40,False,Did not approach the crowd; the crowd remains,
+2020-03-30 15:06:38,X039-ZN11,X-15A,Bronx,20,False,Approached the crowd; they ignored the employee,
+2020-03-30 15:51:51,Q205A,Q-02,Queens,4,True,Approached the crowd; they ignored the employee,
+2020-03-30 16:55:44,Q021,Q-08,Queens,12,False,Approached the crowd; they ignored the employee,
+2020-03-30 17:09:04,Q340,Q-02,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-03-30 19:38:56,R005-01,R-01,Staten Island,10,True,Did not approach the crowd; the crowd remains,
+2020-03-30 19:39:42,R005-15,R-01,Staten Island,3,True,Did not approach the crowd; the crowd remains,
+2020-03-30 19:40:39,R022-05,R-01,Staten Island,5,True,Did not approach the crowd; the crowd remains,
+2020-03-31 09:02:12,Q341F,Q-02,Queens,12,True,Approached the crowd; they ignored the employee,
+2020-03-31 10:36:31,Q067A,Q-02,Queens,14,True,Did not approach the crowd; the crowd remains,
+2020-03-31 10:43:50,B050,B-06,Brooklyn,6,False,Did not approach the crowd; the crowd remains,
+2020-03-31 11:10:54,R026,R-03,Staten Island,8,True,Approached the crowd; they complied with instructions,
+2020-03-31 11:23:00,Q099,Q-15,Queens,4,False,Did not approach the crowd; the crowd remains,
+2020-03-31 11:33:19,QT19,Q-08,Queens,12,False,Approached the crowd; they ignored the employee,
+2020-03-31 12:05:17,Q099-18,Q-15,Queens,10,True,Approached the crowd; they ignored the employee,
+2020-03-31 12:08:40,Q004-ZN01,Q-01,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-03-31 13:29:06,Q106,Q-12,Queens,3,True,Approached the crowd; they ignored the employee,
+2020-03-31 13:52:06,M071-ZN07,M-14,Manhattan,4,False,Did not approach the crowd; the crowd remains,
+2020-03-31 14:04:24,R019,R-01,Staten Island,3,False,Approached the crowd; they ignored the employee,
+2020-03-31 14:05:28,R019,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-03-31 15:02:20,R030-099,R-02,Staten Island,24,True,Did not approach the crowd; the crowd remains,
+2020-03-31 15:28:36,R019,R-01,Staten Island,25,False,Did not approach the crowd; the crowd remains,
+2020-03-31 16:09:32,B251,B-15,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-03-31 16:12:57,M237,M-02,Manhattan,35,False,Did not approach the crowd; the crowd remains,
+2020-03-31 16:44:19,Q163-02,Q-14,Queens,5,True,Approached the crowd; they complied with instructions,
+2020-03-31 16:54:56,B058,B-01,Brooklyn,20,False,Approached the crowd; they ignored the employee,
+2020-03-31 16:56:49,B058,B-01,Brooklyn,25,False,Did not approach the crowd; the crowd remains,
+2020-03-31 16:57:07,Q126,Q-07,Queens,20,False,Approached the crowd; they ignored the employee,
+2020-03-31 17:04:55,Q066D,Q-01,Queens,12,True,Approached the crowd; they ignored the employee,
+2020-03-31 17:18:21,B058-ZN01,B-01,Brooklyn,20,False,Approached the crowd; they ignored the employee,
+2020-03-31 18:17:05,Q474,Q-04,Queens,4,True,Did not approach the crowd; the crowd remains,
+2020-04-01 08:12:39,Q099-ZN12,Q-15,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-04-01 09:42:23,Q004-ZN01,Q-01,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-04-01 10:24:20,M105-08,M-03,Manhattan,8,True,Approached the crowd; they ignored the employee,
+2020-04-01 10:43:12,R005,R-01,Staten Island,7,False,Approached the crowd; they complied with instructions,
+2020-04-01 10:44:22,R015,R-01,Staten Island,10,True,Approached the crowd; they complied with instructions,
+2020-04-01 11:38:09,X039-ZN01,X-15,Bronx,9,False,Did not approach the crowd; the crowd remains,
+2020-04-01 12:05:17,M391-ZN01,M-01,Manhattan,20,False,Approached the crowd; they complied with instructions,
+2020-04-01 12:40:24,X255,X-02,Bronx,10,True,Approached the crowd; they ignored the employee,
+2020-04-01 13:03:06,B028-03,B-10,Brooklyn,50,False,Did not approach the crowd; the crowd remains,
+2020-04-01 13:19:34,B007,B-11,Brooklyn,20,False,Did not approach the crowd; the crowd remains,
+2020-04-01 13:30:20,B277,B-11,Brooklyn,25,True,Did not approach the crowd; the crowd remains,
+2020-04-01 13:33:51,B151,B-12,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-04-01 13:39:11,R090,R-03,Staten Island,6,False,Did not approach the crowd; the crowd remains,
+2020-04-01 13:46:46,Q099-ZN09,Q-15,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-04-01 13:48:20,Q106,Q-12,Queens,8,False,Approached the crowd; they ignored the employee,
+2020-04-01 13:51:00,X022,X-02,Bronx,10,False,Did not approach the crowd; the crowd remains,
+2020-04-01 13:53:01,M015,M-01,Manhattan,35,False,Approached the crowd; they complied with instructions,
+2020-04-01 13:56:46,R078,R-01,Staten Island,9,False,Approached the crowd; they ignored the employee,
+2020-04-01 14:14:09,R065-ZN03,R-02,Staten Island,12,False,Approached the crowd; they complied with instructions,
+2020-04-01 14:15:53,B008-03,B-16,Brooklyn,10,True,Did not approach the crowd; the crowd remains,
+2020-04-01 14:15:54,R065-ZN12,R-02,Staten Island,7,False,Approached the crowd; they complied with instructions,
+2020-04-01 14:17:40,R065-ZN09,R-02,Staten Island,5,False,Approached the crowd; they complied with instructions,
+2020-04-01 14:22:08,R069,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-01 14:33:06,M105-04,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-04-01 14:33:11,Q004,Q-01,Queens,50,False,Did not approach the crowd; the crowd remains,
+2020-04-01 14:33:53,B035,B-10,Brooklyn,12,False,Did not approach the crowd; the crowd remains,
+2020-04-01 14:36:40,B058-ZN01,B-01,Brooklyn,30,False,Did not approach the crowd; the crowd remains,
+2020-04-01 14:41:39,R076,R-01,Staten Island,20,False,Did not approach the crowd; the crowd remains,
+2020-04-01 14:46:20,Q106,Q-12,Queens,7,True,Approached the crowd; they ignored the employee,
+2020-04-01 14:52:59,Q359,Q-12,Queens,9,False,Approached the crowd; they ignored the employee,
+2020-04-01 14:55:54,M105-08,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,
+2020-04-01 14:57:02,R008,R-01,Staten Island,15,True,Approached the crowd; they ignored the employee,
+2020-04-01 14:57:47,M144-ZN06,M-03,Manhattan,45,True,Approached the crowd; they ignored the employee,
+2020-04-01 14:59:30,B109,B-15,Brooklyn,22,True,Did not approach the crowd; the crowd remains,
+2020-04-01 15:00:09,R004,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-01 15:01:53,B362,B-16,Brooklyn,25,True,Did not approach the crowd; the crowd remains,
+2020-04-01 15:08:50,M105-08,M-03,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-04-01 15:11:23,R015,R-01,Staten Island,4,False,Approached the crowd; they complied with instructions,
+2020-04-01 15:19:36,B058-ZN01,B-01,Brooklyn,30,False,Approached the crowd; they ignored the employee,
+2020-04-01 15:37:28,R005,R-01,Staten Island,25,False,Approached the crowd; they ignored the employee,
+2020-04-01 16:07:49,X045-03,X-01,Bronx,32,True,Approached the crowd; they ignored the employee,
+2020-04-01 16:08:16,X228,X-01,Bronx,13,False,Approached the crowd; they ignored the employee,
+2020-04-01 16:31:09,R042,R-01,Staten Island,15,True,Did not approach the crowd; the crowd remains,
+2020-04-01 16:37:52,M069,M-02,Manhattan,7,False,Approached the crowd; they complied with instructions,
+2020-04-01 16:38:27,M072-ZN28,M-14,Manhattan,10,False,Did not approach the crowd; the crowd remains,
+2020-04-01 16:50:12,R065-ZN09,R-02,Staten Island,7,False,Approached the crowd; they ignored the employee,
+2020-04-01 17:06:28,M237,M-02,Manhattan,39,False,Approached the crowd; they complied with instructions,
+2020-04-01 17:08:44,R046-ZN04,R-02B,Staten Island,12,False,Approached the crowd; they ignored the employee,
+2020-04-01 17:09:57,B042,B-12,Brooklyn,30,True,Approached the crowd; they ignored the employee,
+2020-04-01 17:32:27,Q410,Q-03,Queens,12,True,Approached the crowd; they ignored the employee,
+2020-04-01 17:56:30,R016-ZN01,R-03,Staten Island,12,False,Approached the crowd; they complied with instructions,
+2020-04-01 18:07:23,Q099-16,Q-15,Queens,10,True,Approached the crowd; they ignored the employee,
+2020-04-01 18:09:01,M069,M-02,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-04-01 18:38:34,Q099-ZN19,Q-15,Queens,25,True,Approached the crowd; they ignored the employee,
+2020-04-01 18:41:49,X113,X-02,Bronx,15,True,Approached the crowd; they complied with instructions,
+2020-04-01 18:44:24,Q099-ZN15,Q-15,Queens,50,True,Approached the crowd; they ignored the employee,
+2020-04-01 18:47:13,Q099-ZN14,Q-15,Queens,15,True,Approached the crowd; they ignored the employee,
+2020-04-01 19:04:38,X255,X-02,Bronx,30,True,Approached the crowd; they complied with instructions,
+2020-04-01 19:10:59,X166,X-03,Bronx,13,True,Approached the crowd; they ignored the employee,
+2020-04-01 19:20:49,M019,M-03,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-04-01 19:21:58,M123,M-03,Manhattan,6,False,Approached the crowd; they complied with instructions,
+2020-04-01 19:22:39,M019,M-03,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-04-01 19:23:45,M124,M-03,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-04-02 07:55:06,R078,R-01,Staten Island,8,False,Approached the crowd; they complied with instructions,
+2020-04-02 08:05:52,Q020-ZN05,Q-05A,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-04-02 08:17:13,M144-01,M-03,Manhattan,10,True,Approached the crowd; they complied with instructions,
+2020-04-02 08:54:54,M144,M-03,Manhattan,7,False,Approached the crowd; they ignored the employee,
+2020-04-02 09:55:57,X041,X-01,Bronx,5,True,Approached the crowd; they ignored the employee,
+2020-04-02 10:39:45,M088,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,
+2020-04-02 10:53:47,B058-ZN02,B-01,Brooklyn,20,False,Did not approach the crowd; the crowd remains,
+2020-04-02 11:06:31,M144-01,M-03,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-04-02 11:11:44,M144,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,
+2020-04-02 11:26:02,M019,M-03,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-04-02 11:33:29,M037-ZN04,M-12A,Manhattan,6,False,Approached the crowd; they ignored the employee,
+2020-04-02 13:03:21,R045,R-02,Staten Island,15,False,Did not approach the crowd; the crowd remains,
+2020-04-02 13:11:19,B058-ZN01,B-01,Brooklyn,30,False,Did not approach the crowd; the crowd remains,
+2020-04-02 13:32:29,Q020,Q-05A,Queens,9,False,Did not approach the crowd; the crowd remains,
+2020-04-02 13:54:17,M019,M-03,Manhattan,30,True,Approached the crowd; they ignored the employee,
+2020-04-02 14:00:13,B217,B-03,Brooklyn,9,True,Approached the crowd; they complied with instructions,
+2020-04-02 14:21:55,B105,B-03,Brooklyn,15,True,Did not approach the crowd; the crowd remains,
+2020-04-02 14:22:05,B105,B-03,Brooklyn,15,True,Did not approach the crowd; the crowd remains,
+2020-04-02 14:41:49,R030-099,R-02,Staten Island,30,False,Did not approach the crowd; the crowd remains,
+2020-04-02 14:45:44,M144-01,M-03,Manhattan,18,True,Approached the crowd; they ignored the employee,
+2020-04-02 14:46:38,M144,M-03,Manhattan,45,False,Did not approach the crowd; the crowd remains,
+2020-04-02 15:03:03,X201,X-08,Bronx,12,False,Approached the crowd; they ignored the employee,
+2020-04-02 15:05:20,M019,M-03,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-04-02 15:40:51,B058-ZN01,B-01,Brooklyn,30,False,Did not approach the crowd; the crowd remains,
+2020-04-02 15:59:33,X045-01,X-01,Bronx,16,True,Approached the crowd; they ignored the employee,
+2020-04-02 16:04:19,Q162E,Q-14,Queens,3,True,Approached the crowd; they complied with instructions,
+2020-04-02 16:13:08,R065-ZN01,R-02,Staten Island,6,False,Approached the crowd; they complied with instructions,
+2020-04-02 16:14:11,R065-ZN05,R-02,Staten Island,5,False,Approached the crowd; they complied with instructions,
+2020-04-02 16:14:56,R065-ZN12,R-02,Staten Island,7,True,Approached the crowd; they complied with instructions,
+2020-04-02 16:16:39,M237,M-02,Manhattan,20,False,Approached the crowd; they complied with instructions,
+2020-04-02 16:17:49,M191,M-02,Manhattan,19,False,Approached the crowd; they ignored the employee,
+2020-04-02 16:55:33,Q162E,Q-14,Queens,5,True,Approached the crowd; they ignored the employee,
+2020-04-02 17:03:56,M019,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,
+2020-04-02 17:34:45,B105,B-03,Brooklyn,30,True,Approached the crowd; they complied with instructions,
+2020-04-02 17:41:10,X255,X-02,Bronx,35,True,Approached the crowd; they ignored the employee,
+2020-04-02 17:41:13,Q134,Q-13,Queens,5,True,Approached the crowd; they complied with instructions,
+2020-04-02 18:10:54,B294,B-03,Brooklyn,12,True,Approached the crowd; they complied with instructions,
+2020-04-02 18:13:32,B219,B-16,Brooklyn,25,False,Approached the crowd; they complied with instructions,
+2020-04-03 10:54:54,Q220G,Q-08,Queens,4,True,Approached the crowd; they ignored the employee,
+2020-04-03 16:23:30,R083,R-01,Staten Island,9,False,Approached the crowd; they complied with instructions,
+2020-04-03 16:28:10,R008,R-01,Staten Island,7,False,Approached the crowd; they complied with instructions,
+2020-04-03 17:39:12,B214-01,B-05,Brooklyn,20,False,Approached the crowd; they complied with instructions,
+2020-04-04 09:34:55,B260,B-16,Brooklyn,3,True,Did not approach the crowd; the crowd remains,
+2020-04-04 10:38:54,X030,X-04,Bronx,25,False,Did not approach the crowd; the crowd remains,
+2020-04-04 11:12:14,Q086,Q-07,Queens,30,False,Did not approach the crowd; the crowd remains,
+2020-04-04 11:13:41,Q086-01,Q-07,Queens,15,False,Did not approach the crowd; the crowd remains,
+2020-04-04 11:31:08,X042,X-06,Bronx,5,False,Approached the crowd; they ignored the employee,
+2020-04-04 11:39:06,X002-ZN03,X-14,Bronx,25,False,Approached the crowd; they ignored the employee,
+2020-04-04 12:03:19,B078,B-05,Brooklyn,15,True,Approached the crowd; they ignored the employee,
+2020-04-04 12:04:12,B219,B-16,Brooklyn,10,True,Approached the crowd; they ignored the employee,
+2020-04-04 12:10:15,M019,M-03,Manhattan,25,True,Approached the crowd; they ignored the employee,
+2020-04-04 12:11:02,M105-08,M-03,Manhattan,13,False,Approached the crowd; they complied with instructions,
+2020-04-04 12:13:41,B058-ZN02,B-01,Brooklyn,20,False,Did not approach the crowd; the crowd remains,
+2020-04-04 12:32:56,M144-01,M-03,Manhattan,12,True,Approached the crowd; they ignored the employee,
+2020-04-04 12:34:26,M144,M-03,Manhattan,40,False,Did not approach the crowd; the crowd remains,
+2020-04-04 12:48:05,X028,X-04,Bronx,4,True,Did not approach the crowd; the crowd remains,
+2020-04-04 13:09:56,X044,X-07,Bronx,6,False,Approached the crowd; they ignored the employee,
+2020-04-04 13:39:55,B008-03,B-16,Brooklyn,4,True,Approached the crowd; they ignored the employee,
+2020-04-04 13:53:41,M105-08,M-03,Manhattan,6,False,Approached the crowd; they ignored the employee,
+2020-04-04 14:01:58,B057-05,B-18,Brooklyn,5,True,Did not approach the crowd; the crowd remains,
+2020-04-04 14:02:48,B057-ZN01,B-18,Brooklyn,4,False,Did not approach the crowd; the crowd remains,
+2020-04-04 14:14:56,M144-01,M-03,Manhattan,14,True,Did not approach the crowd; the crowd remains,
+2020-04-04 14:15:02,M205,M-09,Manhattan,16,True,Approached the crowd; they complied with instructions,
+2020-04-04 14:15:21,M391,M-01,Manhattan,30,False,Approached the crowd; they complied with instructions,
+2020-04-04 14:15:41,M144,M-03,Manhattan,45,False,Did not approach the crowd; the crowd remains,
+2020-04-04 14:15:45,B008-03,B-16,Brooklyn,20,True,Approached the crowd; they ignored the employee,
+2020-04-04 14:44:00,Q099-ZN15,Q-15,Queens,40,True,Did not approach the crowd; the crowd remains,
+2020-04-04 14:45:29,Q305,Q-05,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-04-04 14:49:44,B214-02,B-05,Brooklyn,30,False,Did not approach the crowd; the crowd remains,
+2020-04-04 15:08:13,Q099-ZN14,Q-15,Queens,17,False,Approached the crowd; they complied with instructions,
+2020-04-04 16:31:43,Q099-ZN06,Q-15,Queens,36,False,Approached the crowd; they ignored the employee,
+2020-04-04 16:49:52,Q099-ZN20,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,
+2020-04-04 16:54:45,Q099-ZN06,Q-15,Queens,14,True,Did not approach the crowd; the crowd remains,
+2020-04-04 16:55:10,Q099-ZN06,Q-15,Queens,14,True,Did not approach the crowd; the crowd remains,
+2020-04-04 17:00:24,Q086,Q-07,Queens,25,True,Approached the crowd; they ignored the employee,
+2020-04-04 17:00:54,Q086-01,Q-07,Queens,25,True,Approached the crowd; they ignored the employee,
+2020-04-04 17:01:22,Q006-01,Q-07,Queens,15,True,Approached the crowd; they ignored the employee,
+2020-04-04 17:06:32,Q099-ZN15,Q-15,Queens,48,True,Did not approach the crowd; the crowd remains,
+2020-04-04 17:37:05,Q021-ZN03,Q-08,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-04-05 09:30:14,X194,X-01,Bronx,3,True,Approached the crowd; they ignored the employee,
+2020-04-05 09:32:28,X008-ZN03,X-04,Bronx,6,True,Did not approach the crowd; the crowd remains,
+2020-04-05 10:12:53,R015,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-05 10:52:29,M144-ZN04,M-03,Manhattan,35,True,Approached the crowd; they ignored the employee,
+2020-04-05 12:00:27,X002-ZN03,X-14,Bronx,10,True,Did not approach the crowd; the crowd remains,
+2020-04-05 12:30:17,X002-ZN03,X-14,Bronx,30,False,Approached the crowd; they ignored the employee,
+2020-04-05 13:09:28,R019,R-01,Staten Island,13,False,Approached the crowd; they ignored the employee,
+2020-04-05 14:05:43,B585,B-16,Brooklyn,10,False,Did not approach the crowd; the crowd remains,
+2020-04-05 14:19:21,X187-01,X-12,Bronx,15,False,Approached the crowd; they ignored the employee,
+2020-04-05 14:25:39,Q099-ZN17,Q-15,Queens,35,False,Did not approach the crowd; the crowd remains,
+2020-04-05 14:49:22,M144-ZN04,M-03,Manhattan,20,True,Approached the crowd; they ignored the employee,
+2020-04-05 15:11:41,B008-03,B-16,Brooklyn,20,True,Approached the crowd; they ignored the employee,
+2020-04-05 16:13:09,B088-03,B-03,Brooklyn,16,True,Approached the crowd; they ignored the employee,
+2020-04-05 17:46:06,B017,B-04,Brooklyn,40,True,Approached the crowd; they ignored the employee,
+2020-04-05 17:59:40,B057-ZN01,B-18,Brooklyn,15,False,Approached the crowd; they complied with instructions,
+2020-04-05 19:24:55,R005-ZN01,R-01,Staten Island,10,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:25:47,R005-ZN02,R-01,Staten Island,15,False,Approached the crowd; they ignored the employee,
+2020-04-05 19:26:31,R005-ZN03,R-01,Staten Island,15,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:27:22,R005-ZN03,R-01,Staten Island,7,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:27:48,R005-ZN04,R-01,Staten Island,3,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:29:16,R022-ZN01,R-01,Staten Island,10,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:29:44,R022-ZN02,R-01,Staten Island,15,False,Did not approach the crowd; the crowd remains,
+2020-04-05 19:32:18,RZ171,R-01,Staten Island,4,False,Did not approach the crowd; the crowd remains,
+2020-04-06 08:11:45,RZ305,R-02,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-06 08:12:18,R005-ZN03,R-01,Staten Island,7,False,Approached the crowd; they complied with instructions,
+2020-04-06 09:34:41,B294,B-03,Brooklyn,15,True,Did not approach the crowd; the crowd remains,
+2020-04-06 10:01:13,X030-ZN01,X-04,Bronx,25,False,Did not approach the crowd; the crowd remains,
+2020-04-06 12:09:53,B381,B-04,Brooklyn,25,True,Approached the crowd; they ignored the employee,
+2020-04-06 12:18:32,Q341F,Q-02,Queens,8,True,Approached the crowd; they ignored the employee,
+2020-04-06 13:28:16,R005-ZN02,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-06 13:47:11,B285,B-17,Brooklyn,10,False,Approached the crowd; they ignored the employee,
+2020-04-06 14:33:03,X255,X-02,Bronx,30,False,Approached the crowd; they ignored the employee,
+2020-04-06 15:02:43,X255,X-02,Bronx,40,True,Did not approach the crowd; the crowd remains,
+2020-04-06 15:23:55,M105-08,M-03,Manhattan,4,True,Approached the crowd; they ignored the employee,
+2020-04-06 15:28:48,M105,M-03,Manhattan,4,False,Approached the crowd; they complied with instructions,
+2020-04-06 15:31:22,R046-ZN05,R-02B,Staten Island,15,False,Did not approach the crowd; the crowd remains,
+2020-04-06 16:20:05,X039-ZN16,X-15A,Bronx,25,False,Approached the crowd; they complied with instructions,
+2020-04-06 16:47:22,B254,B-09,Brooklyn,20,False,Did not approach the crowd; the crowd remains,
+2020-04-06 16:49:56,X039-ZN01,X-15,Bronx,50,False,Did not approach the crowd; the crowd remains,
+2020-04-06 18:38:55,B381,B-04,Brooklyn,40,True,Did not approach the crowd; the crowd remains,
+2020-04-07 07:24:54,R005-ZN03,R-01,Staten Island,8,False,Approached the crowd; they ignored the employee,
+2020-04-07 09:33:24,B088-03,B-03,Brooklyn,3,True,Approached the crowd; they ignored the employee,
+2020-04-07 10:47:51,X030-ZN01,X-04,Bronx,40,False,Did not approach the crowd; the crowd remains,
+2020-04-07 11:13:46,Q099-ZN12,Q-15,Queens,7,False,Did not approach the crowd; the crowd remains,
+2020-04-07 11:23:27,B219,B-16,Brooklyn,25,True,Did not approach the crowd; the crowd remains,
+2020-04-07 11:41:44,Q205A,Q-02,Queens,14,True,Approached the crowd; they ignored the employee,
+2020-04-07 13:30:52,X136,X-07,Bronx,7,False,Approached the crowd; they ignored the employee,
+2020-04-07 13:40:19,Q198-QZ118,Q-02,Queens,7,True,Approached the crowd; they ignored the employee,
+2020-04-07 13:41:35,Q044,Q-02,Queens,15,True,Approached the crowd; they ignored the employee,
+2020-04-07 14:09:29,M144,M-03,Manhattan,50,False,Did not approach the crowd; the crowd remains,
+2020-04-07 14:13:48,R017-ZN01,R-03,Staten Island,12,False,Did not approach the crowd; the crowd remains,
+2020-04-07 14:20:48,R129-01,R-02,Staten Island,20,False,Approached the crowd; they ignored the employee,
+2020-04-07 14:52:55,Q089B,Q-07,Queens,15,False,Did not approach the crowd; the crowd remains,
+2020-04-07 14:53:38,Q300-ZN01,Q-07,Queens,10,False,Approached the crowd; they ignored the employee,
+2020-04-07 15:09:58,M194,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,
+2020-04-07 15:24:10,Q341F,Q-02,Queens,10,False,Approached the crowd; they ignored the employee,
+2020-04-07 16:28:08,R005,R-01,Staten Island,9,False,Approached the crowd; they ignored the employee,
+2020-04-07 16:31:07,R065-ZN15,R-02,Staten Island,7,False,Did not approach the crowd; the crowd remains,
+2020-04-07 16:45:48,R065-ZN03,R-02,Staten Island,20,False,Approached the crowd; they complied with instructions,
+2020-04-07 16:46:30,R065-ZN09,R-02,Staten Island,12,False,Approached the crowd; they complied with instructions,
+2020-04-07 16:47:02,R065-ZN12,R-02,Staten Island,13,True,Approached the crowd; they complied with instructions,
+2020-04-07 16:47:33,R065-ZN02,R-02,Staten Island,6,False,Approached the crowd; they ignored the employee,
+2020-04-07 17:56:46,B381,B-04,Brooklyn,25,True,Did not approach the crowd; the crowd remains,
+2020-04-08 09:57:40,M105-08,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,
+2020-04-08 10:01:36,M105-02,M-03,Manhattan,8,False,Approached the crowd; they complied with instructions,
+2020-04-08 11:00:06,M088,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,
+2020-04-08 11:38:50,B016,B-04,Brooklyn,50,False,Did not approach the crowd; the crowd remains,
+2020-04-08 12:53:50,M144,M-03,Manhattan,25,False,Did not approach the crowd; the crowd remains,
+2020-04-08 13:12:52,R075A,R-02,Staten Island,6,False,Approached the crowd; they ignored the employee,
+2020-04-08 13:33:27,Q099-ZN09,Q-15,Queens,8,False,Did not approach the crowd; the crowd remains,
+2020-04-08 13:41:13,Q099-ZN09,Q-15,Queens,5,False,Did not approach the crowd; the crowd remains,
+2020-04-08 13:41:15,R109,R-01,Staten Island,10,False,Approached the crowd; they ignored the employee,
+2020-04-08 13:48:57,M144,M-03,Manhattan,30,False,Did not approach the crowd; the crowd remains,
+2020-04-08 14:17:36,M045,M-08,Manhattan,35,False,Did not approach the crowd; the crowd remains,
+2020-04-08 14:24:31,M019,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,
+2020-04-08 14:25:45,M105-02,M-03,Manhattan,17,False,Approached the crowd; they ignored the employee,
+2020-04-08 14:28:00,M144,M-03,Manhattan,30,False,Did not approach the crowd; the crowd remains,
+2020-04-08 14:33:56,X030-ZN01,X-04,Bronx,50,True,Did not approach the crowd; the crowd remains,
+2020-04-08 15:03:36,Q099-ZN12,Q-15,Queens,6,False,Did not approach the crowd; the crowd remains,
+2020-04-08 15:53:28,Q015-ZN04,Q-16,Queens,14,False,Did not approach the crowd; the crowd remains,
+2020-04-08 19:08:53,B381,B-04,Brooklyn,15,False,Did not approach the crowd; the crowd remains,
+2020-04-08 22:41:00,M224,M-03,Manhattan,9,False,Approached the crowd; they ignored the employee,
+2020-04-08 23:12:46,M002,M-03,Manhattan,8,False,Approached the crowd; they ignored the employee,
+2020-04-09 08:36:58,M105-08,M-03,Manhattan,6,False,Approached the crowd; they complied with instructions,
+2020-04-09 13:15:10,X030-ZN01,X-04,Bronx,3,True,Approached the crowd; they complied with instructions,
+2020-04-09 13:54:26,B035,B-10,Brooklyn,15,False,Did not approach the crowd; the crowd remains,
+2020-04-10 15:03:34,B111A,B-06,Brooklyn,5,True,Did not approach the crowd; the crowd remains,Skate Park
+2020-04-11 08:55:32,Q099-ZN20,Q-15,Queens,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-11 11:02:30,M144,M-03,Manhattan,30,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-11 11:40:00,M235,M-03,Manhattan,7,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-11 12:46:18,Q004-ZN01,Q-01,Queens,11,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-11 12:47:01,Q004-ZN01,Q-01,Queens,50,False,Approached the crowd; they ignored the employee,Soccer field
+2020-04-11 12:55:19,B079,B-03,Brooklyn,4,True,Approached the crowd; they ignored the employee,Playground
+2020-04-11 13:04:09,M144,M-03,Manhattan,40,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-11 13:11:21,Q099-ZN17,Q-15,Queens,7,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-11 13:12:27,B057-ZN07,B-18,Brooklyn,8,False,Approached the crowd; they complied with instructions,Baseball field
+2020-04-11 13:12:42,Q099-ZN20,Q-15,Queens,8,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-11 13:49:40,Q099-ZN09,Q-15,Queens,6,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-11 14:00:28,B219,B-16,Brooklyn,20,False,Did not approach the crowd; the crowd remains,Playground
+2020-04-11 14:00:49,M105-08,M-03,Manhattan,3,False,Approached the crowd; they ignored the employee,Handall court
+2020-04-11 14:10:24,M391-ZN02,M-01,Manhattan,40,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-11 14:54:35,M082,M-03,Manhattan,7,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-11 16:18:24,Q220A,Q-12,Queens,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-11 17:34:12,Q121-01,Q-12,Queens,10,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-11 23:07:04,Q106,Q-12,Queens,5,True,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-12 08:33:14,X166,X-03,Bronx,6,False,Approached the crowd; they complied with instructions,Handall court
+2020-04-12 09:45:12,Q051,Q-12,Queens,7,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-12 10:08:51,M144-ZN04,M-03,Manhattan,8,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-12 11:15:22,B012,B-08,Brooklyn,50,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-04-12 11:28:34,X039-ZN11,X-15A,Bronx,20,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-12 11:47:43,R046-ZN05,R-02B,Staten Island,25,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-12 13:09:07,Q099-ZN17,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-12 13:30:02,M144,M-03,Manhattan,30,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-12 14:57:40,R030-099,R-02,Staten Island,20,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-12 15:14:20,Q205A,Q-02,Queens,10,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-12 15:19:21,M391-ZN02,M-01,Manhattan,35,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-12 16:22:49,Q108,Q-13,Queens,15,False,Approached the crowd; they ignored the employee,Skate Park
+2020-04-12 17:24:26,Q351,Q-12,Queens,13,True,Approached the crowd; they ignored the employee,Playground
+2020-04-12 17:25:27,Q330,Q-12,Queens,15,True,Did not approach the crowd; the crowd remains,Basketball court
+2020-04-12 17:36:39,R046-ZN05,R-02B,Staten Island,15,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-12 18:20:27,R038A,R-02B,Staten Island,12,True,Did not approach the crowd; the crowd remains,Handall court
+2020-04-12 22:28:24,M099,M-12,Manhattan,8,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-14 11:08:56,X009,X-02,Bronx,15,True,Approached the crowd; they complied with instructions,Walking path
+2020-04-14 13:09:02,M220,M-07,Manhattan,8,False,Approached the crowd; they ignored the employee,Playground
+2020-04-14 13:59:53,X010-05,X-03,Bronx,6,False,Approached the crowd; they complied with instructions,Handall court
+2020-04-14 14:29:47,Q015-ZN04,Q-16,Queens,12,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-14 14:39:08,X030-ZN01,X-04,Bronx,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-14 14:41:19,M105-08,M-03,Manhattan,4,False,Approached the crowd; they ignored the employee,Handall court
+2020-04-14 14:42:21,M105-02,M-03,Manhattan,9,False,Approached the crowd; they ignored the employee,Chess area
+2020-04-14 14:43:19,M105-04,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-14 14:44:30,M105-01,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-14 14:45:38,M082,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-14 14:46:23,M105,M-03,Manhattan,16,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-14 14:53:16,B080-01,B-13,Brooklyn,10,False,Approached the crowd; they ignored the employee,Handall court
+2020-04-14 15:46:40,X002-ZN01,X-14,Bronx,50,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-14 15:47:13,Q162I01,Q-14,Queens,12,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-04-14 15:47:56,Q162I01,Q-14,Queens,8,False,Approached the crowd; they complied with instructions,Adult fitness equipment
+2020-04-14 16:12:05,M071-ZN20,M-14,Manhattan,12,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-14 16:13:17,M072-ZN28,M-14,Manhattan,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-14 17:04:06,Q021,Q-08,Queens,40,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-15 08:57:25,B007,B-11,Brooklyn,50,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-15 11:55:22,M088,M-03,Manhattan,20,True,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-15 12:32:13,Q006,Q-07,Queens,25,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-15 14:23:01,M144,M-03,Manhattan,35,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-15 15:03:13,Q471-ZN01,Q-02,Queens,10,True,Approached the crowd; they ignored the employee,Playground
+2020-04-15 15:12:23,R019,R-01,Staten Island,26,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-15 15:30:56,Q023,Q-12,Queens,30,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-15 16:38:05,Q004,Q-01,Queens,10,True,Approached the crowd; they ignored the employee,Soccer field
+2020-04-15 16:49:19,Q126,Q-07,Queens,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-15 17:13:00,Q092,Q-10,Queens,8,False,Did not approach the crowd; the crowd remains,Handall court
+2020-04-16 09:09:49,M105,M-03,Manhattan,12,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-16 09:43:14,X194,X-01,Bronx,7,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-16 10:24:44,Q005-11,Q-12,Queens,7,True,Approached the crowd; they ignored the employee,Playground
+2020-04-16 10:42:04,B294,B-03,Brooklyn,10,True,Approached the crowd; they ignored the employee,Handall court
+2020-04-16 13:33:10,Q108,Q-13,Queens,10,True,Approached the crowd; they ignored the employee,Skate Park
+2020-04-16 16:17:57,M098,M-02,Manhattan,10,False,Approached the crowd; they complied with instructions,Adult fitness equipment
+2020-04-16 16:53:17,X039,X-15,Bronx,9,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-16 16:57:18,X039-ZN01,X-15,Bronx,10,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-16 17:12:22,X196,X-12,Bronx,3,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-16 17:34:38,Q080,Q-03,Queens,10,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-16 18:07:05,R046-07,R-02B,Staten Island,6,True,Did not approach the crowd; the crowd remains,Skate Park
+2020-04-16 18:28:01,R145,R-03,Staten Island,5,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-16 18:30:17,R031,R-03,Staten Island,30,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-16 18:56:55,R079,R-03,Staten Island,15,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-16 19:25:52,R006,R-03,Staten Island,40,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-17 07:11:38,X039,X-15,Bronx,5,False,Approached the crowd; they complied with instructions,Track/field area
+2020-04-17 11:08:07,RZ305,R-02,Staten Island,15,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-17 11:39:48,B372,B-12,Brooklyn,3,False,Approached the crowd; they ignored the employee,Tennis courts
+2020-04-17 13:12:36,B109,B-15,Brooklyn,40,True,Approached the crowd; they ignored the employee,Soccer field
+2020-04-17 13:23:25,Q099-ZN15,Q-15,Queens,34,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-17 14:03:39,B151,B-12,Brooklyn,6,True,Approached the crowd; they ignored the employee,Playground
+2020-04-17 14:11:55,Q108,Q-13,Queens,14,True,Approached the crowd; they ignored the employee,Skate Park
+2020-04-17 14:32:51,M077-04,M-09,Manhattan,3,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-17 14:43:28,Q471,Q-02,Queens,20,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-17 15:06:21,B028,B-10,Brooklyn,14,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-17 15:11:50,M399,M-04,Manhattan,6,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-17 15:12:20,B169,B-13,Brooklyn,6,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 15:12:46,M391-ZN01,M-01,Manhattan,5,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 15:14:46,B080,B-13,Brooklyn,8,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-17 15:26:08,M391-ZN02,M-01,Manhattan,15,False,Approached the crowd; they complied with instructions,Adult fitness equipment
+2020-04-17 15:26:10,R017A,R-02,Staten Island,38,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 15:29:37,M391,M-01,Manhattan,30,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 15:46:39,R129-01,R-02,Staten Island,4,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-17 16:08:54,Q099-ZN14,Q-15,Queens,12,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-17 16:12:38,Q099-ZN15,Q-15,Queens,40,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-17 16:38:33,R005-15,R-01,Staten Island,3,True,Approached the crowd; they complied with instructions,Playground
+2020-04-17 16:49:35,Q099-ZN15,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-17 16:50:42,R022,R-01,Staten Island,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 16:55:40,Q099-ZN19,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-17 17:01:44,Q099-ZN15,Q-15,Queens,17,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-17 17:03:17,Q099-ZN14,Q-15,Queens,11,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-17 17:19:11,R052,R-01,Staten Island,6,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-17 17:31:06,M098,M-02,Manhattan,35,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 17:41:13,B028,B-10,Brooklyn,20,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-17 17:46:32,M399,M-04,Manhattan,5,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-17 18:06:36,M391-ZN01,M-01,Manhattan,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 18:07:11,M391-ZN02,M-01,Manhattan,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-17 19:09:49,R109,R-01,Staten Island,4,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-17 20:00:00,Q004,Q-01,Queens,40,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-18 07:57:13,R005,R-01,Staten Island,20,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-18 09:05:36,Q023,Q-12,Queens,3,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-18 09:58:40,B169,B-13,Brooklyn,26,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 10:00:42,B080,B-13,Brooklyn,6,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 12:11:02,M098-01,M-02,Manhattan,5,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 13:12:45,B028,B-10,Brooklyn,12,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-18 13:51:10,B066-01,B-10,Brooklyn,5,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-18 15:02:21,M077-04,M-09,Manhattan,3,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-18 15:14:44,M391-ZN01,M-01,Manhattan,35,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 15:15:38,M391-ZN02,M-01,Manhattan,30,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 15:31:13,M104,M-11R,Manhattan,20,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-18 15:31:39,M399,M-04,Manhattan,5,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-18 15:56:51,M098-01,M-02,Manhattan,5,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-18 15:57:32,M098-02,M-02,Manhattan,50,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 16:27:59,X126,X-10,Bronx,15,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-18 16:39:34,R005,R-01,Staten Island,40,False,Approached the crowd; they complied with instructions,Baseball field
+2020-04-18 16:40:01,R022,R-01,Staten Island,50,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 16:54:01,M098-ZN01,M-02,Manhattan,20,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-18 17:12:20,R109,R-01,Staten Island,9,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-18 17:31:35,BZ03,B-15,Brooklyn,50,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 17:33:39,B028,B-10,Brooklyn,17,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-18 17:40:27,M399,M-04,Manhattan,4,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-18 17:58:37,M098,M-02,Manhattan,45,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 18:25:58,M386,M-01,Manhattan,4,False,Approached the crowd; they complied with instructions,Playground
+2020-04-18 18:26:39,M391,M-01,Manhattan,25,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 18:27:12,M391-ZN01,M-01,Manhattan,20,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-18 18:27:47,M391-ZN02,M-01,Manhattan,17,False,Approached the crowd; they complied with instructions,Adult fitness equipment
+2020-04-19 10:02:38,M104,M-11R,Manhattan,10,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-19 10:26:09,M105,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-19 10:26:40,M105,M-03,Manhattan,15,False,Approached the crowd; they complied with instructions,Handall court
+2020-04-19 10:39:28,M104,M-11R,Manhattan,15,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-19 10:41:04,Q126,Q-07,Queens,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-19 11:13:26,B057,B-18,Brooklyn,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 11:22:41,X004-02,X-14,Bronx,15,True,Approached the crowd; they complied with instructions,Playground
+2020-04-19 11:23:49,B028-03,B-10,Brooklyn,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 11:33:47,M104,M-11R,Manhattan,10,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-19 11:35:29,RZ306,R-02B,Staten Island,25,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-19 11:59:18,Q099-ZN12,Q-15,Queens,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 11:59:22,Q126,Q-07,Queens,14,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 12:06:02,X039-ZN11,X-15A,Bronx,50,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 12:21:33,Q024,Q-07,Queens,5,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-19 12:24:34,B192,B-10,Brooklyn,15,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-19 12:26:32,B192,B-10,Brooklyn,5,True,Approached the crowd; they ignored the employee,Playground
+2020-04-19 12:31:54,B052,B-10,Brooklyn,3,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 12:38:05,Q099-ZN22,Q-15,Queens,22,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 13:21:04,R019,R-01,Staten Island,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 13:21:15,BZ231,B-05,Brooklyn,10,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-19 13:50:47,M104,M-11R,Manhattan,7,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-19 13:53:52,B127,B-01,Brooklyn,3,True,Approached the crowd; they complied with instructions,Handall court
+2020-04-19 13:56:40,M004,M-03,Manhattan,6,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 13:57:51,M105-02,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 13:58:58,M235,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 14:18:38,B114,B-01,Brooklyn,5,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-19 14:20:30,Q099-ZN17,Q-15,Queens,31,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-19 14:31:45,Q099-ZN20,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 14:33:00,B223R,B-01,Brooklyn,4,True,Approached the crowd; they complied with instructions,Basketball court
+2020-04-19 14:56:04,M022,M-04,Manhattan,40,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-19 14:57:37,M011,M-04,Manhattan,40,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-19 15:16:49,M088,M-03,Manhattan,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 15:17:26,M088-03,M-03,Manhattan,35,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-19 15:30:24,Q004,Q-01,Queens,10,True,Approached the crowd; they ignored the employee,Soccer field
+2020-04-19 15:31:17,M088-01,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-19 15:39:11,M104,M-11R,Manhattan,8,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-19 16:20:31,M144,M-03,Manhattan,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-19 16:20:36,Q099-ZN09,Q-15,Queens,23,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-19 16:25:53,M144,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-19 17:42:45,R017A,R-02,Staten Island,15,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-19 17:45:12,R005,R-01,Staten Island,50,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-19 17:46:23,R022-04,R-01,Staten Island,50,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-19 18:24:33,B016,B-04,Brooklyn,25,True,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-19 18:55:15,B223PD,B-01,Brooklyn,3,True,Approached the crowd; they complied with instructions,Basketball court
+2020-04-19 21:22:41,R030,R-02,Staten Island,3,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-19 22:35:25,R030-099,R-02,Staten Island,3,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-19 22:38:52,R059,R-01,Staten Island,3,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-19 22:46:11,R046-RZ97,R-02B,Staten Island,15,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-20 09:55:40,Q102-ZN03,Q-05,Queens,25,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-20 10:42:22,Q099-ZN20,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-20 12:04:06,M099,M-12,Manhattan,7,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-20 12:44:55,Q099-ZN15,Q-15,Queens,14,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-20 13:28:00,B214-01,B-05,Brooklyn,40,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-20 14:24:29,M227,M-06,Manhattan,15,False,Did not approach the crowd; the crowd remains,Tennis courts
+2020-04-20 14:54:17,X039-ZN01,X-15,Bronx,8,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-20 15:32:57,M104,M-11R,Manhattan,5,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-20 18:15:49,M391-ZN02,M-01,Manhattan,25,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-20 23:53:03,Q004,Q-01,Queens,5,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-20 23:59:35,Q001,Q-07A,Queens,34,False,Approached the crowd; they complied with instructions,Baseball field
+2020-04-21 10:13:37,M201,M-03,Manhattan,10,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-21 12:07:41,Q051,Q-12,Queens,7,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-21 12:10:48,Q448-ZN03,Q-12,Queens,18,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-21 13:41:25,M105,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-21 13:42:29,M082,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-21 14:28:50,B329,B-18,Brooklyn,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-21 16:44:28,M391-ZN01,M-01,Manhattan,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-21 16:45:30,M283-ZN02,M-01,Manhattan,21,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-21 17:54:02,M098-03,M-02,Manhattan,30,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 10:13:43,B169,B-13,Brooklyn,20,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 10:14:32,B080,B-13,Brooklyn,3,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-22 10:20:46,B251,B-15,Brooklyn,4,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 11:06:53,Q413,Q-12,Queens,5,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-22 11:14:22,Q051,Q-12,Queens,7,False,Approached the crowd; they ignored the employee,Basketball court
+2020-04-22 12:05:48,B066,B-10,Brooklyn,8,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 12:08:02,B028,B-10,Brooklyn,6,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-22 12:28:07,X126,X-10,Bronx,6,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 13:17:59,B028,B-10,Brooklyn,10,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-22 14:20:48,R105,R-01,Staten Island,6,False,Approached the crowd; they ignored the employee,Handall court
+2020-04-22 14:54:51,Q102-ZN01,Q-05,Queens,45,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-22 15:02:01,Q102-ZN01,Q-05,Queens,10,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-22 15:26:55,M104,M-11R,Manhattan,3,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-22 16:03:06,M015,M-01,Manhattan,35,False,Did not approach the crowd; the crowd remains,Chess area
+2020-04-22 16:06:15,M098-02,M-02,Manhattan,30,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 16:31:44,Q099-ZN07,Q-15,Queens,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-22 16:58:47,M077-04,M-09,Manhattan,4,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-22 17:29:37,Q099-ZN14,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-22 17:44:09,Q099-ZN15,Q-15,Queens,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-22 17:50:03,B057,B-18,Brooklyn,12,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-22 17:50:42,B028,B-10,Brooklyn,8,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-22 17:53:43,M098-03,M-02,Manhattan,50,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-23 10:25:00,B169,B-13,Brooklyn,10,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-23 10:29:37,B082-02,B-10,Brooklyn,6,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-23 10:31:50,B066,B-10,Brooklyn,8,False,Approached the crowd; they complied with instructions,Track/field area
+2020-04-23 11:42:27,M011,M-04,Manhattan,5,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-23 13:41:02,B028,B-10,Brooklyn,6,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-23 13:51:48,B028,B-10,Brooklyn,4,False,Approached the crowd; they complied with instructions,Handall court
+2020-04-23 14:09:28,M107-ZN06,M-11R,Manhattan,16,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-23 15:41:18,M029-ZN01,M-12,Manhattan,4,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-23 15:56:41,B028,B-10,Brooklyn,20,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-23 16:19:16,Q099-ZN15,Q-15,Queens,35,True,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-23 17:47:47,B057,B-18,Brooklyn,20,False,Approached the crowd; they complied with instructions,Tennis courts
+2020-04-24 15:24:00,B169,B-13,Brooklyn,30,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-24 20:12:53,M071-ZN14,M-14,Manhattan,6,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 09:22:50,X011-ZN01,X-06,Bronx,5,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 09:36:17,Q133,Q-13,Queens,11,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-25 09:40:06,B251,B-15,Brooklyn,20,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-25 10:15:01,B169-ZN01A,B-13,Brooklyn,50,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-25 10:22:56,B109,B-15,Brooklyn,5,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-25 10:27:55,M004,M-03,Manhattan,7,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 10:28:51,M105,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 10:29:54,M019,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-25 10:30:49,M194,M-03,Manhattan,6,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 10:31:35,M082,M-03,Manhattan,9,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 10:34:45,B057,B-18,Brooklyn,50,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-25 10:40:29,M144,M-03,Manhattan,50,False,Approached the crowd; they ignored the employee,Track/field area
+2020-04-25 11:11:36,X042-XZ466,X-06,Bronx,6,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-04-25 11:25:26,M105-08,M-03,Manhattan,25,False,Approached the crowd; they complied with instructions,Handall court
+2020-04-25 11:26:38,M144-ZN02,M-03,Manhattan,20,False,Approached the crowd; they complied with instructions,Baseball field
+2020-04-25 11:27:49,M144-ZN02,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-25 12:04:32,B082-ZN05,B-10,Brooklyn,20,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-25 12:09:57,X045-03,X-01,Bronx,6,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-25 12:10:47,M071-13,M-14,Manhattan,4,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-25 12:20:06,Q129,Q-09,Queens,6,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-25 12:31:13,M071-08,M-14,Manhattan,8,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 12:41:49,M071-03,M-14,Manhattan,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 13:04:46,Q053,Q-09,Queens,15,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 13:10:58,B028,B-10,Brooklyn,30,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-25 13:13:55,B192,B-10,Brooklyn,3,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-25 13:14:46,B082-02,B-10,Brooklyn,10,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-25 13:15:33,B251,B-15,Brooklyn,50,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-25 13:20:34,BT15,B-07,Brooklyn,8,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-25 14:03:10,Q099-ZN13,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 14:04:12,Q099-ZN17,Q-15,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-04-25 14:05:18,Q099-ZN12,Q-15,Queens,12,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-04-25 14:06:33,Q099-ZN12,Q-15,Queens,18,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-25 14:07:30,Q099-ZN11,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-25 14:12:05,Q099-ZN09,Q-15,Queens,14,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 14:16:25,Q099-15,Q-15,Queens,3,True,Approached the crowd; they complied with instructions,Playground
+2020-04-25 14:39:36,Q051,Q-12,Queens,25,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-25 15:00:07,B054-ZN02,B-08,Brooklyn,50,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-25 15:26:13,B087,B-07,Brooklyn,6,True,Approached the crowd; they ignored the employee,Handall court
+2020-04-25 16:17:11,Q205A,Q-02,Queens,20,True,Approached the crowd; they ignored the employee,Soccer field
+2020-04-25 16:18:18,X039-ZN01,X-15,Bronx,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-04-25 16:20:10,Q471,Q-02,Queens,50,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-25 16:27:28,M037-ZN04,M-12A,Manhattan,25,False,Approached the crowd; they complied with instructions,Baseball field
+2020-04-25 16:28:36,M029-ZN01,M-12,Manhattan,6,False,Approached the crowd; they ignored the employee,Walking path
+2020-04-25 16:41:28,Q099-ZN07,Q-15,Queens,48,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-25 16:43:26,R046-05,R-02B,Staten Island,8,True,Approached the crowd; they ignored the employee,Playground
+2020-04-25 16:44:42,R046-06,R-02B,Staten Island,10,True,Approached the crowd; they ignored the employee,Playground
+2020-04-25 16:46:11,R046-06,R-02B,Staten Island,12,True,Approached the crowd; they ignored the employee,Playground
+2020-04-25 17:53:22,B125,B-13,Brooklyn,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-25 18:29:59,Q105,Q-12,Queens,20,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-26 08:13:20,X010,X-03,Bronx,3,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-26 10:20:04,X011,X-06,Bronx,6,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-26 11:28:12,X011-ZN02,X-06,Bronx,4,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-26 11:59:34,M071-ZN01,M-14,Manhattan,6,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-26 12:24:29,M353,M-14,Manhattan,4,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-26 13:32:58,X010-01,X-03,Bronx,3,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-26 14:08:10,X011,X-06,Bronx,5,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-26 15:32:56,X011-ZN01,X-06,Bronx,7,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-27 11:04:32,M144,M-03,Manhattan,10,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-04-27 11:54:06,X002-ZN01,X-14,Bronx,5,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-04-27 12:00:33,Q051,Q-12,Queens,12,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-27 12:02:07,B214-01,B-05,Brooklyn,20,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-27 14:11:40,X039-ZN11,X-15A,Bronx,30,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-04-27 16:08:21,M011,M-04,Manhattan,12,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-27 17:17:49,R106,R-03,Staten Island,4,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-27 18:17:53,X255,X-02,Bronx,19,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-28 12:16:44,B080,B-13,Brooklyn,3,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 12:17:57,B125,B-13,Brooklyn,13,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-28 12:24:48,M029-01,M-12,Manhattan,6,True,Did not approach the crowd; the crowd remains,Playground
+2020-04-28 12:26:38,B129,B-13,Brooklyn,4,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 12:31:25,B052,B-10,Brooklyn,5,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 12:32:09,B066,B-10,Brooklyn,6,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 13:08:54,M399,M-04,Manhattan,8,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-28 13:59:58,B007,B-11,Brooklyn,50,False,Did not approach the crowd; the crowd remains,Walking path
+2020-04-28 14:00:50,X010A,X-06,Bronx,10,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-28 14:01:51,Q004-ZN01,Q-01,Queens,6,False,Approached the crowd; they ignored the employee,Skate Park
+2020-04-28 14:05:04,M399,M-04,Manhattan,9,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-28 14:26:04,B251,B-15,Brooklyn,50,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 15:22:51,Q099-ZN09,Q-15,Queens,40,False,Approached the crowd; they ignored the employee,Soccer field
+2020-04-28 15:43:29,M011,M-04,Manhattan,3,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-28 15:45:46,M011,M-04,Manhattan,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-04-28 15:47:54,M011,M-04,Manhattan,10,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-04-28 15:54:13,R029,R-01,Staten Island,20,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-04-28 16:06:04,M399,M-04,Manhattan,7,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-04-29 11:12:02,M037-09,M-12A,Manhattan,6,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-04-29 13:36:40,B028,B-10,Brooklyn,20,False,Approached the crowd; they ignored the employee,Soccer field
+2020-04-29 13:59:22,B052,B-10,Brooklyn,6,False,Did not approach the crowd; the crowd remains,Tennis courts
+2020-04-29 14:07:59,Q051,Q-12,Queens,11,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-29 14:11:29,Q051,Q-12,Queens,10,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-04-29 15:55:32,M107-ZN07,M-11R,Manhattan,35,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-29 15:57:45,M104-ZN03,M-11R,Manhattan,15,False,Approached the crowd; they complied with instructions,Soccer field
+2020-04-29 16:13:45,B028-ZN02,B-10,Brooklyn,20,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-04-29 16:14:31,B066,B-10,Brooklyn,5,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-04-30 16:01:53,M391-ZN01,M-01,Manhattan,25,False,Approached the crowd; they complied with instructions,Walking path
+2020-04-30 16:02:39,M391-ZN02,M-01,Manhattan,40,False,Approached the crowd; they complied with instructions,Walking path
+2020-05-01 11:50:37,M015,M-01,Manhattan,20,False,Approached the crowd; they ignored the employee,Chess area
+2020-05-01 12:15:20,M105,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-01 12:16:57,M105-01,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-01 17:35:13,Q007,Q-14,Queens,7,False,Approached the crowd; they complied with instructions,Skate Park
+2020-05-01 17:36:00,Q007,Q-14,Queens,3,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-01 17:56:26,M011,M-04,Manhattan,8,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-02 09:02:02,M144-ZN05,M-03,Manhattan,7,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-02 09:03:21,M144-ZN02,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-02 10:40:38,Q020-01,Q-05A,Queens,4,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-02 11:06:53,X002-ZN03,X-14,Bronx,50,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-02 11:08:03,X147A-ZN01,X-14,Bronx,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-02 11:41:20,X031,X-03,Bronx,16,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-02 12:26:26,Q092,Q-10,Queens,15,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-02 13:59:34,X255,X-02,Bronx,15,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-02 14:28:45,X039-ZN01,X-15,Bronx,30,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-02 14:36:36,Q015-ZN04,Q-16,Queens,30,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-02 16:22:44,Q134,Q-13,Queens,10,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-02 18:42:16,Q099-ZN19,Q-15,Queens,15,True,Did not approach the crowd; the crowd remains,Handall court
+2020-05-02 19:10:03,M071-13,M-14,Manhattan,5,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-03 08:19:23,R046-ZN04,R-02B,Staten Island,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-03 08:38:22,M144-ZN05,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-03 08:41:27,M144-ZN03,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-03 08:44:24,M144-ZN06,M-03,Manhattan,16,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-03 08:46:26,M144-ZN03,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-03 09:00:23,B214-02,B-05,Brooklyn,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-03 10:29:36,X041,X-01,Bronx,6,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-03 10:54:15,X147A-01,X-14,Bronx,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-03 14:30:20,Q099-ZN09,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-03 14:33:41,Q471,Q-02,Queens,50,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-03 14:35:29,X118,X-09,Bronx,50,False,Approached the crowd; they complied with instructions,Baseball field
+2020-05-03 14:36:37,X118,X-09,Bronx,50,False,Approached the crowd; they complied with instructions,Baseball field
+2020-05-03 16:02:05,M052,M-05,Manhattan,24,False,Approached the crowd; they complied with instructions,Track/field area
+2020-05-03 16:12:13,X042,X-06,Bronx,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-03 17:58:43,R022-ZN02,R-01,Staten Island,25,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-04 07:44:04,Q471,Q-02,Queens,20,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-04 09:09:44,X042,X-06,Bronx,7,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-04 13:06:17,Q099-ZN15,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-04 13:34:39,Q302,Q-05,Queens,15,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-04 17:41:47,Q108,Q-13,Queens,20,True,Approached the crowd; they ignored the employee,Skate Park
+2020-05-05 09:40:26,M011,M-04,Manhattan,3,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-05 12:25:46,Q099-20,Q-15,Queens,5,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-05 12:46:51,B214-01,B-05,Brooklyn,50,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-05 13:34:57,X039,X-15,Bronx,40,False,Approached the crowd; they complied with instructions,Track/field area
+2020-05-05 13:55:46,M052,M-05,Manhattan,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-05 13:59:47,B073-ZN08,B-19,Brooklyn,20,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-05-05 14:07:10,Q099-ZN12,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-05 14:51:49,Q007,Q-14,Queens,5,False,Approached the crowd; they ignored the employee,Skate Park
+2020-05-05 15:18:35,Q300-05,Q-07,Queens,20,True,Approached the crowd; they ignored the employee,Playground
+2020-05-05 17:23:49,M144-01,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-05 17:24:46,M144-ZN02,M-03,Manhattan,7,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-05 17:25:35,M144-ZN05,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-05 17:39:56,Q020,Q-05A,Queens,18,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-05 19:33:19,Q021C,Q-11,Queens,8,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-06 08:23:56,Q099-ZN15,Q-15,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-06 09:49:40,M058-01,M-11,Manhattan,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-06 12:30:12,R038,R-02B,Staten Island,3,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-06 12:52:18,Q099-ZN15,Q-15,Queens,15,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-06 12:56:06,M144-ZN04,M-03,Manhattan,8,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-07 08:14:28,M058-01,M-11,Manhattan,7,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-07 10:01:51,Q099-ZN15,Q-15,Queens,24,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-07 13:40:16,M045,M-08,Manhattan,20,False,Approached the crowd; they complied with instructions,Handall court
+2020-05-07 14:16:55,R015,R-01,Staten Island,4,False,Did not approach the crowd; the crowd remains,Tennis courts
+2020-05-07 15:12:23,Q020-01,Q-05A,Queens,10,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-07 15:43:52,Q021-ZN04,Q-08,Queens,17,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-07 16:11:00,Q001-04,Q-07A,Queens,6,True,Approached the crowd; they complied with instructions,Handall court
+2020-05-07 16:11:16,Q001-04,Q-07A,Queens,6,True,Approached the crowd; they complied with instructions,Handall court
+2020-05-07 16:11:23,Q001-04,Q-07A,Queens,6,True,Approached the crowd; they complied with instructions,Handall court
+2020-05-07 16:13:28,Q163-ZN05A,Q-14,Queens,6,False,Approached the crowd; they complied with instructions,Handall court
+2020-05-07 16:44:26,Q007,Q-14,Queens,25,False,Approached the crowd; they ignored the employee,Skate Park
+2020-05-07 17:30:23,Q008-01,Q-13,Queens,18,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-07 17:33:12,Q108,Q-13,Queens,15,True,Approached the crowd; they ignored the employee,Skate Park
+2020-05-07 18:20:59,Q066F,Q-01,Queens,25,True,Approached the crowd; they ignored the employee,Handall court
+2020-05-07 18:22:26,Q205A,Q-02,Queens,40,True,Approached the crowd; they ignored the employee,Soccer field
+2020-05-07 19:02:17,Q099-ZN17,Q-15,Queens,37,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-09 10:03:29,M144-ZN04,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-09 10:04:07,M144-ZN03,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-09 10:55:37,X047,X-04,Bronx,16,False,Approached the crowd; they ignored the employee,Walking path
+2020-05-09 10:57:47,M017,M-03,Manhattan,9,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-09 13:26:14,X092-ZN10,X-13,Bronx,30,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-09 13:30:15,X092-ZN02,X-13,Bronx,9,False,Approached the crowd; they complied with instructions,Handall court
+2020-05-09 13:56:32,R046-07,R-02B,Staten Island,3,True,Did not approach the crowd; the crowd remains,Skate Park
+2020-05-09 15:51:21,M011,M-04,Manhattan,12,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-05-10 08:13:03,Q471,Q-02,Queens,20,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-10 09:44:44,Q001,Q-07A,Queens,30,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-10 12:17:48,Q099,Q-15,Queens,10,True,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-10 15:22:16,Q099,Q-15,Queens,40,True,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-12 10:02:34,X147A-ZN01,X-14,Bronx,30,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-12 11:33:57,M045,M-08,Manhattan,15,False,Approached the crowd; they complied with instructions,Handall court
+2020-05-12 14:25:56,X010A,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-12 14:26:57,X042,X-06,Bronx,8,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-12 15:05:32,Q092,Q-10,Queens,5,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-12 15:30:02,X039-ZN11,X-15A,Bronx,30,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-12 16:27:09,Q162I01,Q-14,Queens,20,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-05-12 16:43:45,B145,B-06,Brooklyn,5,True,Approached the crowd; they ignored the employee,Playground
+2020-05-12 17:16:13,Q162E,Q-14,Queens,8,True,Approached the crowd; they ignored the employee,Handall court
+2020-05-12 17:58:09,Q020,Q-05A,Queens,14,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-13 08:38:12,X118-ZN03,X-09,Bronx,50,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-13 08:45:46,Q099-ZN17,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-13 08:47:09,Q099-ZN13,Q-15,Queens,9,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-13 09:12:07,Q099-ZN08,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-13 14:56:27,R145,R-03,Staten Island,45,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-05-13 16:02:57,R022-04,R-01,Staten Island,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-13 16:08:18,R038A,R-02B,Staten Island,15,False,Approached the crowd; they ignored the employee,Handall court
+2020-05-13 17:39:16,B145,B-06,Brooklyn,15,True,Approached the crowd; they ignored the employee,Skate Park
+2020-05-14 09:13:07,B056,B-05,Brooklyn,15,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-14 09:57:48,X118,X-09,Bronx,40,False,Approached the crowd; they complied with instructions,Soccer field
+2020-05-14 11:21:34,Q099,Q-15,Queens,10,False,Approached the crowd; they complied with instructions,Soccer field
+2020-05-14 11:23:12,X113,X-02,Bronx,15,False,Approached the crowd; they ignored the employee,Playground
+2020-05-14 11:44:47,M028,M-12,Manhattan,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-14 14:34:14,B008-03,B-16,Brooklyn,12,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-14 15:10:25,X255,X-02,Bronx,25,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-14 16:41:37,R028,R-01,Staten Island,12,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-14 17:47:43,Q008,Q-13,Queens,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-14 17:49:33,Q008-02,Q-13,Queens,21,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-14 18:05:19,M164,M-06,Manhattan,6,True,Approached the crowd; they ignored the employee,Handall court
+2020-05-14 18:54:58,Q008-02,Q-13,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-15 09:08:54,X042,X-06,Bronx,4,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-15 10:12:47,X010A,X-06,Bronx,20,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-15 14:16:26,R028,R-01,Staten Island,18,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-15 14:43:17,R024,R-01,Staten Island,12,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-15 16:02:15,Q162I01,Q-14,Queens,12,False,Approached the crowd; they complied with instructions,Skate Park
+2020-05-15 16:24:57,R170,R-01,Staten Island,20,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-15 17:37:01,Q024-ZN02,Q-07,Queens,20,False,Did not approach the crowd; the crowd remains,Tennis courts
+2020-05-16 09:30:37,X002-ZN03,X-14,Bronx,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-16 09:56:04,X042,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-16 10:46:19,X147A-01,X-14,Bronx,5,True,Approached the crowd; they ignored the employee,Playground
+2020-05-16 12:01:23,Q008-ZN03,Q-13,Queens,25,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-16 12:23:28,X030,X-04,Bronx,30,False,Approached the crowd; they complied with instructions,Baseball field
+2020-05-16 12:32:35,Q012B,Q-07A,Queens,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-16 13:33:23,R046-07,R-02B,Staten Island,7,False,Approached the crowd; they ignored the employee,Track/field area
+2020-05-16 14:08:20,Q162E,Q-14,Queens,8,True,Approached the crowd; they complied with instructions,Handall court
+2020-05-16 14:57:13,Q012-ZN03,Q-07A,Queens,15,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-16 15:01:57,Q162I01,Q-14,Queens,4,False,Approached the crowd; they complied with instructions,Skate Park
+2020-05-16 15:40:24,X002-04,X-14,Bronx,20,True,Approached the crowd; they complied with instructions,Playground
+2020-05-17 11:32:54,Q476,Q-07,Queens,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-17 12:29:35,Q126,Q-07,Queens,6,True,Approached the crowd; they ignored the employee,Handall court
+2020-05-17 14:06:01,M144-ZN05,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-17 14:07:08,M144-ZN06,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-17 14:11:00,M144-ZN05,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-17 14:20:51,Q047,Q-13,Queens,16,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-17 14:21:55,M353,M-14,Manhattan,6,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-17 14:22:16,X147A-01,X-14,Bronx,5,True,Approached the crowd; they complied with instructions,Playground
+2020-05-17 14:31:23,X045-01,X-01,Bronx,25,True,Approached the crowd; they ignored the employee,Playground
+2020-05-17 14:32:31,X045-ZN01,X-01,Bronx,40,True,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-17 15:04:34,Q066F,Q-01,Queens,20,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-17 15:52:46,Q471-ZN01,Q-02,Queens,25,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-17 16:10:53,Q015-ZN04,Q-16,Queens,45,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-17 17:55:35,Q010A-ZN01,Q-07A,Queens,30,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-17 17:57:38,Q009,Q-07,Queens,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-18 08:46:29,Q012-ZN01,Q-07A,Queens,16,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-18 10:58:20,Q047,Q-13,Queens,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-18 11:05:32,M144-ZN06,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-18 11:06:20,M144-ZN01,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-18 11:07:00,M144-ZN02,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-18 11:39:07,X348-02,X-04,Bronx,20,False,Approached the crowd; they ignored the employee,Skate Park
+2020-05-18 11:41:10,X030-ZN01,X-04,Bronx,30,False,Approached the crowd; they ignored the employee,Handall court
+2020-05-18 13:29:31,Q131,Q-05,Queens,15,False,Did not approach the crowd; the crowd remains,Handall court
+2020-05-18 15:21:10,Q060,Q-04,Queens,8,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-05-18 15:22:18,Q173,Q-04,Queens,9,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-18 16:49:20,Q010A-ZN01,Q-07A,Queens,40,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-18 16:51:37,Q010A-ZN02,Q-07A,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-18 17:58:10,M011,M-04,Manhattan,12,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-18 18:19:53,Q207,Q-06,Queens,10,False,Did not approach the crowd; the crowd remains,Chess area
+2020-05-18 20:00:17,X222,X-03,Bronx,10,False,Did not approach the crowd; the crowd remains,Chess area
+2020-05-18 20:01:35,X147B,X-03,Bronx,6,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-18 20:02:59,X031,X-03,Bronx,12,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-19 07:35:53,Q002,Q-05,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-19 12:22:10,B169-ZN06A,B-13,Brooklyn,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-19 14:45:28,B141,B-05,Brooklyn,50,True,Approached the crowd; they ignored the employee,Playground
+2020-05-19 16:12:33,M237,M-02,Manhattan,8,True,Approached the crowd; they complied with instructions,Playground
+2020-05-19 17:40:53,M011,M-04,Manhattan,7,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-19 17:42:13,M011,M-04,Manhattan,6,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-19 17:43:21,M011,M-04,Manhattan,5,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-19 17:51:52,Q089B,Q-07,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-19 17:53:09,Q086-01,Q-07,Queens,20,True,Did not approach the crowd; the crowd remains,Handall court
+2020-05-19 19:02:17,R065-ZN16,R-02,Staten Island,16,False,Approached the crowd; they ignored the employee,Walking path
+2020-05-20 08:00:16,Q099-ZN13,Q-15,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-20 09:37:35,M028,M-12,Manhattan,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-20 12:31:38,R019,R-01,Staten Island,8,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-20 12:37:46,X147A-ZN01,X-14,Bronx,15,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-20 15:48:00,R022-ZN02,R-01,Staten Island,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-20 15:56:46,M107-ZN06,M-11R,Manhattan,12,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-21 09:18:19,M144-ZN03,M-03,Manhattan,12,False,Approached the crowd; they complied with instructions,Baseball field
+2020-05-21 10:47:53,Q047,Q-13,Queens,16,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-21 12:17:28,M011,M-04,Manhattan,4,False,Did not approach the crowd; the crowd remains,Playground
+2020-05-21 12:23:40,M104-ZN01,M-11R,Manhattan,50,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-21 14:04:56,Q131,Q-05,Queens,25,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-21 14:05:52,Q207,Q-06,Queens,20,False,Approached the crowd; they ignored the employee,Chess area
+2020-05-21 14:26:33,X044,X-07,Bronx,4,False,Approached the crowd; they ignored the employee,Handall court
+2020-05-21 14:37:52,Q099-ZN17,Q-15,Queens,17,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-21 18:25:03,M208D,M-11,Manhattan,35,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-21 19:47:11,M353,M-14,Manhattan,10,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-22 12:45:25,Q437,Q-07,Queens,5,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-22 12:46:28,XZ189,X-13,Bronx,15,False,Did not approach the crowd; the crowd remains,Handall court
+2020-05-22 13:28:42,Q131,Q-05,Queens,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-22 14:06:05,Q047,Q-13,Queens,30,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-22 14:21:38,Q131,Q-05,Queens,40,False,Approached the crowd; they ignored the employee,Track/field area
+2020-05-22 15:14:54,B008-03,B-16,Brooklyn,25,True,Approached the crowd; they ignored the employee,Playground
+2020-05-22 17:48:35,X147A-ZN01,X-14,Bronx,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-22 19:35:22,Q205A,Q-02,Queens,30,True,Approached the crowd; they ignored the employee,Soccer field
+2020-05-22 19:36:55,Q205A,Q-02,Queens,15,True,Approached the crowd; they ignored the employee,Playground
+2020-05-22 19:49:15,Q162E,Q-14,Queens,40,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-23 08:09:19,Q099-ZN15,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-23 08:10:01,Q099-ZN13,Q-15,Queens,12,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-23 10:09:04,X039-ZN01,X-15,Bronx,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-23 13:28:02,X002-ZN04,X-14,Bronx,10,False,Approached the crowd; they ignored the employee,Playground
+2020-05-23 15:34:00,X044,X-07,Bronx,12,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-23 18:31:03,Q099-ZN05,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-24 09:23:41,Q001-ZN02,Q-07A,Queens,16,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-24 10:55:35,Q476,Q-07,Queens,20,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-24 11:48:04,X002-ZN01,X-14,Bronx,40,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-24 12:06:54,M107-ZN06,M-11R,Manhattan,35,False,Approached the crowd; they complied with instructions,Soccer field
+2020-05-24 12:48:39,Q414,Q-10,Queens,15,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-05-24 13:27:22,Q008-ZN03,Q-13,Queens,50,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-24 13:41:01,Q108,Q-13,Queens,10,False,Approached the crowd; they ignored the employee,Skate Park
+2020-05-24 14:05:42,Q047,Q-13,Queens,30,True,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-24 14:07:17,M058-01,M-11,Manhattan,20,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-24 14:49:38,X042,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-24 14:50:30,X010A,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-24 14:51:56,Q207,Q-06,Queens,50,False,Did not approach the crowd; the crowd remains,Chess area
+2020-05-24 15:54:11,Q099-16,Q-15,Queens,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-24 19:34:31,Q163-01,Q-14,Queens,6,False,Approached the crowd; they complied with instructions,Skate Park
+2020-05-25 07:59:00,Q099-ZN13,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-25 11:48:13,R030-099,R-02,Staten Island,8,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-25 11:49:49,Q012B,Q-07A,Queens,25,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-25 11:54:52,X042,X-06,Bronx,6,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-25 12:01:28,Q012B,Q-07A,Queens,20,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-25 12:21:39,X045,X-01,Bronx,50,True,Approached the crowd; they ignored the employee,Playground
+2020-05-25 12:30:29,X011-ZN01,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-25 12:31:18,X011-ZN02,X-06,Bronx,10,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-25 12:35:49,Q392-ZN01,Q-13,Queens,30,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-25 12:53:49,Q099-ZN17,Q-15,Queens,22,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-25 13:09:38,M105-08,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Playground
+2020-05-25 14:00:29,M022,M-04,Manhattan,15,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-25 14:08:51,M017,M-03,Manhattan,12,True,Approached the crowd; they complied with instructions,Basketball court
+2020-05-25 14:10:02,M144,M-03,Manhattan,15,False,Approached the crowd; they complied with instructions,Baseball field
+2020-05-25 14:18:10,M035,M-10,Manhattan,20,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-05-25 14:19:03,M058-01,M-11,Manhattan,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-25 15:20:45,Q162E,Q-14,Queens,6,True,Approached the crowd; they ignored the employee,Handall court
+2020-05-25 15:48:45,B016,B-04,Brooklyn,50,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-05-25 16:17:45,M042-ZN02,M-12,Manhattan,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-25 16:53:24,Q099-20,Q-15,Queens,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-25 17:12:51,Q162I01,Q-14,Queens,12,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-05-26 08:54:03,Q099-ZN15,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-26 10:24:04,B129,B-13,Brooklyn,20,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-26 10:55:57,X010A,X-06,Bronx,20,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-26 16:31:03,X147A-ZN01,X-14,Bronx,8,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-26 17:17:41,X147A-ZN01,X-14,Bronx,17,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-26 17:37:04,Q207,Q-06,Queens,25,False,Did not approach the crowd; the crowd remains,Chess area
+2020-05-27 08:43:02,Q099-ZN12,Q-15,Queens,15,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-27 08:43:34,Q099-ZN06,Q-15,Queens,10,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-05-27 10:08:32,M028,M-12,Manhattan,18,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-27 11:24:00,M058-01,M-11,Manhattan,5,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-27 13:34:10,B367,B-16,Brooklyn,4,False,Did not approach the crowd; the crowd remains,Chess area
+2020-05-27 16:16:03,Q012B,Q-07A,Queens,25,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-27 17:09:10,X147A-ZN01,X-14,Bronx,16,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-27 17:09:23,Q015-02,Q-16,Queens,40,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-05-27 17:09:49,X147A-ZN01,X-14,Bronx,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-27 17:18:03,B214-01,B-05,Brooklyn,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-28 07:41:07,X147A-ZN01,X-14,Bronx,35,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-28 15:05:25,M058-01,M-11,Manhattan,15,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-28 18:43:58,Q133A,Q-13,Queens,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-05-29 07:26:35,Q099-ZN17,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-29 08:19:43,Q099-ZN17,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-29 08:57:52,X147A-ZN01,X-14,Bronx,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-29 09:30:43,M028,M-12,Manhattan,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-05-29 11:14:25,X010A,X-06,Bronx,25,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-05-29 12:20:27,Q092,Q-10,Queens,15,True,Did not approach the crowd; the crowd remains,Handall court
+2020-05-29 14:51:32,Q108,Q-13,Queens,18,False,Approached the crowd; they ignored the employee,Skate Park
+2020-05-29 17:43:18,M125C,M-02,Manhattan,20,True,Approached the crowd; they complied with instructions,Handall court
+2020-05-30 10:35:39,Q428,Q-06,Queens,4,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-05-30 10:39:34,X042,X-06,Bronx,20,True,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-30 12:48:39,Q131,Q-05,Queens,50,False,Approached the crowd; they complied with instructions,Soccer field
+2020-05-30 13:43:21,Q103,Q-11,Queens,25,False,Approached the crowd; they ignored the employee,Soccer field
+2020-05-30 14:10:53,M144-ZN04,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-05-30 14:23:19,Q319,Q-06,Queens,7,True,Approached the crowd; they complied with instructions,Playground
+2020-05-30 14:37:00,Q015-02,Q-16,Queens,20,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-30 14:38:49,X002-05,X-14,Bronx,30,True,Approached the crowd; they ignored the employee,Playground
+2020-05-30 14:53:46,X002-05A,X-14,Bronx,30,True,Approached the crowd; they ignored the employee,Playground
+2020-05-30 17:29:40,X040,X-07,Bronx,24,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-30 17:36:39,M045,M-08,Manhattan,10,False,Approached the crowd; they ignored the employee,Handall court
+2020-05-30 18:06:33,Q024-ZN01,Q-07,Queens,30,False,Did not approach the crowd; the crowd remains,Walking path
+2020-05-30 18:08:21,Q300-03,Q-07,Queens,25,True,Approached the crowd; they ignored the employee,Playground
+2020-05-30 18:10:46,Q162I01,Q-14,Queens,20,False,Approached the crowd; they complied with instructions,Skate Park
+2020-05-30 19:30:05,M077-03,M-09,Manhattan,30,True,Approached the crowd; they ignored the employee,Chess area
+2020-05-30 19:30:55,M077-04,M-09,Manhattan,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-05-31 10:19:55,Q220G,Q-08,Queens,6,False,Did not approach the crowd; the crowd remains,Handall court
+2020-05-31 11:08:37,Q391,Q-08,Queens,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-05-31 11:56:57,Q396,Q-12,Queens,23,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-31 14:38:52,X255,X-02,Bronx,15,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-05-31 15:04:12,Q397,Q-07,Queens,30,True,Approached the crowd; they complied with instructions,Basketball court
+2020-05-31 16:31:20,Q108,Q-13,Queens,13,False,Approached the crowd; they ignored the employee,Skate Park
+2020-06-01 10:22:51,X147A-ZN01,X-14,Bronx,11,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-01 10:54:14,Q005-11,Q-12,Queens,12,True,Approached the crowd; they ignored the employee,Playground
+2020-06-01 15:50:01,Q300-03,Q-07,Queens,25,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-02 13:28:53,B008-03,B-16,Brooklyn,30,True,Approached the crowd; they ignored the employee,Playground
+2020-06-02 14:27:43,Q428,Q-06,Queens,6,False,Approached the crowd; they complied with instructions,Open field/multi-purpose play area
+2020-06-02 15:50:38,Q162,Q-14,Queens,7,False,Approached the crowd; they complied with instructions,Handall court
+2020-06-02 17:10:48,X147A-ZN01,X-14,Bronx,30,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-02 17:32:52,Q207,Q-06,Queens,20,False,Did not approach the crowd; the crowd remains,Chess area
+2020-06-02 17:47:38,Q392-ZN01,Q-13,Queens,20,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-03 09:43:38,Q220E,Q-12,Queens,10,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-04 15:07:52,Q131-01,Q-05,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-04 15:21:52,X147A-01,X-14,Bronx,30,True,Approached the crowd; they ignored the employee,Playground
+2020-06-04 15:43:04,Q392-ZN01,Q-13,Queens,13,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-04 16:29:36,Q021,Q-08,Queens,30,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-04 18:42:02,Q163-ZN05A,Q-14,Queens,10,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-05 13:35:19,Q300-03,Q-07,Queens,25,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-05 15:53:01,Q001-ZN02,Q-07A,Queens,15,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-05 17:00:16,Q021,Q-08,Queens,25,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-05 18:55:11,Q086-01,Q-07,Queens,50,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-06 08:06:00,M011,M-04,Manhattan,14,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-06-06 10:36:29,Q300-03,Q-07,Queens,19,True,Approached the crowd; they complied with instructions,Playground
+2020-06-06 10:37:52,Q300-05,Q-07,Queens,12,False,Did not approach the crowd; the crowd remains,Track/field area
+2020-06-06 10:58:32,R022,R-01,Staten Island,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-06 11:09:43,M144-ZN05,M-03,Manhattan,17,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-06 11:47:32,M077-ZN02,M-09,Manhattan,20,False,Approached the crowd; they ignored the employee,Walking path
+2020-06-06 13:18:32,M223,M-09,Manhattan,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-06 13:19:43,X255,X-02,Bronx,20,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-06 14:49:28,X044,X-07,Bronx,12,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-06 15:14:02,Q008-ZN02,Q-13,Queens,12,False,Approached the crowd; they complied with instructions,Soccer field
+2020-06-06 18:08:00,Q044,Q-02,Queens,15,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-07 08:03:50,Q391,Q-08,Queens,30,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-07 10:36:56,Q001-ZN01,Q-07A,Queens,30,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-07 14:03:30,Q021-ZN02,Q-08,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-07 14:55:16,M144-ZN04,M-03,Manhattan,17,True,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-07 15:10:39,M017,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,Baseball field
+2020-06-07 15:11:13,M144-ZN06,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,Baseball field
+2020-06-08 12:09:40,B026,B-02,Brooklyn,10,False,Did not approach the crowd; the crowd remains,Playground
+2020-06-08 14:50:45,M144-ZN04,M-03,Manhattan,15,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-08 14:51:33,M144-ZN06,M-03,Manhattan,17,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-08 14:52:39,M144-ZN02,M-03,Manhattan,10,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-08 15:03:24,M089,M-05,Manhattan,6,False,Did not approach the crowd; the crowd remains,Walking path
+2020-06-08 15:37:42,B028-01,B-10,Brooklyn,15,True,Approached the crowd; they ignored the employee,Playground
+2020-06-08 15:38:33,B028-03,B-10,Brooklyn,34,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-08 16:10:52,Q020-02,Q-05A,Queens,30,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-08 16:58:09,Q163-01,Q-14,Queens,5,False,Approached the crowd; they complied with instructions,Skate Park
+2020-06-08 19:32:53,Q103,Q-11,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-09 12:27:25,R022-ZN02,R-01,Staten Island,12,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-09 14:06:35,M144-ZN03,M-03,Manhattan,17,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-09 14:39:29,Q099-ZN06,Q-15,Queens,26,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-09 14:39:51,Q099-ZN15,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-09 14:40:22,Q099-ZN09,Q-15,Queens,24,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-09 14:41:07,Q099-ZN06,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Skate Park
+2020-06-09 16:25:07,Q021,Q-08,Queens,40,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-09 17:09:33,Q020-ZN01,Q-05A,Queens,40,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-09 17:11:14,Q020-ZN01,Q-05A,Queens,50,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-09 17:12:08,Q015-ZN06,Q-16,Queens,50,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-09 18:11:43,Q293,Q-11,Queens,24,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-10 07:47:43,Q099-ZN16,Q-15,Queens,30,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 07:48:04,Q099-ZN17,Q-15,Queens,34,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 07:48:43,Q099-ZN09,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 07:49:05,Q099-ZN15,Q-15,Queens,23,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 10:29:05,Q024-03,Q-07,Queens,4,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-10 11:23:53,Q102-ZN03,Q-05,Queens,15,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-10 11:25:22,Q102-02,Q-05,Queens,30,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-10 11:26:42,Q131,Q-05,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 11:28:23,Q002,Q-05,Queens,50,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-10 13:05:00,Q002,Q-05,Queens,12,False,Approached the crowd; they complied with instructions,Handall court
+2020-06-10 13:48:50,M042,M-12,Manhattan,12,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-06-10 14:38:05,X255,X-02,Bronx,40,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-10 14:39:17,X029,X-02,Bronx,20,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-10 15:26:29,B057-ZN02,B-18,Brooklyn,20,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-10 15:41:05,M105-08,M-03,Manhattan,16,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-10 15:47:06,M105,M-03,Manhattan,10,False,Approached the crowd; they ignored the employee,Track/field area
+2020-06-10 16:53:18,M089,M-05,Manhattan,6,False,Approached the crowd; they ignored the employee,Walking path
+2020-06-10 16:55:23,M011,M-04,Manhattan,6,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-10 18:11:59,M017,M-03,Manhattan,14,True,Approached the crowd; they ignored the employee,Basketball court
+2020-06-10 18:12:36,M144-ZN06,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-10 18:29:05,Q009,Q-07,Queens,30,True,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-10 19:04:51,Q103,Q-11,Queens,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-10 20:35:05,Q108,Q-13,Queens,20,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-10 20:42:22,Q008,Q-13,Queens,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-11 11:12:19,Q024-03,Q-07,Queens,11,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-11 15:24:12,X045-ZN01,X-01,Bronx,29,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-12 07:57:43,M011,M-04,Manhattan,3,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-12 10:04:59,Q102-ZN03,Q-05,Queens,50,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-12 13:04:35,B057-ZN01,B-18,Brooklyn,20,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-12 13:04:39,B028-03,B-10,Brooklyn,15,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-12 15:22:18,X147A-ZN01,X-14,Bronx,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-12 15:49:59,M089,M-05,Manhattan,5,False,Approached the crowd; they complied with instructions,Walking path
+2020-06-12 15:52:50,M011,M-04,Manhattan,5,False,Did not approach the crowd; the crowd remains,Basketball court
+2020-06-12 16:15:17,Q007-01,Q-14,Queens,14,False,Approached the crowd; they ignored the employee,Skate Park
+2020-06-12 16:16:08,Q162J,Q-14,Queens,12,True,Approached the crowd; they ignored the employee,Skate Park
+2020-06-12 16:25:32,Q001-ZN02,Q-07A,Queens,30,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-06-12 16:53:57,M011,M-04,Manhattan,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-12 19:38:23,Q008,Q-13,Queens,30,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-12 19:44:34,Q108,Q-13,Queens,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-13 09:31:19,X010A,X-06,Bronx,12,True,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-13 10:07:32,Q015-ZN04,Q-16,Queens,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-13 10:32:48,M077-ZN02,M-09,Manhattan,18,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-13 10:38:20,Q300A-01,Q-11,Queens,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-13 10:54:57,Q051,Q-12,Queens,15,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-13 11:18:29,X042,X-06,Bronx,13,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-13 11:54:05,Q107-01,Q-13,Queens,15,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-13 11:59:02,Q127,Q-12,Queens,50,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-13 12:15:55,Q448-ZN03,Q-12,Queens,30,False,Approached the crowd; they ignored the employee,Track/field area
+2020-06-13 12:25:08,Q008,Q-13,Queens,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-13 12:45:31,Q293,Q-11,Queens,45,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-13 13:08:01,Q391,Q-08,Queens,8,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-13 13:20:19,Q025,Q-12,Queens,25,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-13 16:50:18,B022,B-01,Brooklyn,40,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-13 17:03:33,B358,B-01,Brooklyn,30,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-14 09:54:47,Q391,Q-08,Queens,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-14 10:03:30,M107-ZN07,M-11R,Manhattan,30,False,Approached the crowd; they complied with instructions,Soccer field
+2020-06-14 10:05:36,M107-ZN06,M-11R,Manhattan,25,False,Approached the crowd; they complied with instructions,Soccer field
+2020-06-14 10:52:34,Q127,Q-12,Queens,40,True,Approached the crowd; they ignored the employee,Soccer field
+2020-06-14 11:27:07,Q020,Q-05A,Queens,30,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-14 11:27:40,Q020-ZN04,Q-05A,Queens,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-14 11:28:16,Q119,Q-10,Queens,15,True,Approached the crowd; they ignored the employee,Playground
+2020-06-14 11:51:03,Q330,Q-12,Queens,15,True,Approached the crowd; they ignored the employee,Playground
+2020-06-14 11:58:54,Q413,Q-12,Queens,20,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-14 12:17:28,Q302,Q-05,Queens,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-14 13:10:16,Q294,Q-08,Queens,10,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-14 13:27:20,Q428,Q-06,Queens,25,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-14 14:07:05,Q306,Q-06,Queens,30,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-14 14:08:02,Q319,Q-06,Queens,25,True,Approached the crowd; they ignored the employee,Handall court
+2020-06-14 14:36:30,Q094,Q-10,Queens,50,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-14 14:37:20,Q096B,Q-10,Queens,50,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-14 14:43:48,Q015-ZN06,Q-16,Queens,50,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-14 14:49:58,X045-02,X-01,Bronx,50,True,Approached the crowd; they ignored the employee,Playground
+2020-06-14 14:51:19,X045-01,X-01,Bronx,35,True,Approached the crowd; they ignored the employee,Playground
+2020-06-14 15:12:33,M017,M-03,Manhattan,14,True,Approached the crowd; they ignored the employee,Basketball court
+2020-06-14 15:13:08,M144-ZN06,M-03,Manhattan,10,True,Approached the crowd; they ignored the employee,Baseball field
+2020-06-14 15:13:44,M144-ZN04,M-03,Manhattan,15,True,Approached the crowd; they ignored the employee,Basketball court
+2020-06-14 15:14:22,M144-ZN03,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-14 16:23:21,Q009-01,Q-07,Queens,50,True,Approached the crowd; they ignored the employee,Playground
+2020-06-14 19:58:37,Q008,Q-13,Queens,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-14 20:03:57,Q008,Q-13,Queens,6,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-14 20:09:47,Q008,Q-13,Queens,20,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-14 20:14:59,Q108,Q-13,Queens,15,True,Did not approach the crowd; the crowd remains,Skate Park
+2020-06-15 10:26:56,B057-ZN01,B-18,Brooklyn,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-15 11:53:27,Q047,Q-13,Queens,50,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-15 12:17:53,Q305,Q-05,Queens,50,True,Did not approach the crowd; the crowd remains,Track/field area
+2020-06-15 12:22:30,Q220G,Q-08,Queens,8,False,Did not approach the crowd; the crowd remains,Handall court
+2020-06-15 13:41:50,Q305,Q-05,Queens,10,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-15 13:44:58,Q051,Q-12,Queens,25,False,Approached the crowd; they ignored the employee,Track/field area
+2020-06-15 14:03:07,Q377,Q-06,Queens,20,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-15 17:56:20,M011,M-04,Manhattan,8,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-15 17:57:34,M011,M-04,Manhattan,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-16 10:09:07,Q305,Q-05,Queens,30,True,Approached the crowd; they ignored the employee,Playground
+2020-06-16 10:33:55,Q102-ZN01,Q-05,Queens,50,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-16 10:35:20,Q305,Q-05,Queens,25,True,Approached the crowd; they ignored the employee,Playground
+2020-06-16 10:49:12,X147A-ZN01,X-14,Bronx,30,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-16 10:58:32,Q305,Q-05,Queens,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-16 12:15:52,X147A-ZN01,X-14,Bronx,15,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-16 13:09:20,Q002,Q-05,Queens,30,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-16 15:43:48,Q306,Q-06,Queens,33,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-16 19:00:14,X147A-ZN01,X-14,Bronx,40,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-17 08:20:12,Q099-ZN17,Q-15,Queens,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-17 08:20:45,Q099-ZN15,Q-15,Queens,30,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-17 08:21:11,Q099-ZN09,Q-15,Queens,19,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-17 08:21:39,Q099-ZN12,Q-15,Queens,35,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-17 08:25:09,Q099-ZN16,Q-15,Queens,35,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-17 09:08:01,M200,M-07,Manhattan,17,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-17 09:10:31,B150,B-14,Brooklyn,12,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-17 09:57:36,Q099-ZN13,Q-15,Queens,45,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-17 09:58:01,B057-ZN01,B-18,Brooklyn,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-17 11:06:43,X113,X-02,Bronx,10,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-17 11:43:12,Q212,Q-08,Queens,15,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-17 12:26:08,Q052-01,Q-08,Queens,3,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-17 12:54:22,Q023,Q-12,Queens,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-17 14:39:20,B008-03,B-16,Brooklyn,25,True,Did not approach the crowd; the crowd remains,Basketball court
+2020-06-17 14:57:50,Q306,Q-06,Queens,10,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-17 14:59:03,Q302,Q-05,Queens,30,True,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-17 17:08:30,M011,M-04,Manhattan,16,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-17 18:26:03,M237,M-02,Manhattan,50,True,Approached the crowd; they ignored the employee,Playground
+2020-06-17 20:10:59,M098,M-02,Manhattan,39,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-18 09:39:12,Q002,Q-05,Queens,25,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-18 10:46:31,M028-ZN04,M-12,Manhattan,12,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-18 12:37:40,Q001-99,Q-07A,Queens,10,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-18 15:09:49,B109,B-15,Brooklyn,40,True,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-18 15:10:58,B157,B-15,Brooklyn,40,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-18 15:11:53,B051,B-15,Brooklyn,40,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-19 12:52:55,M045,M-08,Manhattan,5,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-19 17:43:22,M011,M-04,Manhattan,16,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-19 17:44:11,M011,M-04,Manhattan,6,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-19 19:57:18,B018-01,B-18,Brooklyn,20,True,Approached the crowd; they ignored the employee,Playground
+2020-06-20 09:09:54,Q391,Q-08,Queens,50,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-20 10:06:53,X045-01,X-01,Bronx,39,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-20 10:36:06,Q413,Q-12,Queens,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-20 10:38:32,Q024-03,Q-07,Queens,13,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-20 14:57:25,Q360J,Q-04,Queens,20,True,Approached the crowd; they complied with instructions,Basketball court
+2020-06-20 15:05:46,X131,X-01,Bronx,30,True,Approached the crowd; they ignored the employee,Playground
+2020-06-20 15:06:19,X216,X-01,Bronx,40,True,Approached the crowd; they ignored the employee,Playground
+2020-06-20 15:07:40,X045-03,X-01,Bronx,50,True,Approached the crowd; they ignored the employee,Playground
+2020-06-20 15:49:33,M017,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-20 15:50:19,M144-ZN03,M-03,Manhattan,17,False,Approached the crowd; they ignored the employee,Soccer field
+2020-06-20 15:51:08,M144-ZN06,M-03,Manhattan,14,False,Approached the crowd; they ignored the employee,Adult fitness equipment
+2020-06-20 16:12:36,Q360N,Q-04,Queens,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-21 07:08:10,M011,M-04,Manhattan,30,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-21 09:19:58,M144-ZN06,M-03,Manhattan,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-21 10:10:58,Q356,Q-07A,Queens,20,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-21 10:14:38,Q001-ZN02,Q-07A,Queens,30,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-21 18:26:29,Q219-99,Q-14,Queens,3,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-22 13:41:47,X042-XZ466,X-06,Bronx,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-22 13:43:09,X010A-01,X-06,Bronx,30,True,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-22 13:44:05,X011,X-06,Bronx,30,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-22 16:17:35,M017,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-22 17:24:59,M011,M-04,Manhattan,4,False,Did not approach the crowd; the crowd remains,Bench/sitting area
+2020-06-23 08:00:47,M144-ZN04,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-23 11:23:18,M042-ZN04,M-12,Manhattan,15,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-23 13:38:39,Q010A-ZN01,Q-07A,Queens,20,False,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-23 15:28:58,X026,X-03,Bronx,12,False,Approached the crowd; they complied with instructions,Bench/sitting area
+2020-06-23 15:46:04,M042-ZN01,M-12,Manhattan,12,True,Did not approach the crowd; the crowd remains,Basketball court
+2020-06-23 15:46:43,M028-ZN04,M-12,Manhattan,15,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-23 18:37:58,M037-ZN05,M-12A,Manhattan,25,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-24 07:24:48,M029-01,M-12,Manhattan,12,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-24 11:31:06,M206,M-03,Manhattan,40,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-24 12:00:40,B329,B-18,Brooklyn,30,True,Approached the crowd; they ignored the employee,Baseball field
+2020-06-24 18:12:37,X087,X-11,Bronx,3,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-24 18:13:30,X157,X-11,Bronx,4,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-24 18:14:13,X172,X-11,Bronx,3,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-24 18:15:34,X232,X-11,Bronx,17,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-24 18:16:16,X162,X-11,Bronx,4,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-24 18:19:42,X003-XZ181,X-11,Bronx,5,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-25 08:46:50,Q099-ZN09,Q-15,Queens,20,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-25 09:43:49,X157,X-11,Bronx,4,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-25 10:49:58,M029-01,M-12,Manhattan,10,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-25 11:04:40,X232,X-11,Bronx,5,False,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-26 15:35:52,R005-ZN02,R-01,Staten Island,12,False,Approached the crowd; they ignored the employee,Bench/sitting area
+2020-06-26 16:03:01,M028-ZN04,M-12,Manhattan,30,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-27 09:18:09,X002-ZN02,X-14,Bronx,50,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-27 12:44:31,M144-ZN05,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-27 12:45:21,M017,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-27 12:46:24,M144-ZN02,M-03,Manhattan,16,False,Approached the crowd; they ignored the employee,Soccer field
+2020-06-27 12:59:39,M028-ZN04,M-12,Manhattan,50,True,Did not approach the crowd; the crowd remains,Baseball field
+2020-06-27 13:00:08,M028-ZN04,M-12,Manhattan,15,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
+2020-06-27 15:55:17,Q010A-ZN02,Q-07A,Queens,25,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-28 01:05:36,X092-ZN04,X-13,Bronx,30,False,Did not approach the crowd; the crowd remains,Open field/multi-purpose play area
+2020-06-28 01:07:36,X092-ZN02,X-13,Bronx,20,False,Approached the crowd; they ignored the employee,Handall court
+2020-06-28 09:13:43,X034-ZN02,X-04,Bronx,25,False,Did not approach the crowd; the crowd remains,Soccer field
+2020-06-28 11:04:22,M037-01,M-12A,Manhattan,20,True,Did not approach the crowd; the crowd remains,Handall court
+2020-06-28 11:05:26,M037-ZN10,M-12A,Manhattan,35,False,Did not approach the crowd; the crowd remains,Walking path
+2020-06-28 12:16:37,M017,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-28 12:17:33,M144-ZN04,M-03,Manhattan,25,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-28 12:18:20,M144-ZN06,M-03,Manhattan,20,False,Approached the crowd; they ignored the employee,Open field/multi-purpose play area
+2020-06-28 20:43:04,X092-09,X-13,Bronx,50,True,Did not approach the crowd; the crowd remains,Playground
+2020-06-29 07:35:49,M144-ZN04,M-03,Manhattan,15,False,Approached the crowd; they ignored the employee,Baseball field
+2020-06-30 08:15:21,M029-01,M-12,Manhattan,12,True,Did not approach the crowd; the crowd remains,Adult fitness equipment
