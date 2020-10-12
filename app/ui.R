@@ -65,7 +65,45 @@ dashboardPage(
             ),
             # Third tab content
             tabItem(tabName = "sd",
-                    h2("social distance tab content")
+                    h2("social distance tab content"),
+                    fluidPage(
+                        fluidRow(
+                            # Show a plot of the generated distribution
+                            plotlyOutput("distPlot")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("distPlot1")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot1")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot2")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot3")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot4")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot5")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("piePlot6")
+                        ),
+                        
+                        fluidRow(
+                            plotlyOutput("parkPlot2")
+                        )
+                    )
             ),
             # Fourth tab content
             tabItem(tabName = "source",

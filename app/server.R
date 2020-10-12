@@ -121,4 +121,100 @@ shinyServer(function(input, output) {
         
     })
     
+    
+    
+    output$distPlot <- renderPlotly({
+        
+        plot_ly(data %>% select(DATE, POSITIVE_TESTS),
+                x = ~DATE, 
+                y = ~POSITIVE_TESTS, type = 'scatter', 
+                mode = 'lines',
+                name= "daily cases") %>% add_trace(y=data$POSITIVE_TESTS_7DAYS_AVG,name="7 days avg") %>%
+            layout(title="Positive Tests")
+        
+    })
+    
+    output$distPlot1 <- renderPlotly({
+        
+        plot_ly(data %>% select(DATE, TOTAL_TESTS),
+                x = ~DATE,
+                y = ~TOTAL_TESTS,type = 'scatter',
+                mode = 'lines',
+                name= "daily cases") %>% add_trace(y=data$TOTAL_TESTS_7DAYS_AVG,name="7 days avg") %>%
+            layout(title="Total Tests")
+    })
+    
+    output$piePlot1 <- renderPlotly({
+        plot_ly(boro[1:5,] %>% select(BOROUGH_GROUP, CASE_COUNT), 
+                labels = ~BOROUGH_GROUP, 
+                values = ~CASE_COUNT, 
+                type = 'pie') %>%
+            layout(title="COVID case by borough",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$piePlot2 <- renderPlotly({
+        plot_ly(parkdata %>% select(park_borough, patroncount) %>%
+                    group_by(park_borough) %>%
+                    summarise(count = n()), 
+                labels = ~park_borough, 
+                values = ~count, 
+                type = 'pie') %>%
+            layout(title="people gathering by borough",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$piePlot3 <- renderPlotly({
+        plot_ly(sex %>% select(SEX_GROUP, CASE_COUNT) %>% filter(SEX_GROUP %in% c("Male","Female")), 
+                labels = ~SEX_GROUP,
+                values = ~CASE_COUNT, 
+                type = 'pie') %>%
+            layout(title="COVID case by sex",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$piePlot4 <- renderPlotly({
+        plot_ly(race %>% select(RACE_GROUP, CASE_COUNT), 
+                labels = ~RACE_GROUP,
+                values = ~CASE_COUNT, 
+                type = 'pie') %>%
+            layout(title="COVID case by race",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$piePlot5 <- renderPlotly({
+        plot_ly(age %>% select(AGE_GROUP, CASE_COUNT) %>% filter(AGE_GROUP!="Citywide"), 
+                labels = ~AGE_GROUP,
+                values = ~CASE_COUNT, 
+                type = 'pie') %>%
+            layout(title="COVID case by age",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$piePlot6 <- renderPlotly({
+        plot_ly(age %>% select(AGE_GROUP, DEATH_COUNT) %>% filter(AGE_GROUP!="Citywide"), 
+                labels = ~AGE_GROUP,
+                values = ~DEATH_COUNT, 
+                type = 'pie') %>%
+            layout(title="COVID death case by age",
+                   xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                   yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+    })
+    
+    output$parkPlot2 <- renderPlotly({
+        plot_ly(parkdata %>%filter(patroncount>=3&patroncount<=50)%>%
+                    mutate(encounter_timestamp = substr(encounter_timestamp, start = 0, stop = 10)) %>% 
+                    group_by(encounter_timestamp) %>%
+                    summarise(count = n()),
+                x = ~encounter_timestamp,
+                y = ~count,
+                type = "bar") %>%
+            layout(title = "Encounter count violanting social distance rule")
+    })
+    
 })

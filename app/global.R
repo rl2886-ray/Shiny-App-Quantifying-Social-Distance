@@ -90,3 +90,16 @@ park_join.action_taken = c("Approached the crowd; they ignored the employee",
 
 # read covid cases data
 case_df = read_csv("./output/daily_cases_by_boro.csv")
+
+
+
+
+
+boro = read_csv("./data/by-boro.csv")
+
+library(lubridate)
+data<-read_csv("./data/tests.csv")
+parkdata <- read_csv("./data/Social_Distancing__Parks_Crowds_Data.csv")
+sex<-read_csv("./data/by-sex.csv")
+race<-read_csv("./data/by-race.csv")
+age<-read_csv("./data/by-age.csv")
