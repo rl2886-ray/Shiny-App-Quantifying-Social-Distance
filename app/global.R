@@ -72,7 +72,7 @@ output_shapefile_filepath <- "./output/clean_parks_data.csv"
 park_data<-read.csv(output_shapefile_filepath)
 
 
-############
+#####################import data for dashboard#######################
 
 # read ZIP_CODE_040114.shp
 path_zip = "./data/"
