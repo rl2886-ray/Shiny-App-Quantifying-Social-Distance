@@ -7,7 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-library(shiny)
 #global.r will enable us to get new data everyday
 #update data with automated script
 source("global.R") 
@@ -15,21 +14,136 @@ source("global.R")
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
-
-    output$distPlot <- renderPlot({
-
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
-
+    #----------------------------------------
+    #tab panel 3 - TimeSeriesPlot
+    output$BKdistPlot <- renderHighchart({
+        
+        highchart() %>%
+            hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
+            hc_chart(type = 'line') %>%
+            hc_series( list(name = 'Number of gatherings', data =BK_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
+                       list(name = 'Covid-19 cases', data =BK_data$BK_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            )%>%
+            hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
+            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_plotOptions(column = list(
+                dataLabels = list(enabled = F),
+                #stacking = "normal",
+                enableMouseTracking = T ) 
+            )%>%
+            hc_tooltip(table = TRUE,
+                       sort = TRUE,
+                       pointFormat = paste0( '<br> <span style="color:{point.color}">\u25CF</span>',
+                                             " {series.name}: {point.y}"),
+                       headerFormat = '<span style="font-size: 13px">Date {point.key}</span>'
+            ) %>%
+            hc_legend( layout = 'vertical', align = 'left', verticalAlign = 'top', floating = T, x = 100, y = 000 )
+        
     })
-
-
-#----------------------------------------
-#tab panel 2 - Maps
+    output$BXdistPlot <- renderHighchart({
+        
+        highchart() %>%
+            hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
+            hc_chart(type = 'line') %>%
+            hc_series( list(name = 'Number of gatherings', data =BX_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
+                       list(name = 'Covid-19 cases', data =BX_data$BX_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            )%>%
+            hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
+            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_plotOptions(column = list(
+                dataLabels = list(enabled = F),
+                #stacking = "normal",
+                enableMouseTracking = T ) 
+            )%>%
+            hc_tooltip(table = TRUE,
+                       sort = TRUE,
+                       pointFormat = paste0( '<br> <span style="color:{point.color}">\u25CF</span>',
+                                             " {series.name}: {point.y}"),
+                       headerFormat = '<span style="font-size: 13px">Date {point.key}</span>'
+            ) %>%
+            hc_legend( layout = 'vertical', align = 'left', verticalAlign = 'top', floating = T, x = 100, y = 000 )
+        
+    })
+    output$MNdistPlot <- renderHighchart({
+        
+        highchart() %>%
+            hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
+            hc_chart(type = 'line') %>%
+            hc_series( list(name = 'Number of gatherings', data =MN_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
+                       list(name = 'Covid-19 cases', data =MN_data$MN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            )%>%
+            hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
+            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_plotOptions(column = list(
+                dataLabels = list(enabled = F),
+                #stacking = "normal",
+                enableMouseTracking = T ) 
+            )%>%
+            hc_tooltip(table = TRUE,
+                       sort = TRUE,
+                       pointFormat = paste0( '<br> <span style="color:{point.color}">\u25CF</span>',
+                                             " {series.name}: {point.y}"),
+                       headerFormat = '<span style="font-size: 13px">Date {point.key}</span>'
+            ) %>%
+            hc_legend( layout = 'vertical', align = 'left', verticalAlign = 'top', floating = T, x = 100, y = 000 )
+        
+    })
+    output$QNdistPlot <- renderHighchart({
+        
+        highchart() %>%
+            hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
+            hc_chart(type = 'line') %>%
+            hc_series( list(name = 'Number_of_Crowd', data =QN_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
+                       list(name = 'Covid_Cases', data =QN_data$QN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            )%>%
+            hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
+            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_plotOptions(column = list(
+                dataLabels = list(enabled = F),
+                #stacking = "normal",
+                enableMouseTracking = T ) 
+            )%>%
+            hc_tooltip(table = TRUE,
+                       sort = TRUE,
+                       pointFormat = paste0( '<br> <span style="color:{point.color}">\u25CF</span>',
+                                             " {series.name}: {point.y}"),
+                       headerFormat = '<span style="font-size: 13px">Date {point.key}</span>'
+            ) %>%
+            hc_legend( layout = 'vertical', align = 'left', verticalAlign = 'top', floating = T, x = 100, y = 000 )
+        
+    })
+    output$SIdistPlot <- renderHighchart({
+        
+        highchart() %>%
+            hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
+            hc_chart(type = 'line') %>%
+            hc_series( list(name = 'Number of gatherings', data =SI_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
+                       list(name = 'Covid-19 cases', data =SI_data$Cases, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            )%>%
+            hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
+            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_plotOptions(column = list(
+                dataLabels = list(enabled = F),
+                #stacking = "normal",
+                enableMouseTracking = T ) 
+            )%>%
+            hc_tooltip(table = TRUE,
+                       sort = TRUE,
+                       pointFormat = paste0( '<br> <span style="color:{point.color}">\u25CF</span>',
+                                             " {series.name}: {point.y}"),
+                       headerFormat = '<span style="font-size: 13px">Date {point.key}</span>'
+            ) %>%
+            hc_legend( layout = 'vertical', align = 'left', verticalAlign = 'top', floating = T, x = 100, y = 000 )
+        
+    })
+    
+    #----------------------------------------
+    #tab panel 2 - Maps
     
     map_base = leaflet(
         options = leafletOptions(dragging = FALSE, 
@@ -123,6 +237,8 @@ shinyServer(function(input, output) {
     
     
     
+    
+    #tab panel 4 - Demographic
     output$distPlot <- renderPlotly({
         
         plot_ly(data %>% select(DATE, POSITIVE_TESTS),
@@ -216,5 +332,4 @@ shinyServer(function(input, output) {
                 type = "bar") %>%
             layout(title = "Encounter count violanting social distance rule")
     })
-    
 })
