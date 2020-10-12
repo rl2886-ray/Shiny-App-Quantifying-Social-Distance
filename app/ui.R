@@ -45,9 +45,7 @@ dashboardPage(
                     )),
             # Second tab content
             tabItem(tabName = "dashboard",
-                    
-                    ui = fluidPage(
-                        h2("heatmap"),
+                        h2("dashboard tab content"),
                         leafletOutput("map_park_covid", width = "100%", height = "1200"),
                         absolutePanel(id = "control", class = "panel panel-default", fixed = F, draggable = TRUE,
                                       top = 100, left = 20, right = "auto", bottom = "auto", width = 300, height = "auto",
@@ -63,7 +61,7 @@ dashboardPage(
                                       sliderInput(inputId = "covid_fillOpacity_map", label = "fill Opacity",
                                                   value=0.5,min=0,max=1,step=0.01,ticks = F,dragRange = F),
                                       style = "opacity: 0.90"
-                        ))
+                        )
             ),
             # Third tab content
             tabItem(tabName = "sd",
