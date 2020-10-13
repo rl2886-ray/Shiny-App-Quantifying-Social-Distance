@@ -239,16 +239,7 @@ shinyServer(function(input, output) {
     
     
     #tab panel 4 - Demographic
-    output$distPlot <- renderPlotly({
-        
-        plot_ly(data %>% select(DATE, POSITIVE_TESTS),
-                x = ~DATE, 
-                y = ~POSITIVE_TESTS, type = 'scatter', 
-                mode = 'lines',
-                name= "daily cases") %>% add_trace(y=data$POSITIVE_TESTS_7DAYS_AVG,name="7 days avg") %>%
-            layout(title="Positive Tests")
-        
-    })
+    
     
     output$distPlot1 <- renderPlotly({
         
