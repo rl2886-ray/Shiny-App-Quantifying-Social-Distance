@@ -47,7 +47,7 @@ dashboardPage(
                     )),
             # Second tab content
             tabItem(tabName = "dashboard",
-                    h2("Map for park gathering and covid-19 cases"),
+                    h2("Park Gathering and Covid-19"),
                     leafletOutput("map_park_covid", width = "100%", height = 800),
                     absolutePanel(id = "control", class = "panel panel-default", fixed = T, draggable = TRUE,
                                   top = 150, left = 300, right = "auto", bottom = "auto", width = 300, height = "auto",
@@ -56,7 +56,7 @@ dashboardPage(
             # Third tab content
             tabItem(tabName = "sd",
                     fluidPage(
-                        h2("Cases-19 Cases and Park Gatherings" ),
+                        h2("Park Gathering and Covid-19" ),
                         fluidRow(
                             column( width = 12,h4("Brooklyn ", align = 'center'), highchartOutput('BKdistPlot')
                             )  
@@ -74,7 +74,7 @@ dashboardPage(
                             
                         ),
                         fluidRow(
-                            column( width = 12,h4("StatenIsland ", align = 'center'), highchartOutput('SIdistPlot') )
+                            column( width = 12,h4("Staten Island ", align = 'center'), highchartOutput('SIdistPlot') )
                             
                         )
                     )
@@ -85,7 +85,7 @@ dashboardPage(
                     h2("Transportation"),
                     fluidPage(
                         fluidRow(
-                            column( width = 12,h4("TransportationPlot ", align = 'center'), highchartOutput('transPlot'))
+                            column( width = 12, highchartOutput('transPlot'))
                         )
             )
         ),
