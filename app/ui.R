@@ -13,13 +13,13 @@ library(shinydashboard)
 dashboardPage(
     skin = "green",
     title = "RadaR",
-    dashboardHeader(title = "Park Gatherings, Social Distancing & Covid-19",
+    dashboardHeader(title = "Quantifying Social Distancing",
                     titleWidth = 300),
     dashboardSidebar( 
         sidebarMenu(
         menuItem("Home", tabName = "home", icon = icon("dashboard")),
-        menuItem("Map ", tabName = "dashboard", icon = icon("map")),
-        menuItem("Timeline ", tabName = "sd", icon = icon("people-arrows")),
+        menuItem("Map", tabName = "dashboard", icon = icon("map")),
+        menuItem("Parks", tabName = "sd", icon = icon("people-arrows")),
         menuItem("Transportation", tabName = "ts", icon = icon("dashboard")),
         menuItem("Data", tabName = "source", icon = icon("database"))
     )
@@ -32,8 +32,9 @@ dashboardPage(
                     fluidPage(
                         fluidRow(
                             box(width = 15, title = "Introduction", status = "success",
-                                solidHeader = TRUE, h3("Social_Distancing & Covid"),
+                                solidHeader = TRUE, h3("Quantifying Social Distancing"),
                                 h4("By Qinzhe Hu, Depeng Kong, Rui Liang, Yotam Segal, Hankun Shi"),
+                                h5("Social Distancing is an important factor in the fight against the Pandemic. The scientific community urges us to respect Social Distancing as it was proven an effective measure. Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others. Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. This crucial step would enable to take highly targeted preemptive measures, rather than wide lock-downs. Indeed, some nations are using cellular tracking to measure social distancing and help with contact tracing, but in many countries this measure is unconstitutional and, in some regions,, it is simply unfeasible. In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.")
                                )),
                         fluidRow(box(width = 15, title = "User Guide", status = "success",
                                      solidHeader = TRUE, h3("What Does This App Do?"),
