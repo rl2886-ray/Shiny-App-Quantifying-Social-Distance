@@ -85,7 +85,7 @@ date_truncate<-function(data){
 #Download the park crowds data in this link and aftering cleaning it, put it to output file
 # https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc
 
-setwd('..')
+
 output_shapefile_filepath <- "./output/clean_parks_data.csv"
 park_data<-read.csv(output_shapefile_filepath)
 park_data$timestamp<-as.Date(as.POSIXct(park_data$timestamp, origin="1970-01-01"))
@@ -124,7 +124,7 @@ SI_data<-merge(SI_data,SI_bor,by="timestamp")
 #####################import data for map#######################
 
 # read ZIP_CODE_040114.shp
-path_zip = "./data/ZIP_CODE_040114/"
+path_zip = "./output/ZIP_CODE_040114/"
 file_zip = "ZIP_CODE_040114.shp"
 zipcode_geo <- sf::st_read(paste0(path_zip, file_zip)) %>%
   sf::st_transform('+proj=longlat +datum=WGS84')
@@ -143,17 +143,11 @@ zc2013 = read_csv("./output/zc2013.csv")
 covid0630 = read_csv("./output/covid0630.csv",
                      col_types = cols(ZIPCODE=col_character()))
 
-#####################import data for demographic#######################
-boro = read_csv("./data/by-boro.csv")
-
-library(lubridate)
-data<-read_csv("./data/tests.csv")
-parkdata <- read_csv("./data/Social_Distancing__Parks_Crowds_Data.csv")
-sex<-read_csv("./data/by-sex.csv")
-race<-read_csv("./data/by-race.csv")
-age<-read_csv("./data/by-age.csv")
-mobility <- read_csv("./data/applemobilitytrends-2020-10-11.csv") %>% 
-  dplyr::filter(region == "New York City")
-
+#####################import data for transportation#######################
+transit = read_csv("./output/proccessed_data_mobility.csv")
+data<-read_csv("./output/tests.csv") %>% filter(DATE <= "06/30/2020")
+trans_drive = transit %>% dplyr::filter(mobility == "driving")
+trans_walk = transit %>% dplyr::filter(mobility == "walking")
+trans_bus = transit %>% dplyr::filter(mobility == "transit")
 
 

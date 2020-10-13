@@ -20,7 +20,7 @@ dashboardPage(
         menuItem("Home", tabName = "home", icon = icon("dashboard")),
         menuItem("Map ", tabName = "dashboard", icon = icon("map")),
         menuItem("Timeline ", tabName = "sd", icon = icon("people-arrows")),
-        menuItem("Demographic", tabName = "dm", icon = icon("dashboard")),
+        menuItem("Transportation", tabName = "ts", icon = icon("dashboard")),
         menuItem("Data", tabName = "source", icon = icon("database"))
     )
     ),
@@ -91,52 +91,18 @@ dashboardPage(
                     
             ),
             # Fourth tab content
-            tabItem(tabName = "dm",
-                    h2("Demographic"),
+            tabItem(tabName = "ts",
+                    h2("Transportation"),
                     fluidPage(
                         fluidRow(
-                            # Show a plot of the generated distribution
-                            plotlyOutput("distPlot")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("distPlot1")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot1")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot2")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot3")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot4")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot5")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("piePlot6")
-                        ),
-                        
-                        fluidRow(
-                            plotlyOutput("parkPlot2")
+                            column( width = 12,h4("TransportationPlot ", align = 'center'), highchartOutput('transPlot'))
                         )
-                    )
-            ),
-            # Fifth tab content
-            tabItem(tabName = "source",
-                    h2("Data source tab content")
             )
+        ),
+        # Fifth tab content
+        tabItem(tabName = "source",
+                h2("Data source tab content")
         )
     )
 )
-
+)
