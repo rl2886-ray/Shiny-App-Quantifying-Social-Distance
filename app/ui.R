@@ -45,22 +45,22 @@ dashboardPage(
                     )),
             # Second tab content
             tabItem(tabName = "dashboard",
-                    h2("dashboard tab content"),
-                    leafletOutput("map_park_covid", width = "100%", height = "1200"),
-                    absolutePanel(id = "control", class = "panel panel-default", fixed = F, draggable = TRUE,
-                                  top = 100, left = 20, right = "auto", bottom = "auto", width = 300, height = "auto",
+                    h2("Map for park gathering and covid-19 cases"),
+                    leafletOutput("map_park_covid", width = "100%", height = 800),
+                    absolutePanel(id = "control", class = "panel panel-default", fixed = T, draggable = TRUE,
+                                  top = 150, left = 300, right = "auto", bottom = "auto", width = 300, height = "auto",
                                   
-                                  h4("Which covid cases to visualize:"),
-                                  checkboxInput("if_covid_boro_map", "historical cases at borough level", value = T),
-                                  # checkboxInput("if_covid_zip_map", "today's cases at zipcode level", value = TRUE),
-                                  sliderInput('date_map','Input Date:', value = lubridate::ymd('2020-05-01'), 
-                                              min = lubridate::ymd('2020-03-25'), max = lubridate::ymd(('2020-06-30')), 
-                                              timeFormat = "%Y-%m-%d",animate = TRUE, step = 1),
-                                  radioButtons(inputId = "cum_choice_new_map","cumulative / daily new",
-                                               choices = list("cumulative","new"),selected = "cumulative"),
-                                  sliderInput(inputId = "covid_fillOpacity_map", label = "fill Opacity",
-                                              value=0.5,min=0,max=1,step=0.01,ticks = F,dragRange = F),
-                                  style = "opacity: 0.90"
+                                  # h4("Which covid cases to visualize"),
+                                  # checkboxInput("if_covid_boro_map", "historical cases at borough level", value = T),
+                                  # # checkboxInput("if_covid_zip_map", "today's cases at zipcode level", value = TRUE),
+                                  # sliderInput('date_map','Input Date:', value = lubridate::ymd('2020-05-01'), 
+                                  #             min = lubridate::ymd('2020-03-25'), max = lubridate::ymd(('2020-06-30')), 
+                                  #             timeFormat = "%Y-%m-%d",animate = TRUE, step = 1),
+                                  # radioButtons(inputId = "cum_choice_new_map","cumulative / daily new",
+                                  #              choices = list("cumulative","new"),selected = "cumulative"),
+                                  # # sliderInput(inputId = "covid_fillOpacity_map", label = "fill Opacity",
+                                  # #             value=0.5,min=0,max=1,step=0.01,ticks = F,dragRange = F),
+                                  # style = "opacity: 0.90"
                     )
             ),
             # Third tab content

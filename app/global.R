@@ -130,16 +130,18 @@ zipcode_geo <- sf::st_read(paste0(path_zip, file_zip)) %>%
   sf::st_transform('+proj=longlat +datum=WGS84')
 
 # read park data
-park_join = read_csv("./output/park_join_4map.csv",
-                     col_types = cols())
+park_join = read_csv("./output/park_join_4map.csv")
+park_join.nrow_patron_zip = read_csv("./output/park_join.nrow_patron_zip.csv")
 
-park_join.action_taken = c("Approached the crowd; they ignored the employee",
-                           "Approached the crowd; they complied with instructions",
-                           "Did not approach the crowd; the crowd remains")
+# park_join.action_taken = c("Approached the crowd; they ignored the employee",
+#                            "Approached the crowd; they complied with instructions",
+#                            "Did not approach the crowd; the crowd remains")
 
 # read covid cases data
-case_df = read_csv("./output/daily_cases_by_boro.csv")
-
+# case_df = read_csv("./output/daily_cases_by_boro.csv")
+zc2013 = read_csv("./output/zc2013.csv")
+covid0630 = read_csv("./output/covid0630.csv",
+                     col_types = cols(ZIPCODE=col_character()))
 
 #####################import data for demographic#######################
 boro = read_csv("./data/by-boro.csv")

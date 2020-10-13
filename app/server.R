@@ -15,6 +15,106 @@ source("global.R")
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
     #----------------------------------------
+    #tab panel 2 - Maps
+    
+    map_base = leaflet(
+        options = leafletOptions(dragging = T, 
+                                 minZoom = 10, maxZoom = 16)
+    ) %>%
+        setView(lng = -73.92,lat = 40.73, zoom = 11) %>% 
+        addTiles() %>%
+        addProviderTiles("CartoDB.Positron", group = "Carto")
+    # addProviderTiles("MapBox", group = "Esri") %>%
+    # addProviderTiles("Esri.WorldGrayCanvas", group = "WorldGrayCanvas")
+    # 
+    # pal_park <- colorNumeric(palette = "Greens",
+    #                          domain = park_join$patroncount)
+    #                         
+    
+    observe({
+        # if(!is.null(input$date_map)){
+        #     input_date <- format.Date(input$date_map,'%Y-%m-%d')}
+        # input_if_covid_boro = input$if_covid_boro_map
+        # input_if_covid_zip = input$if_covid_zip_map
+        # covid_fillOpacity = 0.5
+        # input_cum_new = input$cum_choice_new_map
+        
+        
+        output$map_park_covid = renderLeaflet({
+            
+            # if (input_cum_new == "cumulative"){
+            #     # input_date = ymd("2020-05-01") #test case
+            #     park_join = park_join %>% filter(date <= input_date)
+            #     case_df = case_df %>% filter(date <= input_date) %>%
+            #         group_by(borough) %>% summarise(cases = sum(cases))
+            # } else {
+            #     park_join = park_join %>% filter(date == input_date)
+            #     case_df = case_df %>% filter(date == input_date)
+            # }
+            
+            zipcode_geo = zipcode_geo %>% 
+                left_join(covid0630,by = c("ZIPCODE"="ZIPCODE"))
+            
+            map_out = map_base
+            
+            # shades: covid cases
+            # if (input_if_covid_boro){
+            # pal_covid <- colorNumeric(palette = "Blues",
+            #                           domain = (zipcode_geo$cases))  
+            map_out = map_out  %>% 
+                # addPolygons
+                addPolygons(data = zipcode_geo,
+                            weight = 0.25,
+                            fillOpacity = 0,
+                            popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,"</b><br/>borough: ",
+                                             PO_NAME,"<br/>Number of confirmed cases by Jun 30: ", cases)),
+                            highlight = highlightOptions(weight = 2,
+                                                         color = "red",
+                                                         bringToFront = F)) %>%
+                addCircleMarkers(data = park_join.nrow_patron_zip,
+                                 lng = ~LNG_repre, lat = ~LAT_repre,
+                                 color = "#FFB400", radius = ~ceiling(n/5), 
+                                 popup = ~(paste0("<b>Zip Code: ",zip ,
+                                                  "</b><br/>Number of records of people violating social-distancing: ", n)),
+                                 group = "social_distancing") %>%
+                addCircleMarkers(data = covid0630,
+                                 lng = ~LNG_repre, lat = ~LAT_repre,
+                                 color = "#2C6BAC", radius = ~(cases)/100, 
+                                 popup = ~(paste0("<b>Zip Code: ",ZIPCODE , 
+                                                  "</b><br/>Number of confirmed cases by Jun 30: ", cases)),
+                                 group = "covid")
+            # }
+            
+            
+            map_out = map_out  %>%
+                # addMarkers(data = park_join, lng = ~lon, lat = ~lat,
+                #            label = ~patroncount) %>%
+                # addCircleMarkers(data = park_join, lng = ~lon, lat = ~lat,
+                #                  color = ~pal_park(patroncount), radius = 5, 
+                #                  
+                #                  # clusterOptions = markerClusterOptions(),
+                #                  popup = ~paste0("<b>", name, "</b><br/>", address,
+                #                                  "<br/>", 
+                #                                  format(timestamp,"%Y-%m-%d %H:%M"))
+                # highlight = highlightOptions(weight = 3,
+                #                              color = "red", 
+            #                              bringToFront = TRUE)
+            # ) %>% 
+            # addLegend(data = park_join, position = "bottomright",
+            #           pal = pal_park, opacity = 0.5, 
+            #           title = "social distancing: patroncount",
+            #           values = ~patroncount) %>% 
+            addLayersControl(baseGroups =  c("Carto"),
+                             overlayGroups = c("covid","social_distancing")) 
+            
+        })
+        
+        leafletProxy("map_base")
+        
+    })
+    
+    
+    #----------------------------------------
     #tab panel 3 - TimeSeriesPlot
     output$BKdistPlot <- renderHighchart({
         
@@ -142,102 +242,8 @@ shinyServer(function(input, output) {
         
     })
     
+  
     #----------------------------------------
-    #tab panel 2 - Maps
-    
-    map_base = leaflet(
-        options = leafletOptions(dragging = FALSE, 
-                                 minZoom = 9, maxZoom = 16)
-    ) %>%
-        setView(lng = -73.92,lat = 40.73, zoom = 11) %>% 
-        addTiles(group = "OpenStreetMap") %>% 
-        addProviderTiles("CartoDB", group = "Carto") %>% 
-        # addProviderTiles("Esri", group = "Esri")  %>% 
-        # addProviderTiles("Wikimedia", group = "Wikimedia")  %>% 
-        addLayersControl(baseGroups = c("OpenStreetMap", "Carto"),
-                         overlayGroups = c(park_join.action_taken)) 
-    
-    pal_park <- colorFactor(palette = c("red","green", "blue"), 
-                            levels = park_join.action_taken)
-    
-    observe({
-        if(!is.null(input$date_map)){
-            input_date <- format.Date(input$date_map,'%Y-%m-%d')}
-        input_if_covid_boro = input$if_covid_boro_map
-        input_if_covid_zip = input$if_covid_zip_map
-        covid_fillOpacity = input$covid_fillOpacity_map
-        input_cum_new = input$cum_choice_new_map
-        
-        
-        output$map_park_covid = renderLeaflet({
-            if (input_cum_new == "cumulative"){
-                # input_date = ymd("2020-05-01") #test case
-                park_join = park_join %>% filter(date <= input_date)
-                case_df = case_df %>% filter(date <= input_date) %>% 
-                    group_by(borough) %>% summarise(cases = sum(cases))
-            } else {
-                park_join = park_join %>% filter(date == input_date)
-                case_df = case_df %>% filter(date == input_date)
-            }
-            zipcode_geo = zipcode_geo %>% 
-                left_join(case_df,by = c("COUNTY"="borough"))
-            
-            map_out = map_base
-            
-            
-            if (input_if_covid_boro){
-                pal_covid <- colorNumeric(palette = "Blues",
-                                          domain = (zipcode_geo$cases))  
-                map_out = map_out %>%
-                    addPolygons(data = zipcode_geo,
-                                weight = 1, 
-                                color = ~pal_covid(cases),
-                                fillOpacity = covid_fillOpacity,
-                                popup = ~(paste0("<b>Zip Code: ",ZIPCODE , "</b><br/>borough: ",
-                                                 COUNTY,"<br/>cases: ", cases)),
-                                highlight = highlightOptions(weight = 3,
-                                                             color = "red", 
-                                                             bringToFront = TRUE))
-            }
-            
-            
-            map_out = map_out  %>%
-                addCircleMarkers(data = subset(park_join,
-                                               action_taken=="Approached the crowd; they complied with instructions"),
-                                 lng = ~lon, lat = ~lat,
-                                 color = ~pal_park(action_taken), radius = 3, 
-                                 clusterOptions = markerClusterOptions(),
-                                 popup = ~paste0("<b>", name, "</b><br/>", address),
-                                 group = "Approached_complied") %>% 
-                addCircleMarkers(data = subset(park_join,
-                                               action_taken=="Approached the crowd; they ignored the employee"),
-                                 lng = ~lon, lat = ~lat,
-                                 color = ~pal_park(action_taken), radius = 3, 
-                                 clusterOptions = markerClusterOptions(),
-                                 popup = ~paste0("<b>", name, "</b><br/>", address),
-                                 group = "Approached_ignored") %>%
-                addCircleMarkers(data = subset(park_join,
-                                               action_taken=="Did not approach the crowd; the crowd remains"),
-                                 lng = ~lon, lat = ~lat,
-                                 color = ~pal_park(action_taken), radius = 3, 
-                                 clusterOptions = markerClusterOptions(),
-                                 popup = ~paste0("<b>", name, "</b><br/>", address),
-                                 group = "NotApproached") %>%
-                addLegend(data = park_join, position = "bottomright",
-                          pal = pal_park, opacity = 0.5, title = "social distancing: action_taken",
-                          values = ~action_taken) %>% 
-                addLayersControl(baseGroups = c("OpenStreetMap", "Carto"),
-                                 overlayGroups = c(park_join.action_taken)) 
-            
-        })
-        
-        leafletProxy("map_base")
-        
-    })
-    
-    
-    
-    
     #tab panel 4 - Demographic
     output$distPlot <- renderPlotly({
         
