@@ -24,49 +24,23 @@ shinyServer(function(input, output) {
         setView(lng = -73.92,lat = 40.73, zoom = 11) %>% 
         addTiles() %>%
         addProviderTiles("CartoDB.Positron", group = "Carto")
-    # addProviderTiles("MapBox", group = "Esri") %>%
-    # addProviderTiles("Esri.WorldGrayCanvas", group = "WorldGrayCanvas")
-    # 
-    # pal_park <- colorNumeric(palette = "Greens",
-    #                          domain = park_join$patroncount)
-    #                         
+                        
     
     observe({
-        # if(!is.null(input$date_map)){
-        #     input_date <- format.Date(input$date_map,'%Y-%m-%d')}
-        # input_if_covid_boro = input$if_covid_boro_map
-        # input_if_covid_zip = input$if_covid_zip_map
-        # covid_fillOpacity = 0.5
-        # input_cum_new = input$cum_choice_new_map
-        
-        
+
         output$map_park_covid = renderLeaflet({
-            
-            # if (input_cum_new == "cumulative"){
-            #     # input_date = ymd("2020-05-01") #test case
-            #     park_join = park_join %>% filter(date <= input_date)
-            #     case_df = case_df %>% filter(date <= input_date) %>%
-            #         group_by(borough) %>% summarise(cases = sum(cases))
-            # } else {
-            #     park_join = park_join %>% filter(date == input_date)
-            #     case_df = case_df %>% filter(date == input_date)
-            # }
             
             zipcode_geo = zipcode_geo %>% 
                 left_join(covid0630,by = c("ZIPCODE"="ZIPCODE"))
             
             map_out = map_base
-            
-            # shades: covid cases
-            # if (input_if_covid_boro){
-            # pal_covid <- colorNumeric(palette = "Blues",
-            #                           domain = (zipcode_geo$cases))  
+
             map_out = map_out  %>% 
                 # addPolygons
                 addPolygons(data = zipcode_geo,
                             weight = 0.25,
                             fillOpacity = 0,
-                            popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,"</b><br/>borough: ",
+                            popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,"</b><br/>Borough: ",
                                              PO_NAME,"<br/>Number of confirmed cases by Jun 30: ", cases)),
                             highlight = highlightOptions(weight = 2,
                                                          color = "red",
@@ -75,7 +49,7 @@ shinyServer(function(input, output) {
                                  lng = ~LNG_repre, lat = ~LAT_repre,
                                  color = "#FFB400", radius = ~ceiling(n/5), 
                                  popup = ~(paste0("<b>Zip Code: ",zip ,
-                                                  "</b><br/>Number of records of people violating social-distancing: ", n)),
+                                                  "</b><br/>Gatherings: ", n)),
                                  group = "social_distancing") %>%
                 addCircleMarkers(data = covid0630,
                                  lng = ~LNG_repre, lat = ~LAT_repre,
@@ -87,23 +61,7 @@ shinyServer(function(input, output) {
             
             
             map_out = map_out  %>%
-                # addMarkers(data = park_join, lng = ~lon, lat = ~lat,
-                #            label = ~patroncount) %>%
-                # addCircleMarkers(data = park_join, lng = ~lon, lat = ~lat,
-                #                  color = ~pal_park(patroncount), radius = 5, 
-                #                  
-                #                  # clusterOptions = markerClusterOptions(),
-                #                  popup = ~paste0("<b>", name, "</b><br/>", address,
-                #                                  "<br/>", 
-                #                                  format(timestamp,"%Y-%m-%d %H:%M"))
-                # highlight = highlightOptions(weight = 3,
-                #                              color = "red", 
-            #                              bringToFront = TRUE)
-            # ) %>% 
-            # addLegend(data = park_join, position = "bottomright",
-            #           pal = pal_park, opacity = 0.5, 
-            #           title = "social distancing: patroncount",
-            #           values = ~patroncount) %>% 
+
             addLayersControl(baseGroups =  c("Carto"),
                              overlayGroups = c("covid","social_distancing")) 
             
@@ -121,12 +79,12 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number of gatherings', data =BK_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
-                       list(name = 'Covid-19 cases', data =BK_data$BK_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            hc_series( list(name = 'Number of gatherings', data =BK_data$number, color='green', marker = list(symbol = 'circle')),
+                       list(name = 'Covid-19 cases', data =BK_data$BK_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle'), yAxis = 1  )
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
-            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
-                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),
+                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 cases")))%>%
             hc_plotOptions(column = list(
                 dataLabels = list(enabled = F),
                 #stacking = "normal",
@@ -146,12 +104,12 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number of gatherings', data =BX_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
-                       list(name = 'Covid-19 cases', data =BX_data$BX_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            hc_series( list(name = 'Number of gatherings', data =BX_data$number, color='green', marker = list(symbol = 'circle') ),
+                       list(name = 'Covid-19 cases', data =BX_data$BX_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle'), yAxis = 1 )
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
-            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
-                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),
+                            list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 cases")))%>%
             hc_plotOptions(column = list(
                 dataLabels = list(enabled = F),
                 #stacking = "normal",
@@ -171,12 +129,12 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number of gatherings', data =MN_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
-                       list(name = 'Covid-19 cases', data =MN_data$MN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            hc_series( list(name = 'Number of gatherings', data =MN_data$number, color='green', marker = list(symbol = 'circle') ),
+                       list(name = 'Covid-19 cases', data =MN_data$MN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') , yAxis = 1)
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
-            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
-                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),
+                            list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 cases")))%>%
             hc_plotOptions(column = list(
                 dataLabels = list(enabled = F),
                 #stacking = "normal",
@@ -196,12 +154,12 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number_of_Crowd', data =QN_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
-                       list(name = 'Covid_Cases', data =QN_data$QN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            hc_series( list(name = 'Number_of_Crowd', data =QN_data$number, color='green', marker = list(symbol = 'circle') ),
+                       list(name = 'Covid_Cases', data =QN_data$QN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') , yAxis = 1)
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
-            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
-                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),
+                            list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 cases")))%>%
             hc_plotOptions(column = list(
                 dataLabels = list(enabled = F),
                 #stacking = "normal",
@@ -221,12 +179,12 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number of gatherings', data =SI_data$number, color='green', marker = list(symbol = 'circle'), yAxis = 1 ),
-                       list(name = 'Covid-19 cases', data =SI_data$Cases, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+            hc_series( list(name = 'Number of gatherings', data =SI_data$number, color='green', marker = list(symbol = 'circle')),
+                       list(name = 'Covid-19 cases', data =SI_data$Cases, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') , yAxis = 1)
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
-            hc_yAxis_multiples( list(title = list(text = "Covid-19 cases")),
-                                list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Number of gatherings")))%>%
+            hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),
+                            list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 cases")))%>%
             hc_plotOptions(column = list(
                 dataLabels = list(enabled = F),
                 #stacking = "normal",
@@ -249,10 +207,10 @@ shinyServer(function(input, output) {
     highchart() %>%
       hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
       hc_chart(type = 'line') %>%
-      hc_series( list(name = 'Driving', data =trans_drive$moving_avg, color='#32CD32', marker = list(symbol = 'circle'), yAxis = 1 ),
-                 list(name = 'Waling', data =trans_walk$moving_avg, color="#228B22", marker = list(symbol = 'circle'), yAxis = 1 ),
-                 list(name = 'Public Transport', data =trans_bus$moving_avg, color='#006400', marker = list(symbol = 'circle'), yAxis = 1 ),
-                 list(name = 'Covid-19 Cases', data =data$POSITIVE_TESTS_7DAYS_AVG, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') )
+      hc_series( list(name = 'Driving', data =trans_drive$moving_avg, color='#32CD32', marker = list(symbol = 'triangle'), yAxis = 1 ),
+                 list(name = 'Waling', data =trans_walk$moving_avg, color="#228B22", marker = list(symbol = 'triangle'), yAxis = 1 ),
+                 list(name = 'Public Transport', data =trans_bus$moving_avg, color='#006400', marker = list(symbol = 'triangle'), yAxis = 1 ),
+                 list(name = 'Covid-19 Cases', data =data$POSITIVE_TESTS_7DAYS_AVG, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'circle') )
       )%>%
       hc_xAxis( categories = trans_drive$DATE ) %>%
       hc_yAxis_multiples( list(title = list(text = "Covid-19 Cases")),
