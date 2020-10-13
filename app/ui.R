@@ -19,8 +19,8 @@ dashboardPage(
         sidebarMenu(
         menuItem("Home", tabName = "home", icon = icon("dashboard")),
         menuItem("Map", tabName = "dashboard", icon = icon("map")),
-        menuItem("Parks", tabName = "sd", icon = icon("people-arrows")),
-        menuItem("Transportation", tabName = "ts", icon = icon("dashboard")),
+        menuItem("Parks Timelime", tabName = "sd", icon = icon("tree")),
+        menuItem("Transportation Timeline", tabName = "ts", icon = icon("car")),
         menuItem("Data", tabName = "source", icon = icon("database"))
     )
     ),
@@ -34,14 +34,15 @@ dashboardPage(
                             box(width = 15, title = "Introduction", status = "success",
                                 solidHeader = TRUE, h3("Quantifying Social Distancing"),
                                 h4("By Qinzhe Hu, Depeng Kong, Rui Liang, Yotam Segal, Hankun Shi"),
-                                h5("Social Distancing is an important factor in the fight against the Pandemic. The scientific community urges us to respect Social Distancing as it was proven an effective measure. Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others. Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. This crucial step would enable to take highly targeted preemptive measures, rather than wide lock-downs. Indeed, some nations are using cellular tracking to measure social distancing and help with contact tracing, but in many countries this measure is unconstitutional and, in some regions,, it is simply unfeasible. In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.")
+                                h5("Social Distancing is an important factor in the fight against the Pandemic. The scientific community urges us to respect Social Distancing as it was proven an effective measure. Nevertheless, to date, there has been very little research on how to quantify and measure social distancing.", tags$br(),"It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others.", tags$br(),"Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. This crucial step would enable to take highly targeted preemptive measures, rather than wide lock-downs." , tags$br(),"Indeed, some nations are using cellular tracking to measure social distancing and help with contact tracing, but in most countries this measure is unconstitutional and, in some regions, it is simply unfeasible.", tags$br(),"In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.")
                                )),
                         fluidRow(box(width = 15, title = "User Guide", status = "success",
                                      solidHeader = TRUE, h3("What Does This App Do?"),
                                      tags$div(tags$ul(
-                                         tags$li("Covid_Dashboard&Map: This part contains "),
-                                         tags$li("Social_Distance: This part is "),
-                                         tags$li("Data_Source: ")
+                                         tags$li("Map: An interactive map of NYC, displaying commulative park gatherings and confirmed Covid-19 cases"),
+                                         tags$li("Parks Timelime: An interactive timelime of new daily updated park gatherings and confirmed Covid-19 cases"),
+                                         tags$li("Transportation Timeline: An interactive timeline of transportation methods taken at NYC and new Covid-19 cases" ),
+                                         tags$li("Data: Data sources we used in building this app")
                                      ))))
                     )),
             # Second tab content
