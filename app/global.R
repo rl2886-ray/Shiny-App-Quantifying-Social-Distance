@@ -150,7 +150,8 @@ parkdata <- read_csv("./data/Social_Distancing__Parks_Crowds_Data.csv")
 sex<-read_csv("./data/by-sex.csv")
 race<-read_csv("./data/by-race.csv")
 age<-read_csv("./data/by-age.csv")
-mobility <- read_csv("./data/applemobilitytrends-2020-10-11.csv")
+mobility <- read_csv("./data/applemobilitytrends-2020-10-11.csv") %>% 
+  dplyr::filter(region == "New York City")
 
 
 
