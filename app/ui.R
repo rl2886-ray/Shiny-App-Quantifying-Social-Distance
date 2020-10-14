@@ -24,7 +24,7 @@ dashboardPage(
                  menuSubItem("Bronx",tabName = "sd2"),
                  menuSubItem("Manhattan",tabName = "sd3"),  
                  menuSubItem("Queens",tabName = "sd4"), 
-                 menuSubItem("Staten ISland",tabName = "sd5")
+                 menuSubItem("Staten Island",tabName = "sd5")
                  ),
         menuItem("Transportation Timeline", tabName = "ts", icon = icon("car")),
         menuItem("Data", tabName = "source", icon = icon("database"))
@@ -53,7 +53,7 @@ dashboardPage(
                     )),
             # Second tab content
             tabItem(tabName = "dashboard",
-                    h2("Park Gathering and Covid-19"),
+                    h2("Park Gathering and Covid-19", align = 'center'),
                     leafletOutput("map_park_covid", width = "100%", height = 800),
                     absolutePanel(id = "control", class = "panel panel-default", fixed = T, draggable = TRUE,
                                   top = 150, left = 300, right = "auto", bottom = "auto", width = 300, height = "auto",
@@ -112,16 +112,17 @@ dashboardPage(
             ),
             # Fourth tab content
             tabItem(tabName = "ts",
-                    h2("Transportation"),
+                    h2("Transportation", align = 'center'),
                     fluidPage(
                         fluidRow(
                             column( width = 12, highchartOutput('transPlot'))
-                        )
+                        ),
+                    h6("*Transportation data is a 7-day moving average.")
             )
         ),
         # Fifth tab content
         tabItem(tabName = "source",
-                h2("Data Sources"),
+                h2("Data Sources", align = 'center'),
                 fluidPage(
                     fluidRow(
                         box(width = 15, title = "Covid-19", status = "success",
@@ -139,7 +140,7 @@ dashboardPage(
                     fluidRow(
                         box(width = 15, title = "Transportation", status = "success",
                             solidHeader = TRUE,
-                            h4("Collected by Apple, this dataset contains direction searches conducted by users around the globe. The data is available from X to Y, and it is updated a daily frequency. We cleaned the dataset before processing. ")
+                            h4("Collected by Apple, this dataset contains direction searches conducted by users around the globe. The data is available from 13.01.2020 to today, but trimmed from 01.03.2020 to 30.06.2020. The data is updated on a daily frequency. We cleaned the dataset before processing. ")
                             ,
                             a("[https://covid19-static.cdn-apple.com/mobility]",href="[https://covid19-static.cdn-apple.com/mobility]")
                             )),

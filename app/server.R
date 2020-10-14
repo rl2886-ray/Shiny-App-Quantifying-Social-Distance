@@ -45,9 +45,8 @@ shinyServer(function(input, output) {
                                 weight = 0.5, color = "#41516C", fillOpacity = 0,
                                 popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,
                                                  "</b><br/>Borough: ",borough,
-                                                 "<br/>Neighbourhood: ", PO_NAME,
                                                  "<br/>Gatherings: ", n,
-                                                 "<br/>Confirmed cases: ", cases)),
+                                                 "<br/>Confirmed Cases: ", cases)),
                                 highlight = highlightOptions(weight = 2,
                                                              color = "red",
                                                              bringToFront = F)) %>%
@@ -65,7 +64,7 @@ shinyServer(function(input, output) {
                                      color = "#2C6BAC", fillOpacity = 0.7,
                                      radius = ~(cases)/175, 
                                      popup = ~(paste0("<b>Zip Code: ",ZIPCODE , 
-                                                      "</b><br/>Confirmed cases: ", cases)),
+                                                      "</b><br/>Confirmed Cases: ", cases)),
                                      group = "Covid Cases") %>% 
                     addCircleMarkers(data = park_join.nrow_patron_zip,
                                      lng = ~LNG_repre, lat = ~LAT_repre,
@@ -240,14 +239,14 @@ shinyServer(function(input, output) {
     highchart() %>%
       hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
       hc_chart(type = 'line') %>%
-      hc_series( list(name = 'Driving', data =trans_drive$moving_avg, color='#32CD32', marker = list(symbol = 'triangle'), yAxis = 1 ),
-                 list(name = 'Waling', data =trans_walk$moving_avg, color="#228B22", marker = list(symbol = 'triangle'), yAxis = 1 ),
-                 list(name = 'Public Transport', data =trans_bus$moving_avg, color='#006400', marker = list(symbol = 'triangle'), yAxis = 1 ),
-                 list(name = 'Covid-19 Cases', data =data$POSITIVE_TESTS_7DAYS_AVG, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'circle') )
+      hc_series( list(name = 'Driving', data =trans_drive$moving_avg, color='#32CD32', marker = list(symbol = 'circle') ),
+                 list(name = 'Waling', data =trans_walk$moving_avg, color="#228B22", marker = list(symbol = 'circle')),
+                 list(name = 'Public Transport', data =trans_bus$moving_avg, color='#006400', marker = list(symbol = 'circle') ),
+                 list(name = 'Covid-19 Cases', data =data$POSITIVE_TESTS_7DAYS_AVG, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle'), yAxis = 1 )
       )%>%
       hc_xAxis( categories = trans_drive$DATE ) %>%
-      hc_yAxis_multiples( list(title = list(text = "Covid-19 Cases")),
-                          list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Mobility Trend Compared to Baseline")))%>%
+      hc_yAxis_multiples( list(title = list(text = "% Change")),
+                          list(showLastLabel = FALSE, opposite = TRUE, title = list(text = "Covid-19 Cases")))%>%
       hc_plotOptions(column = list(
         dataLabels = list(enabled = F),
         #stacking = "normal",
