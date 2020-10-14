@@ -55,9 +55,9 @@ dashboardPage(
             tabItem(tabName = "dashboard",
                     h2("Park Gathering and Covid-19", align = 'center'),
                     leafletOutput("map_park_covid", width = "100%", height = 800),
-                    absolutePanel(id = "control", class = "panel panel-default", fixed = T, draggable = TRUE,
-                                  top = 150, left = 300, right = "auto", bottom = "auto", width = 300, height = "auto",
-                    )
+                    #absolutePanel(id = "control", class = "panel panel-default", fixed = T, draggable = TRUE,
+                    #             top = 150, left = 300, right = "auto", bottom = "auto", width = 300, height = "auto",
+                    #)
             ),
             # Third tab content
             tabItem(tabName = "sd1",
