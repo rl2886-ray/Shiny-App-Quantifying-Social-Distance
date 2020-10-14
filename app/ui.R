@@ -45,7 +45,7 @@ dashboardPage(
                         fluidRow(box(width = 15, title = "User Guide", status = "success",
                                      solidHeader = TRUE, 
                                      tags$div(tags$ul(
-                                         tags$li("Map: An interactive map of NYC, displaying commulative park gatherings and confirmed Covid-19 cases"),
+                                         tags$li("Map: An interactive map of NYC, displaying cumulative park gatherings and confirmed Covid-19 cases"),
                                          tags$li("Parks Timelime: An interactive timelime of new daily updated park gatherings and confirmed Covid-19 cases"),
                                          tags$li("Transportation Timeline: An interactive timeline of transportation methods taken at NYC and new Covid-19 cases" ),
                                          tags$li("Data: Data sources we used in building this app")
