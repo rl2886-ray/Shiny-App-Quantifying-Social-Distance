@@ -2,9 +2,8 @@
 ![screenshot](doc/figs/map_intro.JPG)
 
 ## Quantifying Social Distancing
-+ **[App]**(https://ruiiii2886.shinyapps.io/social_distance/)
-
 Term: Fall 2020
++ **[App]**(https://ruiiii2886.shinyapps.io/social_distance/)
 
 + **Team Members**:
 	+ Hu, Qinzhe  qh2212@columbia.edu
