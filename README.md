@@ -17,7 +17,12 @@ Term: Fall 2020
 	Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others. 
 	Accurately measuring would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. 
 	This is crucial in preventing lock-downs and would be beneficial in taking preemptive and highly targeted restrictions. Indeed, some nations are using cellular tracking measure social distancing, but in many this measure is unconstitutional. 
+	
+	
 	In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.
+	
+	We do not assume that park gatherings and/or publiv transportation must lead to Covid-19 cases. This is not the Goal of this project. But rather, we want to bring into public discourse that social distancing is treated as a sentiment, and this sentiment needs to be quantified in new and creative ways!
+	
 + **Contribution statement**: All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
