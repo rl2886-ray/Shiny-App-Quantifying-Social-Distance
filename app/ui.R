@@ -116,8 +116,27 @@ dashboardPage(
         ),
         # Fifth tab content
         tabItem(tabName = "source",
-                h2("Data source tab content")
+                h2("Data Sources"),
+                fluidPage(
+                    fluidRow(
+                        box(width = 15, title = "Covid-19", status = "success",
+                            solidHeader = TRUE,
+                            h4("XXX"))),
+                    
+                    fluidRow(
+                        box(width = 15, title = "Park Gathering", status = "success",
+                            solidHeader = TRUE,
+                            h4("XXX"))),
+                    fluidRow(
+                        box(width = 15, title = "Transportation", status = "success",
+                            solidHeader = TRUE,
+                            h4("XXX"))),
+                    fluidRow(
+                        box(width = 15, title = "Code", status = "success",
+                            solidHeader = TRUE,
+                            h4("XXX")))
+                ))
         )
     )
-)
-)
+    )
+
