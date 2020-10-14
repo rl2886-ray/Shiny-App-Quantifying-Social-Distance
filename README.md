@@ -15,15 +15,15 @@ Term: Fall 2020
 + **Project summary**: 
 	Social Distancing is an important factor in the fight against the Pandemic. The scientific community urges us to respect Social Distancing as it was proven an effective measure. 
 	Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track of their interactions and physical distance from others. 
-	Accurately measuring would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. 
-	This is crucial in preventing lock-downs and would be beneficial in taking preemptive and highly targeted restrictions. Indeed, some nations are using cellular tracking measure social distancing, but in many this measure is unconstitutional. 
+	Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. 
+	This step is crucial in preventing wide lock-downs because it will allow preemptive and highly targeted restrictions. Indeed, some nations are using cellular tracking to measure social distancing, but in many others this measure is unconstitutional or infeasible. 
 	
 	
-	In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.
+	In this study we explore ways in which society can measure social distancing sentiment by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.
 	
-	We do not assume or suggest that park gatherings and/or public transportation necessarily lead to Covid-19 cases. We however believe that both park gatherings and public transportation illuminate people's sentiment towards social distancing. To illustrate: If passengers take the subway less, they are probably more concerned about social distancing, and if people gather in park more frequently in a specific ZIP code compared to others, than probably that neighborhood residents’ sentiment towards social distancing is weakening (yes, even if they all wear masks). 
+	We do not assume or suggest that park gatherings and/or public transportation necessarily lead to Covid-19 cases. We however believe that both park gatherings and public transportation illuminate people's sentiment towards social distancing. To illustrate: If passengers take the subway less, they are probably more concerned about social distancing, and if people gather in parks more frequently in a specific ZIP code compared to others, than probably that neighborhood residents’ sentiment towards social distancing is weakening (yes, even if they all wear masks). 
 	
-	The ultimate goal of this project is to bring into general attention and to promote the discourse that social distancing is above all a sentiment, and this sentiment needs to be quantified in new and creative ways in the ongoing fight against Covid-19.
+	The ultimate goal of this project is to bring into general attention and to promote the discourse that social distancing is above all a sentiment, and this sentiment needs to be quantified in new and creative ways to improve the fight against Covid-19.
 
 	
 + **Contribution statement**: All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
