@@ -81,7 +81,7 @@ dashboardPage(
             tabItem(tabName = "sd3",
                     fluidPage(
                         fluidRow(
-                            column( width = 12,h2("Park Gathering and Covid-19 Manhattan ", align = 'center'), highchartOutput('BKdistPlot')
+                            column( width = 12,h2("Park Gathering and Covid-19 Manhattan ", align = 'center'), highchartOutput('MNdistPlot')
                             )  
                         )
                     )
@@ -90,7 +90,7 @@ dashboardPage(
             tabItem(tabName = "sd4",
                     fluidPage(
                         fluidRow(
-                            column( width = 12,h2("Park Gathering and Covid-19 Queens ", align = 'center'), highchartOutput('BKdistPlot')
+                            column( width = 12,h2("Park Gathering and Covid-19 Queens ", align = 'center'), highchartOutput('QNdistPlot')
                             )  
                         )
                     )
@@ -99,7 +99,7 @@ dashboardPage(
             tabItem(tabName = "sd5",
                     fluidPage(
                         fluidRow(
-                            column( width = 12,h2("Park Gathering and Covid-19 Staten ISland ", align = 'center'), highchartOutput('BKdistPlot')
+                            column( width = 12,h2("Park Gathering and Covid-19 Staten ISland ", align = 'center'), highchartOutput('SIdistPlot')
                             )  
                         )
                     )
