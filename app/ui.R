@@ -127,14 +127,14 @@ dashboardPage(
                     fluidRow(
                         box(width = 15, title = "Covid-19", status = "success",
                             solidHeader = TRUE,
-                            h4("This dataset was collected by NYC Health Department "),
+                            h4("This dataset was collected by NYC Health Department."),
                             a("[https://github.com/nychealth/coronavirus-data]",href="https://github.com/nychealth/coronavirus-data")
                             )),
                     
                     fluidRow(
                         box(width = 15, title = "Park Gathering", status = "success",
                             solidHeader = TRUE,
-                            h4("Collected by NYC Parks Open Data, this dataset contains park gathering in NY’s 5 boroughs. This data was collected from 25.03.2020 until 30.06.2020 by Park employees, and it was updated on a daily frequency. We cleaned the dataset before processing. ")
+                            h4("Collected by NYC Parks Open Data, this dataset contains park gathering in NY's 5 boroughs. This data was collected from 25.03.2020 until 30.06.2020 by Park employees, and it was updated on a daily frequency. We cleaned the dataset before processing. ")
                             ,
                             a("[https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc]",href="https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc"))),
                     fluidRow(
@@ -145,11 +145,17 @@ dashboardPage(
                             a("[https://covid19-static.cdn-apple.com/mobility]",href="https://covid19-static.cdn-apple.com/mobility")
                             )),
                     fluidRow(
+                        box(width = 15, title = "Geolocation", status = "success",
+                            solidHeader = TRUE,
+                            h4("We used NYC Parks dataset provided by NYC Department of Parks & Recreation to convert parks' IDs into their corresponding ZIP codes and coordinate locations.")
+                            ,
+                            a("[https://www.nycgovparks.org/bigapps/]",href="https://www.nycgovparks.org/bigapps/"))),
+                    fluidRow(
                         box(width = 15, title = "Code", status = "success",
                             solidHeader = TRUE,
-                            h4(" We used NYC Parks’ dataset provided by NYC Department of Parks & Recreation to convert parks' IDs into their corresponding ZIP codes and coordinate locations. ")
+                            h4("The code for this project can be found on GitHub.")
                             ,
-                            a("[https://www.nycgovparks.org/bigapps/]",href="https://www.nycgovparks.org/bigapps/")))
+                            a("[https://github.com/TZstatsADS/Fall2020-Project2-group4]",href="https://github.com/TZstatsADS/Fall2020-Project2-group4")))
                 ))
         )
     )
