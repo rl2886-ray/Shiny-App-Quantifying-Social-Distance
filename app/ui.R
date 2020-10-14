@@ -40,7 +40,7 @@ dashboardPage(
                             box(width = 15, title = "Introduction", status = "success",
                                 solidHeader = TRUE, h3(tags$b("Quantifying Social Distancing")),
                                 h4("By Qinzhe Hu, Depeng Kong, Rui Liang, Yotam Segal, Hankun Shi"),
-                                h5("Social Distancing is an important factor in the fight against the Pandemic.", tags$br(),"Nevertheless, to date, there has been very little research on how to quantify and measure social distancing.", tags$br(),tags$br(),"It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others.", tags$br(),"Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data. This crucial step would enable to take highly targeted preemptive measures, rather than wide lock-downs." , tags$br(),tags$br(),"Indeed, some nations are using cellular tracking to measure social distancing and help with contact tracing, but in most countries this measure is unconstitutional and, in some regions, it is simply unfeasible.", tags$br(),tags$br(),tags$b("In this project we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple."))
+                                h5("Social Distancing is an important factor in the fight against the Pandemic.", tags$br(),"Nevertheless, to date, there has been very little research on how to quantify and measure social distancing.", tags$br(),tags$br(),"It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others.", tags$br(),"Accurately measuring social distancing would allow society to predict cases and inform decision makers by providing real-time data. This crucial step would enable to take highly targeted preemptive measures, rather than wide lock-downs." , tags$br(),tags$br(),"Indeed, some nations are using cellular tracking to measure social distancing and help with contact tracing, but in most countries this measure is unconstitutional and, in some regions, it is simply unfeasible.", tags$br(),tags$br(),tags$b("In this project we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC Department of Parks & Recreation, and Transportation data, collected by Apple."))
                                )),
                         fluidRow(box(width = 15, title = "User Guide", status = "success",
                                      solidHeader = TRUE, 
@@ -128,28 +128,28 @@ dashboardPage(
                         box(width = 15, title = "Covid-19", status = "success",
                             solidHeader = TRUE,
                             h4("This dataset was collected by NYC Health Department "),
-                            a("[https://github.com/nychealth/coronavirus-data]",href="[https://github.com/nychealth/coronavirus-data]")
+                            a("[https://github.com/nychealth/coronavirus-data]",href="https://github.com/nychealth/coronavirus-data")
                             )),
                     
                     fluidRow(
                         box(width = 15, title = "Park Gathering", status = "success",
                             solidHeader = TRUE,
-                            h4("Collected by NYC Open, this dataset contains park gathering in NY’s 5 boroughs. This data was collected from 25.03.2020 until 30.06.2020 by Park employees, and it was updated on a daily frequency. We cleaned the dataset before processing. ")
+                            h4("Collected by NYC Parks Open Data, this dataset contains park gathering in NY’s 5 boroughs. This data was collected from 25.03.2020 until 30.06.2020 by Park employees, and it was updated on a daily frequency. We cleaned the dataset before processing. ")
                             ,
-                            a("[https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc]",href="[https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc]"))),
+                            a("[https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc]",href="https://data.cityofnewyork.us/dataset/Social-Distancing-Parks-Crowds-Data/gyrw-gvqc"))),
                     fluidRow(
                         box(width = 15, title = "Transportation", status = "success",
                             solidHeader = TRUE,
                             h4("Collected by Apple, this dataset contains direction searches conducted by users around the globe. The data is available from 13.01.2020 to today, but trimmed from 01.03.2020 to 30.06.2020. The data is updated on a daily frequency. We cleaned the dataset before processing. ")
                             ,
-                            a("[https://covid19-static.cdn-apple.com/mobility]",href="[https://covid19-static.cdn-apple.com/mobility]")
+                            a("[https://covid19-static.cdn-apple.com/mobility]",href="https://covid19-static.cdn-apple.com/mobility")
                             )),
                     fluidRow(
                         box(width = 15, title = "Code", status = "success",
                             solidHeader = TRUE,
-                            h4(" We used NYC Parks’ dataset to convert parks' IDs into their corresponding ZIP codes and coordinate locations. ")
+                            h4(" We used NYC Parks’ dataset provided by NYC Department of Parks & Recreation to convert parks' IDs into their corresponding ZIP codes and coordinate locations. ")
                             ,
-                            a("[https://www.nycgovparks.org/bigapps/]",href="[https://www.nycgovparks.org/bigapps/]")))
+                            a("[https://www.nycgovparks.org/bigapps/]",href="https://www.nycgovparks.org/bigapps/")))
                 ))
         )
     )
