@@ -14,7 +14,7 @@ Term: Fall 2020
 
 + **Project summary**: 
 	Social Distancing is an important factor in the fight against the Pandemic. The scientific community urges us to respect Social Distancing as it was proven an effective measure. 
-	Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track on their interactions and physical distance from others. 
+	Nevertheless, to date, there has been very little research on how to quantify and measure social distancing. It is indeed a difficult task. People move around and it is virtually impossible to keep track of their interactions and physical distance from others. 
 	Accurately measuring would allow society to predict cases and inform decision makers by providing real-time data, as apposed to the 14-days delayed testing results. 
 	This is crucial in preventing lock-downs and would be beneficial in taking preemptive and highly targeted restrictions. Indeed, some nations are using cellular tracking measure social distancing, but in many this measure is unconstitutional. 
 	
