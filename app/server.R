@@ -186,8 +186,8 @@ shinyServer(function(input, output) {
         highchart() %>%
             hc_exporting(enabled = TRUE, formAttributes = list(target = "_blank")) %>%
             hc_chart(type = 'line') %>%
-            hc_series( list(name = 'Number_of_Crowd', data =QN_data$number, color='green', marker = list(symbol = 'circle') ),
-                       list(name = 'Covid_Cases', data =QN_data$QN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') , yAxis = 1)
+            hc_series( list(name = 'Number of gatherings', data =QN_data$number, color='green', marker = list(symbol = 'circle') ),
+                       list(name = 'Covid-19 cases', data =QN_data$QN_CASE_COUNT, color = 'green', dashStyle = 'shortDot', marker = list(symbol = 'triangle') , yAxis = 1)
             )%>%
             hc_xAxis( categories = unique(park_borough_data$timestamp) ) %>%
             hc_yAxis_multiples( list(title = list(text = "Number of gatherings")),

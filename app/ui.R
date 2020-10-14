@@ -102,7 +102,7 @@ dashboardPage(
             ),
             tabItem(tabName = "sd5",
                     fluidPage(
-                        h2("Staten ISland", align = 'center'),
+                        h2("Staten Island", align = 'center'),
                         fluidRow(
                             column( width = 12,h4("Park Gathering and Covid-19  ", align = 'center'), highchartOutput('SIdistPlot')
                             )  
