@@ -124,21 +124,15 @@ SI_data<-merge(SI_data,SI_bor,by="timestamp")
 #####################import data for map#######################
 
 # read ZIP_CODE_040114.shp
-path_zip = "./output/ZIP_CODE_040114/"
-file_zip = "ZIP_CODE_040114.shp"
-zipcode_geo <- sf::st_read(paste0(path_zip, file_zip)) %>%
+zipcode_geo <- sf::st_read("./data/ZIP_CODE_040114/ZIP_CODE_040114.shp") %>%
   sf::st_transform('+proj=longlat +datum=WGS84')
 
 # read park data
 park_join = read_csv("./output/park_join_4map.csv")
-park_join.nrow_patron_zip = read_csv("./output/park_join.nrow_patron_zip.csv")
-
-# park_join.action_taken = c("Approached the crowd; they ignored the employee",
-#                            "Approached the crowd; they complied with instructions",
-#                            "Did not approach the crowd; the crowd remains")
+park_join.nrow_patron_zip = read_csv("./output/park_join.nrow_patron_zip.csv",
+              col_types = cols(zip=col_character()))
 
 # read covid cases data
-# case_df = read_csv("./output/daily_cases_by_boro.csv")
 zc2013 = read_csv("./output/zc2013.csv")
 covid0630 = read_csv("./output/covid0630.csv",
                      col_types = cols(ZIPCODE=col_character()))
