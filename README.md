@@ -1,7 +1,4 @@
 # Project 2: Shiny App Development
-
-(doc/project2_desc.md)
-
 ![screenshot](doc/figs/map_intro.JPG)
 
 ## Quantifying Social Distancing
