@@ -3,6 +3,7 @@
 
 ## Quantifying Social Distancing
 [App](https://ruiiii2886.shinyapps.io/social_distance/)
+
 Term: Fall 2020
 
 + **Team Members**:
