@@ -14,6 +14,7 @@ source("global.R")
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
+    
     #----------------------------------------
     #tab panel 2 - Maps
     
@@ -23,53 +24,85 @@ shinyServer(function(input, output) {
     ) %>%
         setView(lng = -73.92,lat = 40.73, zoom = 11) %>% 
         addTiles() %>%
-        addProviderTiles("CartoDB.Positron", group = "Carto")
-                        
+        addProviderTiles("CartoDB.Positron")
     
     observe({
-
+        
         output$map_park_covid = renderLeaflet({
             
             zipcode_geo = zipcode_geo %>% 
-                left_join(covid0630,by = c("ZIPCODE"="ZIPCODE"))
+                left_join(covid0630,by = c("ZIPCODE"="ZIPCODE")) %>% 
+                left_join(park_join.nrow_patron_zip, by = c("ZIPCODE"="zip"))
             
             map_out = map_base
-
-            map_out = map_out  %>% 
-                # addPolygons
-                addPolygons(data = zipcode_geo,
-                            weight = 0.25,
-                            fillOpacity = 0,
-                            popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,"</b><br/>Borough: ",
-                                             PO_NAME,"<br/>Number of confirmed cases by Jun 30: ", cases)),
-                            highlight = highlightOptions(weight = 2,
-                                                         color = "red",
-                                                         bringToFront = F)) %>%
-                addCircleMarkers(data = park_join.nrow_patron_zip,
-                                 lng = ~LNG_repre, lat = ~LAT_repre,
-                                 color = "#FFB400", radius = ~ceiling(n/5), 
-                                 popup = ~(paste0("<b>Zip Code: ",zip ,
-                                                  "</b><br/>Gatherings: ", n)),
-                                 group = "social_distancing") %>%
-                addCircleMarkers(data = covid0630,
-                                 lng = ~LNG_repre, lat = ~LAT_repre,
-                                 color = "#2C6BAC", radius = ~(cases)/100, 
-                                 popup = ~(paste0("<b>Zip Code: ",ZIPCODE , 
-                                                  "</b><br/>Number of confirmed cases by Jun 30: ", cases)),
-                                 group = "covid")
-            # }
+            
+            # shades: covid cases
+            # if (input_if_covid_boro){
+                # pal_covid <- colorNumeric(palette = "Blues",
+                #                           domain = (zipcode_geo$cases))  
+                map_out = map_out %>% 
+                    addPolygons(data = subset(zipcode_geo,!is.na(n)),
+                                weight = 0.5, color = "#41516C", fillOpacity = 0,
+                                popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,
+                                                 "</b><br/>Borough: ",borough,
+                                                 "<br/>Neighbourhood: ", PO_NAME,
+                                                 "<br/>Gatherings: ", n,
+                                                 "<br/>Confirmed cases: ", cases)),
+                                highlight = highlightOptions(weight = 2,
+                                                             color = "red",
+                                                             bringToFront = F)) %>%
+                    addPolygons(data = subset(zipcode_geo,is.na(n)),
+                                weight = 0.5,color = "#41516C", fillOpacity = 0,
+                                popup = ~(paste0("<b>Zip Code: ",ZIPCODE ,
+                                                 "</b><br/>Borough: ",borough,
+                                                 "<br/>Neighbourhood: ", PO_NAME,
+                                                 "<br/>Confirmed cases: ", cases)),
+                                highlight = highlightOptions(weight = 2,
+                                                             color = "red",
+                                                             bringToFront = F)) %>%
+                    addCircleMarkers(data = covid0630,
+                                     lng = ~LNG_repre, lat = ~LAT_repre,
+                                     color = "#2C6BAC", fillOpacity = 0.7,
+                                     radius = ~(cases)/175, 
+                                     popup = ~(paste0("<b>Zip Code: ",ZIPCODE , 
+                                                      "</b><br/>Confirmed cases: ", cases)),
+                                     group = "Covid Cases") %>% 
+                    addCircleMarkers(data = park_join.nrow_patron_zip,
+                                     lng = ~LNG_repre, lat = ~LAT_repre,
+                                     color = "#FFB400", 
+                                     radius = ~ceiling(n/5)+1, 
+                                     popup = ~(paste0("<b>Zip Code: ",zip ,
+                                                      "</b><br/>Gatherings: ", n)),
+                                     group = "Gatherings")
             
             
-            map_out = map_out  %>%
-
-            addLayersControl(baseGroups =  c("Carto"),
-                             overlayGroups = c("covid","social_distancing")) 
+            map_out = map_out %>%
+                # addLegend(position = "bottomright")%>% 
+                # addMarkers(data = park_join, lng = ~lon, lat = ~lat,
+                #            label = ~patroncount) %>%
+                # addCircleMarkers(data = park_join, lng = ~lon, lat = ~lat,
+                #                  color = ~pal_park(patroncount), radius = 5, 
+                #                  
+                #                  # clusterOptions = markerClusterOptions(),
+                #                  popup = ~paste0("<b>", name, "</b><br/>", address,
+                #                                  "<br/>", 
+                #                                  format(timestamp,"%Y-%m-%d %H:%M"))
+                                 # highlight = highlightOptions(weight = 3,
+                                 #                              color = "red", 
+                                 #                              bringToFront = TRUE)
+                                 # ) %>% 
+                # addLegend(data = park_join, position = "bottomright",
+                #           pal = pal_park, opacity = 0.5, 
+                #           title = "social distancing: patroncount",
+                #           values = ~patroncount) %>% 
+                addLayersControl(overlayGroups = c("Covid Cases","Gatherings")) 
             
         })
         
         leafletProxy("map_base")
         
     })
+    
     
     
     #----------------------------------------
