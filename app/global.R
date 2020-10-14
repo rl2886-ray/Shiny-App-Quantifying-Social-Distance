@@ -124,7 +124,7 @@ SI_data<-merge(SI_data,SI_bor,by="timestamp")
 #####################import data for map#######################
 
 # read ZIP_CODE_040114.shp
-zipcode_geo <- sf::st_read("./data/ZIP_CODE_040114/ZIP_CODE_040114.shp") %>%
+zipcode_geo <- sf::st_read("./output/ZIP_CODE_040114/ZIP_CODE_040114.shp") %>%
   sf::st_transform('+proj=longlat +datum=WGS84')
 
 # read park data
