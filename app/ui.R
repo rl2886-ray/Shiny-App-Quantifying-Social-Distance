@@ -12,14 +12,20 @@ library(shinydashboard)
 
 dashboardPage(
     skin = "green",
-    title = "RadaR",
+    title = "Quantifying Social Distancing",
     dashboardHeader(title = "Quantifying Social Distancing",
                     titleWidth = 300),
     dashboardSidebar( 
         sidebarMenu(
         menuItem("Home", tabName = "home", icon = icon("dashboard")),
         menuItem("Map", tabName = "dashboard", icon = icon("map")),
-        menuItem("Parks Timelime", tabName = "sd", icon = icon("tree")),
+        menuItem("Parks Timelime", tabName = "sd", icon = icon("tree"),startExpanded = TRUE,
+                 menuSubItem("Brooklyn",tabName = "sd1"),
+                 menuSubItem("Bronx",tabName = "sd2"),
+                 menuSubItem("Manhattan",tabName = "sd3"),  
+                 menuSubItem("Queens",tabName = "sd4"), 
+                 menuSubItem("Staten ISland",tabName = "sd5")
+                 ),
         menuItem("Transportation Timeline", tabName = "ts", icon = icon("car")),
         menuItem("Data", tabName = "source", icon = icon("database"))
     )
@@ -54,28 +60,47 @@ dashboardPage(
                     )
             ),
             # Third tab content
-            tabItem(tabName = "sd",
+            tabItem(tabName = "sd1",
                     fluidPage(
-                        h2("Park Gathering and Covid-19" ),
                         fluidRow(
-                            column( width = 12,h4("Brooklyn ", align = 'center'), highchartOutput('BKdistPlot')
+                            column( width = 12,h2("Park Gathering and Covid-19 Brooklyn ", align = 'center'), highchartOutput('BKdistPlot')
                             )  
-                        ),
+                        )
+                    )
+                    
+            ),
+            tabItem(tabName = "sd2",
+                    fluidPage(
                         fluidRow(
-                            column( width = 12,h4("Bronx  ", align = 'center'), highchartOutput('BXdistPlot') )
-                            
-                        ),
+                            column( width = 12,h2("Park Gathering and Covid-19 Bronx ", align = 'center'), highchartOutput('BXdistPlot')
+                            )  
+                        )
+                    )
+                    
+            ),
+            tabItem(tabName = "sd3",
+                    fluidPage(
                         fluidRow(
-                            column( width = 12,h4("Manhattan ", align = 'center'), highchartOutput('MNdistPlot') )
-                            
-                        ),
+                            column( width = 12,h2("Park Gathering and Covid-19 Manhattan ", align = 'center'), highchartOutput('BKdistPlot')
+                            )  
+                        )
+                    )
+                    
+            ),
+            tabItem(tabName = "sd4",
+                    fluidPage(
                         fluidRow(
-                            column( width = 12,h4("Queens ", align = 'center'), highchartOutput('QNdistPlot') )
-                            
-                        ),
+                            column( width = 12,h2("Park Gathering and Covid-19 Queens ", align = 'center'), highchartOutput('BKdistPlot')
+                            )  
+                        )
+                    )
+                    
+            ),
+            tabItem(tabName = "sd5",
+                    fluidPage(
                         fluidRow(
-                            column( width = 12,h4("Staten Island ", align = 'center'), highchartOutput('SIdistPlot') )
-                            
+                            column( width = 12,h2("Park Gathering and Covid-19 Staten ISland ", align = 'center'), highchartOutput('BKdistPlot')
+                            )  
                         )
                     )
                     
