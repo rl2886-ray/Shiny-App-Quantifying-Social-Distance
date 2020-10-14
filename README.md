@@ -21,7 +21,10 @@ Term: Fall 2020
 	
 	In this study we explore ways in which society can measure social distancing by using control variables: Park Gatherings, collected by NYC, and Transportation data, collected by Apple.
 	
-	We do not assume that park gatherings and/or publiv transportation must lead to Covid-19 cases. This is not the Goal of this project. But rather, we want to bring into public discourse that social distancing is treated as a sentiment, and this sentiment needs to be quantified in new and creative ways!
+	We do not assume or suggest that park gatherings and/or public transportation necessarily lead to Covid-19 cases. We however believe that both park gatherings and public transportation illuminate people's sentiment towards social distancing. To illustrate: If passengers take the subway less, they are probably more concerned about social distancing, and if people gather in park more frequently in a specific ZIP code compared to others, than probably that neighborhood residents’ sentiment towards social distancing is weakening (yes, even if they all wear masks). 
+	
+	The ultimate goal of this project is to bring into general attention and to promote the discourse that social distancing is above all a sentiment, and this sentiment needs to be quantified in new and creative ways in the ongoing fight against Covid-19.
+
 	
 + **Contribution statement**: All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
