@@ -23,7 +23,7 @@ Term: Fall 2020
 	
 	We do not assume or suggest that park gatherings and/or public transportation necessarily lead to Covid-19 cases. We however believe that both park gatherings and public transportation illuminate people's sentiment towards social distancing. To illustrate: If passengers take the subway less, they are probably more concerned about social distancing, and if people gather in parks more frequently in a specific ZIP code compared to others, than probably that neighborhood residents sentiment towards social distancing is weakening (yes, even if they all wear masks). 
 	
-	The ultimate goal of this project is to bring into general attention and to promote the discourse that social distancing is above all a sentiment, and this sentiment needs to be quantified in new and creative ways to improve the fight against Covid-19.
+	The ultimate goal of this project is to bring into general attention that social distancing is above all a sentiment. We aim to promote the discourse about how this sentiment can be quantified in new and creative ways to improve the fight against Covid-19.
 
 	
 + **Contribution statement**: All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
