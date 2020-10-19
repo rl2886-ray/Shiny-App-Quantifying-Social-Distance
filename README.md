@@ -2,7 +2,6 @@
 ![screenshot](doc/figs/map_intro.JPG)
 
 ## Quantifying Social Distancing
-Term: Fall 2020
 + **App**: https://ruiiii2886.shinyapps.io/social_distance/
 
 + **Team Members**:
